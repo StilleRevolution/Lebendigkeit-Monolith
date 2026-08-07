@@ -1,372 +1,381 @@
 <!DOCTYPE html>
 <html lang="de" dir="ltr" class="no-js">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Sternenstaub — Ein interdisziplinäres Musik-Manifest</title>
-<meta name="description" content="Sternenstaub ist ein interdisziplinäres Musik-Manifest für regenerative Ökologie und somatische Resilienz. Zwei Klangarchive, 432 Hz, ein netzunabhängiges Archiv.">
-<meta name="theme-color" content="#060714">
-<meta name="color-scheme" content="dark">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Sternenstaub — Ein interdisziplinäres Musik-Manifest">
-<meta property="og:description" content="Zwei Klangarchive für regenerative Ökologie und somatische Resilienz. 432 Hz, Kintsugi-Ästhetik, netzunabhängig.">
-<meta property="og:image" content="og-cover.jpg">
-<meta property="og:locale" content="de_DE">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23060714'/%3E%3Cpath d='M50 18 L58 42 L82 50 L58 58 L50 82 L42 58 L18 50 L42 42 Z' fill='%23d9a35c'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&amp;family=Atkinson+Hyperlegible:wght@400;700&amp;display=swap" rel="stylesheet">
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-  // Sofortiges no-js -> js Umschalten, damit CSS-Fallbacks nur ohne JS greifen.
-  document.documentElement.classList.replace('no-js', 'js');
-  window.tailwind = window.tailwind || {};
-  tailwind.config = {
-    darkMode: 'class',
-    theme: {
-      extend: {
-        colors: {
-          void: '#060714',
-          nebula: '#10152b',
-          nebulalight: '#171d3c',
-          gold: '#d9a35c',
-          parchment: '#f4ead9',
-          amber: '#f4b869'
-        },
-        fontFamily: {
-          display: ['Fraunces', 'Noto Serif', 'serif'],
-          body: ['Atkinson Hyperlegible', 'Noto Sans', 'system-ui', 'sans-serif']
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  
+  <!-- Primäre SEO- & Browser-Metadaten -->
+  <title>Projekt Sternenstaub — Transformations-Matrix & Audio-Archiv (2026)</title>
+  <meta name="title" content="Projekt Sternenstaub — Transformations-Matrix & Audio-Archiv (2026)" />
+  <meta name="description" content="Vom ökologischen & somatischen Kollaps zur regenerativen Praxis. 2 Klangarchive (31 Tracks), 432 Hz, 360°-Triangulation & netzunabhängige Resilienz." />
+  <meta name="author" content="Projekt Sternenstaub" />
+  <meta name="theme-color" content="#060714" />
+  <meta name="color-scheme" content="dark" />
+
+  <!-- Dynamic SVG Favicon (Inlined) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23d9a35c' d='M12 2L15 9L22 12L15 15L12 22L9 15L2 12L9 9L12 2Z'/%3E%3C/svg%3E" />
+  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23d9a35c' d='M12 2L15 9L22 12L15 15L12 22L9 15L2 12L9 9L12 2Z'/%3E%3C/svg%3E" />
+
+  <!-- OPEN GRAPH / FACEBOOK / WHATSAPP / TELEGRAM / LINKEDIN -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://stillerevolution.github.io/Projekt-Sternenstaub-Landingpage-v1/" />
+  <meta property="og:title" content="Projekt Sternenstaub — Transformations-Matrix & Audio-Archiv" />
+  <meta property="og:description" content="Interdisziplinäres Musik- & Handlungs-Manifest für regenerative Ökologie, Co-Regulation & somatische Resilienz." />
+  <meta property="og:site_name" content="Projekt Sternenstaub" />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:image" content="./intro%20Mitten%20im%20Licht%20432%20Hz%20Vietnam%20edit%20(1).jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Projekt Sternenstaub Cover Art" />
+
+  <!-- TWITTER / X CARDS -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://stillerevolution.github.io/Projekt-Sternenstaub-Landingpage-v1/" />
+  <meta name="twitter:title" content="Projekt Sternenstaub — Transformations-Matrix" />
+  <meta name="twitter:description" content="Vom ökologischen & somatischen Kollaps zur regenerativen Praxis." />
+  <meta name="twitter:image" content="./intro%20Mitten%20im%20Licht%20432%20Hz%20Vietnam%20edit%20(1).jpeg" />
+
+  <!-- SCHEMA.ORG STRUKTURIERTE DATEN -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MusicReleaseSet",
+    "name": "Projekt Sternenstaub",
+    "headline": "Transformations-Matrix & 432Hz Audio-Archiv",
+    "description": "Interdisziplinäres Musik- & Handlungs-Manifest für regenerative Ökologie, Co-Regulation & somatische Resilienz.",
+    "author": {
+      "@type": "Organization",
+      "name": "Projekt Sternenstaub"
+    },
+    "inLanguage": ["de", "en", "vi", "fr", "es", "pt", "pl", "ru", "hi", "sw", "fa", "ar", "zh", "ja"]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    document.documentElement.classList.replace('no-js', 'js');
+    window.tailwind = window.tailwind || {};
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            void: '#060714',
+            nebula: '#10152b',
+            nebulalight: '#171d3c',
+            gold: '#d9a35c',
+            parchment: '#f4ead9',
+            amber: '#f4b869'
+          },
+          fontFamily: {
+            display: ['Fraunces', 'Noto Serif', 'serif'],
+            body: ['Atkinson Hyperlegible', 'Noto Sans', 'system-ui', 'sans-serif']
+          }
         }
       }
+    };
+  </script>
+  <style>
+    :root {
+      --void: #060714;
+      --nebula: #10152b;
+      --nebula-light: #171d3c;
+      --gold: #d9a35c;
+      --gold-soft: rgba(217, 163, 92, 0.35);
+      --parchment: #f4ead9;
+      --amber-glow: #f4b869;
+      --line: rgba(244, 234, 217, 0.14);
+      --glass-bg: rgba(16, 21, 43, 0.55);
+      --glass-border: rgba(244, 234, 217, 0.14);
+      --focus: #f4b869;
+      --radius: 20px;
+      --font-display: 'Fraunces', 'Noto Serif', serif;
+      --font-body: 'Atkinson Hyperlegible', 'Noto Sans', system-ui, sans-serif;
     }
-  };
-</script>
-<style>
-  :root{
-    --void:#060714;
-    --nebula:#10152b;
-    --nebula-light:#171d3c;
-    --gold:#d9a35c;
-    --gold-soft:rgba(217,163,92,.35);
-    --parchment:#f4ead9;
-    --amber-glow:#f4b869;
-    --line:rgba(244,234,217,.14);
-    --glass-bg:rgba(16,21,43,.55);
-    --glass-border:rgba(244,234,217,.14);
-    --focus:#f4b869;
-    --radius:20px;
-    --font-display:'Fraunces','Noto Serif',serif;
-    --font-body:'Atkinson Hyperlegible','Noto Sans',system-ui,sans-serif;
-  }
-  *{box-sizing:border-box;}
-  html{scroll-behavior:smooth;}
-  @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto;} }
-  body{
-    margin:0;
-    background:var(--void);
-    color:var(--parchment);
-    font-family:var(--font-body);
-    line-height:1.6;
-    -webkit-font-smoothing:antialiased;
-    overflow-x:hidden;
-  }
-  h1,h2,h3,h4,.font-display{font-family:var(--font-display);}
-  ::selection{background:var(--gold);color:var(--void);}
-
-  a{color:inherit;}
-  a:not(.btn):not(.card-link){text-underline-offset:3px;}
-
-  /* Fokus-Sichtbarkeit (WCAG) */
-  :focus-visible{outline:2px solid var(--focus);outline-offset:3px;border-radius:4px;}
-  :focus:not(:focus-visible){outline:none;}
-
-  /* Skip-Link */
-  .skip-link{
-    position:fixed; top:-100px; left:1rem; z-index:200;
-    background:var(--gold); color:var(--void); padding:.75rem 1.25rem;
-    border-radius:10px; font-weight:700; transition:top .2s ease;
-  }
-  .skip-link:focus{ top:1rem; }
-
-  /* Canvas Hintergrund */
-  #stardust-canvas{
-    position:fixed; inset:0; width:100vw; height:100vh; z-index:0;
-    pointer-events:none;
-  }
-
-  .glass{
-    background:var(--glass-bg);
-    border:1px solid var(--glass-border);
-    backdrop-filter:blur(18px);
-    -webkit-backdrop-filter:blur(18px);
-  }
-
-  .site-header{
-    position:fixed; top:0; left:0; right:0; z-index:50;
-    background:linear-gradient(to bottom, rgba(6,7,20,.82), rgba(6,7,20,0));
-    padding:1rem clamp(1rem,4vw,2.5rem);
-  }
-  .site-header.scrolled{ background:rgba(6,7,20,.72); backdrop-filter:blur(14px); border-bottom:1px solid var(--line); }
-
-  .nav-link{
-    font-size:.92rem; letter-spacing:.02em; color:var(--parchment);
-    opacity:.82; padding:.4rem .2rem; position:relative;
-  }
-  .nav-link:hover{ opacity:1; }
-  .nav-link::after{
-    content:""; position:absolute; left:0; right:100%; bottom:-2px; height:1px;
-    background:var(--gold); transition:right .25s ease;
-  }
-  .nav-link:hover::after{ right:0; }
-
-  select.lang-select{
-    background:rgba(16,21,43,.7); color:var(--parchment);
-    border:1px solid var(--glass-border); border-radius:999px;
-    padding:.4rem 2rem .4rem .9rem; font-size:.85rem;
-    appearance:none;
-    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23f4ead9' d='M4 6l4 4 4-4'/%3E%3C/svg%3E");
-    background-repeat:no-repeat; background-position:right .6rem center; background-size:12px;
-  }
-  html[dir="rtl"] select.lang-select{
-    padding:.4rem .9rem .4rem 2rem;
-    background-position:left .6rem center;
-  }
-
-  @media (max-width: 860px){
-    .nav-panel{
-      position:absolute; top:100%; left:0; right:0; margin:.5rem 1rem 0;
-      flex-direction:column !important; align-items:stretch !important; gap:.75rem !important;
-      padding:1.25rem; border-radius:16px;
-      max-height:0; overflow:hidden; opacity:0;
-      transition:max-height .3s ease, opacity .3s ease, padding .3s ease;
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    body {
+      margin: 0;
+      background: var(--void);
+      color: var(--parchment);
+      font-family: var(--font-body);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
     }
-    .nav-panel.is-open{ max-height:400px; opacity:1; }
-  }
+    h1, h2, h3, h4, .font-display { font-family: var(--font-display); }
+    ::selection { background: var(--gold); color: var(--void); }
+    a { color: inherit; }
+    a:not(.btn):not(.card-link) { text-underline-offset: 3px; }
+    :focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; border-radius: 4px; }
+    :focus:not(:focus-visible) { outline: none; }
 
-  /* Hero */
-  .hero{ min-height:100svh; display:flex; align-items:center; position:relative; z-index:1; }
-  .kicker{
-    display:inline-flex; align-items:center; gap:.5rem;
-    font-size:.78rem; letter-spacing:.14em; text-transform:uppercase;
-    color:var(--gold); font-weight:700;
-  }
-  .kicker::before{ content:""; width:22px; height:1px; background:var(--gold); display:inline-block; }
+    .skip-link {
+      position: fixed; top: -100px; left: 1rem; z-index: 200;
+      background: var(--gold); color: var(--void); padding: .75rem 1.25rem;
+      border-radius: 10px; font-weight: 700; transition: top .2s ease;
+    }
+    .skip-link:focus { top: 1rem; }
 
-  .hero-title{
-    font-size:clamp(3.2rem, 11vw, 7.5rem); line-height:.92; font-weight:600;
-    background:linear-gradient(180deg, var(--parchment) 15%, var(--gold) 115%);
-    -webkit-background-clip:text; background-clip:text; color:transparent;
-    letter-spacing:-.01em;
-  }
+    #stardust-canvas {
+      position: fixed; inset: 0; width: 100vw; height: 100vh; z-index: 0;
+      pointer-events: none;
+    }
 
-  .btn{
-    display:inline-flex; align-items:center; gap:.6rem;
-    padding:.85rem 1.6rem; border-radius:999px; font-weight:700; font-size:.95rem;
-    border:1px solid var(--glass-border); cursor:pointer;
-    transition:transform .2s ease, background .2s ease, border-color .2s ease;
-  }
-  .btn-primary{ background:var(--gold); color:var(--void); border-color:var(--gold); }
-  .btn-primary:hover{ transform:translateY(-2px); box-shadow:0 10px 30px -10px var(--gold-soft); }
-  .btn-ghost{ background:rgba(244,234,217,.05); color:var(--parchment); }
-  .btn-ghost:hover{ background:rgba(244,234,217,.12); border-color:var(--gold); }
+    .glass {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+    }
 
-  /* Sections */
-  section{ position:relative; z-index:1; }
-  .section-pad{ padding:clamp(4rem,8vw,7rem) clamp(1.25rem,5vw,3rem); }
-  .section-head{ max-width:46rem; margin-bottom:clamp(2.5rem,5vw,4rem); }
-  .section-title{ font-size:clamp(2.2rem,5vw,3.4rem); font-weight:600; line-height:1.08; }
+    .site-header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 50;
+      background: linear-gradient(to bottom, rgba(6,7,20,0.88), rgba(6,7,20,0));
+      padding: 1rem clamp(1rem, 4vw, 2.5rem);
+    }
+    .site-header.scrolled { background: rgba(6,7,20,0.85); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
 
-  /* Album Karten */
-  .album-grid{ display:grid; gap:1.75rem; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); }
-  .album-card{
-    border-radius:var(--radius); overflow:hidden; position:relative;
-    display:flex; flex-direction:column;
-    transition:transform .35s cubic-bezier(.2,.8,.2,1), border-color .35s ease;
-  }
-  .album-card:hover{ transform:translateY(-6px); border-color:var(--gold-soft); }
-  .album-cover{ aspect-ratio:1/1; width:100%; object-fit:cover; display:block; }
-  .album-card-body{ padding:1.6rem 1.6rem 1.9rem; }
-  .album-card-sub{ color:var(--gold); font-size:.82rem; letter-spacing:.05em; text-transform:uppercase; font-weight:700; }
-  .album-card-title{ font-size:1.7rem; margin:.25rem 0 .6rem; }
-  .album-card-desc{ opacity:.82; font-size:.95rem; }
+    .nav-link {
+      font-size: .92rem; letter-spacing: .02em; color: var(--parchment);
+      opacity: .82; padding: .4rem .2rem; position: relative;
+    }
+    .nav-link:hover { opacity: 1; }
+    .nav-link::after {
+      content: ""; position: absolute; left: 0; right: 100%; bottom: -2px; height: 1px;
+      background: var(--gold); transition: right .25s ease;
+    }
+    .nav-link:hover::after { right: 0; }
 
-  /* Modal (album + exoskelett) — no-js Fallback: statischer Block im Fluss */
-  .modal{
-    position:static; display:block; margin-top:1rem;
-    border-radius:var(--radius);
-  }
-  .no-js .modal{ padding:1.5rem; }
-  .no-js .modal-close,
-  .no-js .modal-backdrop-btn{ display:none; }
-  .js .modal{
-    position:fixed; inset:0; display:none; z-index:100;
-    align-items:center; justify-content:center; padding:1.25rem;
-    background:rgba(4,5,14,.72); backdrop-filter:blur(6px);
-  }
-  .js .modal.is-open{ display:flex; }
-  .modal-panel{
-    width:100%; max-width:640px; max-height:88vh; overflow-y:auto;
-    border-radius:var(--radius); padding:clamp(1.5rem,4vw,2.5rem);
-    position:relative;
-  }
-  .js .modal-panel{
-    opacity:0; transform:translateY(18px) scale(.98);
-    transition:opacity .28s ease, transform .28s ease;
-  }
-  .js .modal.is-open .modal-panel{ opacity:1; transform:translateY(0) scale(1); }
-  @media (prefers-reduced-motion: reduce){
-    .js .modal-panel{ transition:none; transform:none; }
-  }
-  .modal-close{
-    position:absolute; top:1rem; right:1rem; width:38px; height:38px; border-radius:999px;
-    display:flex; align-items:center; justify-content:center;
-    background:rgba(244,234,217,.08); border:1px solid var(--glass-border);
-  }
-  html[dir="rtl"] .modal-close{ right:auto; left:1rem; }
-  .modal-close:hover{ background:rgba(244,234,217,.18); }
+    select.lang-select {
+      background: rgba(16, 21, 43, 0.85); color: var(--parchment);
+      border: 1px solid var(--glass-border); border-radius: 999px;
+      padding: .4rem 2rem .4rem .9rem; font-size: .85rem;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23f4ead9' d='M4 6l4 4 4-4'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right .6rem center; background-size: 12px;
+    }
+    html[dir="rtl"] select.lang-select {
+      padding: .4rem .9rem .4rem 2rem;
+      background-position: left .6rem center;
+    }
 
-  .track{
-    display:flex; align-items:flex-start; gap:.9rem;
-    padding:.85rem .25rem; border-bottom:1px solid var(--line);
-  }
-  .no-js .track{ align-items:flex-start; flex-wrap:wrap; }
-  .track:last-child{ border-bottom:none; }
-  .track-play-btn{
-    flex:none; width:38px; height:38px; border-radius:999px;
-    display:flex; align-items:center; justify-content:center;
-    background:rgba(244,234,217,.06); border:1px solid var(--glass-border);
-    transition:background .2s ease, border-color .2s ease;
-  }
-  .track-play-btn:hover{ background:var(--gold); border-color:var(--gold); color:var(--void); }
-  .track.is-playing .track-play-btn{ background:var(--gold); border-color:var(--gold); color:var(--void); }
-  .track-meta{ flex:1; min-width:0; }
-  .track-title{ display:block; font-weight:700; font-size:.98rem; }
-  .track.is-playing .track-title{ color:var(--gold); }
-  .track-blurb{ display:block; font-size:.82rem; opacity:.68; margin-top:.15rem; }
-  audio.native-fallback{ width:100%; margin-top:.5rem; }
-  .js audio.native-fallback{ display:none; }
+    @media (max-width: 860px) {
+      .nav-panel {
+        position: absolute; top: 100%; left: 0; right: 0; margin: .5rem 1rem 0;
+        flex-direction: column !important; align-items: stretch !important; gap: .75rem !important;
+        padding: 1.25rem; border-radius: 16px;
+        max-height: 0; overflow: hidden; opacity: 0;
+        transition: max-height .3s ease, opacity .3s ease, padding .3s ease;
+      }
+      .nav-panel.is-open { max-height: 400px; opacity: 1; }
+    }
 
-  .player-bar{
-    margin-top:1.25rem; padding-top:1.1rem; border-top:1px solid var(--line);
-    display:flex; align-items:center; gap:.85rem; flex-wrap:wrap;
-  }
-  .no-js .player-bar{ display:none; }
-  .transport-btn{
-    width:42px; height:42px; border-radius:999px; flex:none;
-    display:flex; align-items:center; justify-content:center;
-    background:var(--gold); color:var(--void); border:none;
-  }
-  .transport-btn.small{ width:34px; height:34px; background:rgba(244,234,217,.08); color:var(--parchment); border:1px solid var(--glass-border); }
-  .now-playing-label{ font-size:.78rem; opacity:.65; }
-  .now-playing-title{ font-weight:700; font-size:.92rem; }
-  input[type="range"]{
-    -webkit-appearance:none; appearance:none; height:4px; border-radius:999px;
-    background:rgba(244,234,217,.18); outline:none;
-  }
-  input[type="range"]::-webkit-slider-thumb{
-    -webkit-appearance:none; width:14px; height:14px; border-radius:50%;
-    background:var(--gold); cursor:pointer; border:2px solid var(--void);
-  }
-  input[type="range"]::-moz-range-thumb{
-    width:14px; height:14px; border-radius:50%; background:var(--gold); border:2px solid var(--void); cursor:pointer;
-  }
-  .progress-row{ display:flex; align-items:center; gap:.6rem; width:100%; font-size:.72rem; opacity:.75; }
-  .progress-row input[type="range"]{ flex:1; }
-  .volume-row{ display:flex; align-items:center; gap:.5rem; }
-  .volume-row input[type="range"]{ width:80px; }
+    .hero { min-height: 100svh; display: flex; align-items: center; position: relative; z-index: 1; }
+    .kicker {
+      display: inline-flex; align-items: center; gap: .5rem;
+      font-size: .78rem; letter-spacing: .14em; text-transform: uppercase;
+      color: var(--gold); font-weight: 700;
+    }
+    .kicker::before { content: ""; width: 22px; height: 1px; background: var(--gold); display: inline-block; }
 
-  /* Netzwerk */
-  .link-grid{ display:grid; gap:1.25rem; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); }
-  .link-card{
-    border-radius:16px; padding:1.4rem; display:flex; flex-direction:column; gap:.75rem;
-    transition:transform .25s ease, border-color .25s ease;
-  }
-  .link-card:hover{ transform:translateY(-4px); border-color:var(--gold-soft); }
-  .link-card-title{ font-weight:700; font-size:1.05rem; }
-  .link-card-desc{ font-size:.85rem; opacity:.75; flex:1; }
-  .link-card .btn{ align-self:flex-start; padding:.55rem 1.1rem; font-size:.82rem; }
+    .hero-title {
+      font-size: clamp(3.2rem, 11vw, 7.5rem); line-height: .92; font-weight: 600;
+      background: linear-gradient(180deg, var(--parchment) 15%, var(--gold) 115%);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+      letter-spacing: -.01em;
+    }
 
-  /* Exoskelett */
-  .exo-tabs{ display:flex; flex-wrap:wrap; gap:.5rem; margin:1.25rem 0 1.5rem; }
-  .exo-tab{
-    padding:.5rem 1rem; border-radius:999px; font-size:.82rem; font-weight:700;
-    background:rgba(244,234,217,.05); border:1px solid var(--glass-border);
-  }
-  .exo-tab[aria-selected="true"]{ background:var(--gold); color:var(--void); border-color:var(--gold); }
-  .no-js .exo-tabs{ display:none; }
-  .exo-panel{ font-size:.95rem; }
-  .exo-panel h3{ font-size:1.15rem; margin:1.5rem 0 .6rem; }
-  .exo-panel h3:first-child{ margin-top:0; }
-  .exo-panel p{ margin:.6rem 0; opacity:.88; }
-  .exo-panel ul{ margin:.6rem 0; padding-left:1.2rem; opacity:.88; }
-  html[dir="rtl"] .exo-panel ul{ padding-left:0; padding-right:1.2rem; }
-  .exo-panel li{ margin:.4rem 0; }
-  .exo-panel code{ background:rgba(244,234,217,.1); padding:.1rem .4rem; border-radius:5px; font-size:.85em; }
-  .js .exo-panel[hidden]{ display:none; }
+    .btn {
+      display: inline-flex; align-items: center; gap: .6rem;
+      padding: .85rem 1.6rem; border-radius: 999px; font-weight: 700; font-size: .95rem;
+      border: 1px solid var(--glass-border); cursor: pointer;
+      transition: transform .2s ease, background .2s ease, border-color .2s ease;
+    }
+    .btn-primary { background: var(--gold); color: var(--void); border-color: var(--gold); }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 30px -10px var(--gold-soft); }
+    .btn-ghost { background: rgba(244,234,217,.05); color: var(--parchment); }
+    .btn-ghost:hover { background: rgba(244,234,217,.12); border-color: var(--gold); }
 
-  footer{ border-top:1px solid var(--line); }
+    section { position: relative; z-index: 1; }
+    .section-pad { padding: clamp(4rem, 8vw, 7rem) clamp(1.25rem, 5vw, 3rem); }
+    .section-head { max-width: 46rem; margin-bottom: clamp(2.5rem, 5vw, 4rem); }
+    .section-title { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 600; line-height: 1.08; }
 
-  .visually-hidden{
-    position:absolute !important; width:1px; height:1px; padding:0; margin:-1px;
-    overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
-  }
+    .album-grid { display: grid; gap: 1.75rem; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+    .album-card {
+      border-radius: var(--radius); overflow: hidden; position: relative;
+      display: flex; flex-direction: column;
+      transition: transform .35s cubic-bezier(.2,.8,.2,1), border-color .35s ease;
+    }
+    .album-card:hover { transform: translateY(-6px); border-color: var(--gold-soft); }
+    .album-cover { aspect-ratio: 1/1; width: 100%; object-fit: cover; display: block; background: #10152b; }
+    .album-card-body { padding: 1.6rem 1.6rem 1.9rem; }
+    .album-card-sub { color: var(--gold); font-size: .82rem; letter-spacing: .05em; text-transform: uppercase; font-weight: 700; }
+    .album-card-title { font-size: 1.7rem; margin: .25rem 0 .6rem; }
+    .album-card-desc { opacity: .82; font-size: .95rem; }
 
-  /* RTL Feinschliff */
-  html[dir="rtl"] .kicker::before{ order:2; }
-  html[dir="rtl"] .track{ direction:rtl; }
+    .modal {
+      position: static; display: block; margin-top: 1rem; border-radius: var(--radius);
+    }
+    .no-js .modal { padding: 1.5rem; }
+    .no-js .modal-close, .no-js .modal-backdrop-btn { display: none; }
+    .js .modal {
+      position: fixed; inset: 0; display: none; z-index: 100;
+      align-items: center; justify-content: center; padding: 1.25rem;
+      background: rgba(4,5,14,0.78); backdrop-filter: blur(8px);
+    }
+    .js .modal.is-open { display: flex; }
+    .modal-panel {
+      width: 100%; max-width: 640px; max-height: 88vh; overflow-y: auto;
+      border-radius: var(--radius); padding: clamp(1.5rem, 4vw, 2.5rem); position: relative;
+    }
+    .js .modal-panel {
+      opacity: 0; transform: translateY(18px) scale(.98);
+      transition: opacity .28s ease, transform .28s ease;
+    }
+    .js .modal.is-open .modal-panel { opacity: 1; transform: translateY(0) scale(1); }
+    @media (prefers-reduced-motion: reduce) {
+      .js .modal-panel { transition: none; transform: none; }
+    }
+    .modal-close {
+      position: absolute; top: 1rem; right: 1rem; width: 38px; height: 38px; border-radius: 999px;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(244,234,217,.08); border: 1px solid var(--glass-border);
+    }
+    html[dir="rtl"] .modal-close { right: auto; left: 1rem; }
+    .modal-close:hover { background: rgba(244,234,217,.18); }
 
-  /* Bei deaktiviertem JS: Album-"Öffnen"-Buttons ausblenden (Inhalt ist eh sichtbar) */
-  .no-js .open-album-btn{ display:none; }
-  .no-js #exo-open-btn{ display:none; }
+    .track {
+      display: flex; align-items: flex-start; gap: .9rem;
+      padding: .85rem .25rem; border-bottom: 1px solid var(--line);
+    }
+    .no-js .track { align-items: flex-start; flex-wrap: wrap; }
+    .track:last-child { border-bottom: none; }
+    .track-play-btn {
+      flex: none; width: 38px; height: 38px; border-radius: 999px;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(244,234,217,.06); border: 1px solid var(--glass-border);
+      transition: background .2s ease, border-color .2s ease;
+    }
+    .track-play-btn:hover { background: var(--gold); border-color: var(--gold); color: var(--void); }
+    .track.is-playing .track-play-btn { background: var(--gold); border-color: var(--gold); color: var(--void); }
+    .track-meta { flex: 1; min-width: 0; }
+    .track-title { display: block; font-weight: 700; font-size: .98rem; }
+    .track.is-playing .track-title { color: var(--gold); }
+    .track-blurb { display: block; font-size: .82rem; opacity: .68; margin-top: .15rem; }
+    audio.native-fallback { width: 100%; margin-top: .5rem; }
+    .js audio.native-fallback { display: none; }
 
-  /* -------------------------------------------------------------------
-     Resilienz-Schicht: eigenständige Entsprechungen der im Markup
-     verwendeten Tailwind-Utility-Klassen. Falls das Tailwind-CDN einmal
-     langsam, blockiert oder offline nicht verfügbar ist, bleibt das
-     Layout dennoch stabil und lesbar (Werte identisch zu Tailwinds
-     Standard-Skala, daher keine Kollision, falls Tailwind zusätzlich lädt).
-     ------------------------------------------------------------------- */
-  .flex{ display:flex; }
-  .flex-col{ flex-direction:column; }
-  .flex-wrap{ flex-wrap:wrap; }
-  .items-center{ align-items:center; }
-  .justify-between{ justify-content:space-between; }
-  .justify-center{ justify-content:center; }
-  .relative{ position:relative; }
-  .mx-auto{ margin-left:auto; margin-right:auto; }
-  .text-center{ text-align:center; }
-  .uppercase{ text-transform:uppercase; }
-  .tracking-wide{ letter-spacing:.025em; }
-  .max-w-2xl{ max-width:42rem; }
-  .max-w-4xl{ max-width:56rem; }
-  .max-w-7xl{ max-width:80rem; }
-  .gap-2{ gap:.5rem; }
-  .gap-4{ gap:1rem; }
-  .gap-6{ gap:1.5rem; }
-  .mt-1{ margin-top:.25rem; }
-  .mt-2{ margin-top:.5rem; }
-  .mb-2{ margin-bottom:.5rem; }
-  .mt-4{ margin-top:1rem; }
-  .mt-5{ margin-top:1.25rem; }
-  .mt-6{ margin-top:1.5rem; }
-  .mt-7{ margin-top:1.75rem; }
-  .mt-9{ margin-top:2.25rem; }
-  .mt-10{ margin-top:2.5rem; }
-  .text-sm{ font-size:.875rem; line-height:1.25rem; }
-  .text-lg{ font-size:1.125rem; line-height:1.75rem; }
-  .text-2xl{ font-size:1.5rem; line-height:2rem; }
-  @media (min-width:768px){
-    .md\:flex-row{ flex-direction:row; }
-    .md\:text-xl{ font-size:1.25rem; line-height:1.75rem; }
-  }
-  /* Diese Fallback-Regeln dürfen niemals die bewusste .nav-toggle /
-     .nav-panel Sichtbarkeitssteuerung überstimmen: */
-  .site-header .nav-toggle{ display:none; }
-  @media (max-width:860px){
-    .site-header .nav-toggle{ display:inline-flex; }
-  }
-</style>
+    .player-bar {
+      margin-top: 1.25rem; padding-top: 1.1rem; border-top: 1px solid var(--line);
+      display: flex; align-items: center; gap: .85rem; flex-wrap: wrap;
+    }
+    .no-js .player-bar { display: none; }
+    .transport-btn {
+      width: 42px; height: 42px; border-radius: 999px; flex: none;
+      display: flex; align-items: center; justify-content: center;
+      background: var(--gold); color: var(--void); border: none; cursor: pointer;
+    }
+    .transport-btn.small { width: 34px; height: 34px; background: rgba(244,234,217,.08); color: var(--parchment); border: 1px solid var(--glass-border); }
+    .now-playing-label { font-size: .78rem; opacity: .65; }
+    .now-playing-title { font-weight: 700; font-size: .92rem; }
+    input[type="range"] {
+      -webkit-appearance: none; appearance: none; height: 4px; border-radius: 999px;
+      background: rgba(244,234,217,.18); outline: none;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none; width: 14px; height: 14px; border-radius: 50%;
+      background: var(--gold); cursor: pointer; border: 2px solid var(--void);
+    }
+    input[type="range"]::-moz-range-thumb {
+      width: 14px; height: 14px; border-radius: 50%; background: var(--gold); border: 2px solid var(--void); cursor: pointer;
+    }
+    .progress-row { display: flex; align-items: center; gap: .6rem; width: 100%; font-size: .72rem; opacity: .75; }
+    .progress-row input[type="range"] { flex: 1; }
+    .volume-row { display: flex; align-items: center; gap: .5rem; }
+    .volume-row input[type="range"] { width: 80px; }
+
+    .link-grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+    .link-card {
+      border-radius: 16px; padding: 1.4rem; display: flex; flex-direction: column; gap: .75rem;
+      transition: transform .25s ease, border-color .25s ease;
+    }
+    .link-card:hover { transform: translateY(-4px); border-color: var(--gold-soft); }
+    .link-card-title { font-weight: 700; font-size: 1.05rem; }
+    .link-card-desc { font-size: .85rem; opacity: .75; flex: 1; }
+    .link-card .btn { align-self: flex-start; padding: .55rem 1.1rem; font-size: .82rem; }
+
+    .exo-tabs { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.25rem 0 1.5rem; }
+    .exo-tab {
+      padding: .5rem 1rem; border-radius: 999px; font-size: .82rem; font-weight: 700;
+      background: rgba(244,234,217,.05); border: 1px solid var(--glass-border); cursor: pointer;
+    }
+    .exo-tab[aria-selected="true"] { background: var(--gold); color: var(--void); border-color: var(--gold); }
+    .no-js .exo-tabs { display: none; }
+    .exo-panel { font-size: .95rem; }
+    .exo-panel h3 { font-size: 1.15rem; margin: 1.5rem 0 .6rem; color: var(--gold); }
+    .exo-panel h3:first-child { margin-top: 0; }
+    .exo-panel p { margin: .6rem 0; opacity: .88; }
+    .exo-panel ul { margin: .6rem 0; padding-left: 1.2rem; opacity: .88; }
+    html[dir="rtl"] .exo-panel ul { padding-left: 0; padding-right: 1.2rem; }
+    .exo-panel li { margin: .4rem 0; }
+    .exo-panel code { background: rgba(244,234,217,.1); padding: .1rem .4rem; border-radius: 5px; font-size: .85em; }
+    .js .exo-panel[hidden] { display: none; }
+
+    footer { border-top: 1px solid var(--line); }
+    .visually-hidden {
+      position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+    }
+
+    html[dir="rtl"] .kicker::before { order: 2; }
+    html[dir="rtl"] .track { direction: rtl; }
+    .no-js .open-album-btn { display: none; }
+    .no-js #exo-open-btn { display: none; }
+
+    .flex { display: flex; }
+    .flex-col { flex-direction: column; }
+    .flex-wrap { flex-wrap: wrap; }
+    .items-center { align-items: center; }
+    .justify-between { justify-content: space-between; }
+    .justify-center { justify-content: center; }
+    .relative { position: relative; }
+    .mx-auto { margin-left: auto; margin-right: auto; }
+    .text-center { text-align: center; }
+    .uppercase { text-transform: uppercase; }
+    .tracking-wide { letter-spacing: .025em; }
+    .max-w-2xl { max-width: 42rem; }
+    .max-w-4xl { max-width: 56rem; }
+    .max-w-7xl { max-width: 80rem; }
+    .gap-2 { gap: .5rem; }
+    .gap-4 { gap: 1rem; }
+    .gap-6 { gap: 1.5rem; }
+    .mt-1 { margin-top: .25rem; }
+    .mt-2 { margin-top: .5rem; }
+    .mb-2 { margin-bottom: .5rem; }
+    .mt-4 { margin-top: 1rem; }
+    .mt-5 { margin-top: 1.25rem; }
+    .mt-6 { margin-top: 1.5rem; }
+    .mt-7 { margin-top: 1.75rem; }
+    .mt-9 { margin-top: 2.25rem; }
+    .mt-10 { margin-top: 2.5rem; }
+    .text-sm { font-size: .875rem; line-height: 1.25rem; }
+    .text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+    .text-2xl { font-size: 1.5rem; line-height: 2rem; }
+    @media (min-width: 768px) {
+      .md\:flex-row { flex-direction: row; }
+      .md\:text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+    }
+    .site-header .nav-toggle { display: none; }
+    @media (max-width: 860px) {
+      .site-header .nav-toggle { display: inline-flex; }
+    }
+  </style>
 </head>
 <body>
 <a class="skip-link" href="#main-content" data-i18n="skip_link">Zum Inhalt springen</a>
@@ -391,12 +400,12 @@
       <select id="lang-select" class="lang-select">
         <option value="de">Deutsch</option>
         <option value="en">English</option>
+        <option value="vi">Tiếng Việt</option>
         <option value="fr">Français</option>
         <option value="es">Español</option>
         <option value="pt">Português</option>
         <option value="pl">Polski</option>
         <option value="ru">Русский</option>
-        <option value="vi">Tiếng Việt</option>
         <option value="hi">हिन्दी</option>
         <option value="sw">Kiswahili</option>
         <option value="fa">فارسی</option>
@@ -440,6 +449,7 @@
 
       <div class="album-grid">
 
+        <!-- Album 1 -->
         <article class="album-card glass">
           <img class="album-cover" src="./intro Mitten im Licht 432 Hz Vietnam edit (1).jpeg" alt="Lebendigkeit II Cover" loading="lazy">
           <div class="album-card-body">
@@ -463,188 +473,158 @@
               <h3 id="modal-album-1-title" class="font-display text-2xl mt-1" data-i18n="album1_name">Lebendigkeit II</h3>
               <h4 class="mt-6 mb-2 text-sm uppercase tracking-wide" style="opacity:.65" data-i18n="tracklist_title">Titelliste</h4>
               <ul class="track-list" data-album="album1">
-                <li class="track" data-src="./intro Mitten im Licht 432 Hz Vietnam edit.mp3" data-title="Intro Mitten im Licht">
+                <li class="track" data-src="./intro Mitten im Licht 432 Hz Vietnam edit.mp3" data-title="Intro Mitten im Licht" data-track-key="a1_t1">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Intro Mitten im Licht</span>
-                    <span class="track-blurb">Das Tor zur goldenen Sphäre – Ankunft, bevor die Reise beginnt.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./intro Mitten im Licht 432 Hz Vietnam edit.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a1_t1_title">Intro Mitten im Licht</span>
+                    <span class="track-blurb" data-i18n="a1_t1_blurb">Das Tor zur goldenen Sphäre – Ankunft, bevor die Reise beginnt.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./intro Mitten im Licht 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Willkommen im Jetzt 432 Hz Vietnam edit.mp3" data-title="Willkommen im Jetzt">
+                <li class="track" data-src="./Willkommen im Jetzt 432 Hz Vietnam edit.mp3" data-title="Willkommen im Jetzt" data-track-key="a1_t2">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Willkommen im Jetzt</span>
-                    <span class="track-blurb">Eine sanfte Landung im gegenwärtigen Moment.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Willkommen im Jetzt 432 Hz Vietnam edit.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a1_t2_title">Willkommen im Jetzt</span>
+                    <span class="track-blurb" data-i18n="a1_t2_blurb">Eine sanfte Landung im gegenwärtigen Moment.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Willkommen im Jetzt 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./das Dazwischen 432 Hz Vietnam edit.mp3" data-title="Das Dazwischen">
+                <li class="track" data-src="./das Dazwischen 432 Hz Vietnam edit.mp3" data-title="Das Dazwischen" data-track-key="a1_t3">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Das Dazwischen</span>
-                    <span class="track-blurb">Der Raum zwischen Herz und Verstand, in dem echte Verbindung entsteht.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./das Dazwischen 432 Hz Vietnam edit.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a1_t3_title">Das Dazwischen</span>
+                    <span class="track-blurb" data-i18n="a1_t3_blurb">Der Raum zwischen Herz und Verstand, in dem echte Verbindung entsteht.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./das Dazwischen 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Reparatur-Code 432 Hz Vietnam edit.mp3" data-title="Reparatur-Code">
+                <li class="track" data-src="./Reparatur-Code 432 Hz Vietnam edit.mp3" data-title="Reparatur-Code" data-track-key="a1_t4">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Reparatur-Code</span>
-                    <span class="track-blurb">Wissen wird nicht zur Waffe, sondern zum Werkzeug des Kittens.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Reparatur-Code 432 Hz Vietnam edit.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a1_t4_title">Reparatur-Code</span>
+                    <span class="track-blurb" data-i18n="a1_t4_blurb">Wissen wird nicht zur Waffe, sondern zum Werkzeug des Kittens.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Reparatur-Code 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Lichtbrücke 432 Hz Vietnam.mp3" data-title="Lichtbrücke">
+                <li class="track" data-src="./Lichtbrücke 432 Hz Vietnam.mp3" data-title="Lichtbrücke" data-track-key="a1_t5">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Lichtbrücke</span>
-                    <span class="track-blurb">Eine Melodie, die zwei entfernte Herzen über die Distanz verbindet.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Lichtbrücke 432 Hz Vietnam.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a1_t5_title">Lichtbrücke</span>
+                    <span class="track-blurb" data-i18n="a1_t5_blurb">Eine Melodie, die zwei entfernte Herzen über die Distanz verbindet.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Lichtbrücke 432 Hz Vietnam.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./das Wir-Feld 432 Hz Vietnam edit.mp3" data-title="Das WIR-Feld">
+                <li class="track" data-src="./das Wir-Feld 432 Hz Vietnam edit.mp3" data-title="Das WIR-Feld" data-track-key="a1_t6">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Das WIR-Feld</span>
-                    <span class="track-blurb">Ein Feld, in dem viele Herzschläge zu einem gemeinsamen Rhythmus finden.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./das Wir-Feld 432 Hz Vietnam edit.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a1_t6_title">Das WIR-Feld</span>
+                    <span class="track-blurb" data-i18n="a1_t6_blurb">Ein Feld, in dem viele Herzschläge zu einem gemeinsamen Rhythmus finden.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./das Wir-Feld 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Frequenzwechsel 432 Hz Vietnam edit.mp3" data-title="Frequenzwechsel">
+                <li class="track" data-src="./Frequenzwechsel 432 Hz Vietnam edit.mp3" data-title="Frequenzwechsel" data-track-key="a1_t7">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Frequenzwechsel</span>
-                    <span class="track-blurb">Der bewusste Sprung von Anspannung in einen weicheren Zustand.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Frequenzwechsel 432 Hz Vietnam edit.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a1_t7_title">Frequenzwechsel</span>
+                    <span class="track-blurb" data-i18n="a1_t7_blurb">Der bewusste Sprung von Anspannung in einen weicheren Zustand.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Frequenzwechsel 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Rhythmus der Befreiung 432 Hz Vietnam edit.mp3" data-title="Rhythmus der Befreiung">
+                <li class="track" data-src="./Rhythmus der Befreiung 432 Hz Vietnam edit.mp3" data-title="Rhythmus der Befreiung" data-track-key="a1_t8">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Rhythmus der Befreiung</span>
-                    <span class="track-blurb">Bewegung als Ventil – der Körper tanzt, was Worte nicht sagen können.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Rhythmus der Befreiung 432 Hz Vietnam edit.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a1_t8_title">Rhythmus der Befreiung</span>
+                    <span class="track-blurb" data-i18n="a1_t8_blurb">Bewegung als Ventil – der Körper tanzt, was Worte nicht sagen können.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Rhythmus der Befreiung 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Goldene Stunde (Das Jetzt) 432 Hz Vietnam edit.mp3" data-title="Goldene Stunde (Das Jetzt)">
+                <li class="track" data-src="./Goldene Stunde (Das Jetzt) 432 Hz Vietnam edit.mp3" data-title="Goldene Stunde (Das Jetzt)" data-track-key="a1_t9">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Goldene Stunde (Das Jetzt)</span>
-                    <span class="track-blurb">Das Licht kurz vor Sonnenuntergang als Einladung, nichts zu wollen außer da zu sein.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Goldene Stunde (Das Jetzt) 432 Hz Vietnam edit.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a1_t9_title">Goldene Stunde (Das Jetzt)</span>
+                    <span class="track-blurb" data-i18n="a1_t9_blurb">Das Licht kurz vor Sonnenuntergang als Einladung, nichts zu wollen außer da zu sein.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Goldene Stunde (Das Jetzt) 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Splitter und Narben (Kintsugi) 432 Hz Vietnam edit.mp3" data-title="Splitter und Narben (Kintsugi)">
+                <li class="track" data-src="./Splitter und Narben (Kintsugi) 432 Hz Vietnam edit.mp3" data-title="Splitter und Narben (Kintsugi)" data-track-key="a1_t10">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Splitter und Narben (Kintsugi)</span>
-                    <span class="track-blurb">Brüche werden mit Gold gefüllt, nicht versteckt.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Splitter und Narben (Kintsugi) 432 Hz Vietnam edit.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a1_t10_title">Splitter und Narben (Kintsugi)</span>
+                    <span class="track-blurb" data-i18n="a1_t10_blurb">Brüche werden mit Gold gefüllt, nicht versteckt.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Splitter und Narben (Kintsugi) 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Der Funke der Welt 432 Hz Vietnam edit.mp3" data-title="Der Funke der Welt">
+                <li class="track" data-src="./Der Funke der Welt 432 Hz Vietnam edit.mp3" data-title="Der Funke der Welt" data-track-key="a1_t11">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Der Funke der Welt</span>
-                    <span class="track-blurb">Ein einzelner Impuls, der eine Kettenreaktion aus Hoffnung auslöst.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Der Funke der Welt 432 Hz Vietnam edit.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a1_t11_title">Der Funke der Welt</span>
+                    <span class="track-blurb" data-i18n="a1_t11_blurb">Ein einzelner Impuls, der eine Kettenreaktion aus Hoffnung auslöst.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Der Funke der Welt 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Das Wunder vor der Haustür 432 Hz Vietnam edit.mp3" data-title="Das Wunder vor der Haustür">
+                <li class="track" data-src="./Das Wunder vor der Haustür 432 Hz Vietnam edit.mp3" data-title="Das Wunder vor der Haustür" data-track-key="a1_t12">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Das Wunder vor der Haustür</span>
-                    <span class="track-blurb">Alltägliches neu gesehen – Staunen muss nicht weit reisen.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Das Wunder vor der Haustür 432 Hz Vietnam edit.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a1_t12_title">Das Wunder vor der Haustür</span>
+                    <span class="track-blurb" data-i18n="a1_t12_blurb">Alltägliches neu gesehen – Staunen muss nicht weit reisen.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Das Wunder vor der Haustür 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Willkommen in der goldenen Sphäre _ Vom Dunkel ins Licht 432 Hz Vietnam edit.mp3" data-title="Willkommen in der goldenen Sphäre (Vom Dunkel ins Licht)">
+                <li class="track" data-src="./Willkommen in der goldenen Sphäre _ Vom Dunkel ins Licht 432 Hz Vietnam edit.mp3" data-title="Willkommen in der goldenen Sphäre (Vom Dunkel ins Licht)" data-track-key="a1_t13">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Willkommen in der goldenen Sphäre (Vom Dunkel ins Licht)</span>
-                    <span class="track-blurb">Der Übergang vom Schatten in einen warmen, geteilten Raum.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Willkommen in der goldenen Sphäre _ Vom Dunkel ins Licht 432 Hz Vietnam edit.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a1_t13_title">Willkommen in der goldenen Sphäre (Vom Dunkel ins Licht)</span>
+                    <span class="track-blurb" data-i18n="a1_t13_blurb">Der Übergang vom Schatten in einen warmen, geteilten Raum.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Willkommen in der goldenen Sphäre _ Vom Dunkel ins Licht 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./vietnamesischen Instrumental-Bonus-Track.mp3" data-title="Vietnamesischer Instrumental-Bonus-Track">
+                <li class="track" data-src="./vietnamesischen Instrumental-Bonus-Track.mp3" data-title="Vietnamesischer Instrumental-Bonus-Track" data-track-key="a1_t14">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Vietnamesischer Instrumental-Bonus-Track</span>
-                    <span class="track-blurb">Eine rein instrumentale Reise ohne Worte, getragen von Vietnams Klangfarben.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./vietnamesischen Instrumental-Bonus-Track.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a1_t14_title">Vietnamesischer Instrumental-Bonus-Track</span>
+                    <span class="track-blurb" data-i18n="a1_t14_blurb">Eine rein instrumentale Reise ohne Worte, getragen von Vietnams Klangfarben.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./vietnamesischen Instrumental-Bonus-Track.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Der letzte Puls (Outro) 432 Hz Vietnam edit.mp3" data-title="Der letzte Puls (Outro)">
+                <li class="track" data-src="./Der letzte Puls (Outro) 432 Hz Vietnam edit.mp3" data-title="Der letzte Puls (Outro)" data-track-key="a1_t15">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Der letzte Puls (Outro)</span>
-                    <span class="track-blurb">Ein ruhiger Ausklang – der Herzschlag, der bleibt, wenn die Musik verklingt.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Der letzte Puls (Outro) 432 Hz Vietnam edit.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a1_t15_title">Der letzte Puls (Outro)</span>
+                    <span class="track-blurb" data-i18n="a1_t15_blurb">Ein ruhiger Ausklang – der Herzschlag, der bleibt, wenn die Musik verklingt.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Der letzte Puls (Outro) 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-
               </ul>
+
               <div class="player-bar" data-player-bar>
                 <button type="button" class="transport-btn small" data-player-prev data-i18n-attr="aria-label:prev_label" aria-label="Vorheriger Titel">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 6h2v12H6zM20 6l-10 6 10 6z"/></svg>
@@ -676,12 +656,13 @@
           </div>
         </article>
 
+        <!-- Album 2 -->
         <article class="album-card glass">
           <img class="album-cover" src="./Intro Mitten im Licht.jpeg" alt="Vom Dunkel ins Licht Cover" loading="lazy">
           <div class="album-card-body">
             <p class="album-card-sub"><span data-i18n="album2_sub">Co-Regulation · Reparatur-Code</span></p>
             <h3 class="album-card-title font-display" data-i18n="album2_name">Vom Dunkel ins Licht</h3>
-            <p class="album-card-desc" data-i18n="album2_desc">Fünf Wegmarken der Heilung: von der goldenen Stunde bis zur stillen Dankbarkeit.</p>
+            <p class="album-card-desc" data-i18n="album2_desc">Die Studio-Fassung: 16 Titel – vom Intro bis zu zwei Bonus-Tracks.</p>
             <button type="button" class="btn btn-primary open-album-btn mt-5" data-modal-target="modal-album-2">
               <span data-i18n="open_album">Album öffnen</span>
               <span aria-hidden="true">·</span>
@@ -699,200 +680,168 @@
               <h3 id="modal-album-2-title" class="font-display text-2xl mt-1" data-i18n="album2_name">Vom Dunkel ins Licht</h3>
               <h4 class="mt-6 mb-2 text-sm uppercase tracking-wide" style="opacity:.65" data-i18n="tracklist_title">Titelliste</h4>
               <ul class="track-list" data-album="album2">
-                <li class="track" data-src="./Intro Mitten im Licht.mp3" data-title="Intro Mitten im Licht">
+                <li class="track" data-src="./Intro Mitten im Licht.mp3" data-title="Intro Mitten im Licht" data-track-key="a2_t1">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Intro Mitten im Licht</span>
-                    <span class="track-blurb">Das Tor zur goldenen Sphäre – Ankunft, bevor die Reise beginnt.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Intro Mitten im Licht.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a2_t1_title">Intro Mitten im Licht</span>
+                    <span class="track-blurb" data-i18n="a2_t1_blurb">Das Tor zur goldenen Sphäre – Ankunft, bevor die Reise beginnt.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Intro Mitten im Licht.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Willkommen im Jetzt.mp3" data-title="Willkommen im Jetzt">
+                <li class="track" data-src="./Willkommen im Jetzt.mp3" data-title="Willkommen im Jetzt" data-track-key="a2_t2">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Willkommen im Jetzt</span>
-                    <span class="track-blurb">Eine sanfte Landung im gegenwärtigen Moment.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Willkommen im Jetzt.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a2_t2_title">Willkommen im Jetzt</span>
+                    <span class="track-blurb" data-i18n="a2_t2_blurb">Eine sanfte Landung im gegenwärtigen Moment.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Willkommen im Jetzt.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Das Dazwischen.mp3" data-title="Das Dazwischen">
+                <li class="track" data-src="./Das Dazwischen.mp3" data-title="Das Dazwischen" data-track-key="a2_t3">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Das Dazwischen</span>
-                    <span class="track-blurb">Der Raum zwischen Herz und Verstand, in dem echte Verbindung entsteht.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Das Dazwischen.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a2_t3_title">Das Dazwischen</span>
+                    <span class="track-blurb" data-i18n="a2_t3_blurb">Der Raum zwischen Herz und Verstand, in dem echte Verbindung entsteht.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Das Dazwischen.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Reparatur-Code.mp3" data-title="Reparatur-Code">
+                <li class="track" data-src="./Reparatur-Code.mp3" data-title="Reparatur-Code" data-track-key="a2_t4">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Reparatur-Code</span>
-                    <span class="track-blurb">Wissen wird nicht zur Waffe, sondern zum Werkzeug des Kittens.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Reparatur-Code.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a2_t4_title">Reparatur-Code</span>
+                    <span class="track-blurb" data-i18n="a2_t4_blurb">Wissen wird nicht zur Waffe, sondern zum Werkzeug des Kittens.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Reparatur-Code.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Lichtbrücke.mp3" data-title="Lichtbrücke">
+                <li class="track" data-src="./Lichtbrücke.mp3" data-title="Lichtbrücke" data-track-key="a2_t5">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Lichtbrücke</span>
-                    <span class="track-blurb">Eine Melodie, die zwei entfernte Herzen über die Distanz verbindet.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Lichtbrücke.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a2_t5_title">Lichtbrücke</span>
+                    <span class="track-blurb" data-i18n="a2_t5_blurb">Eine Melodie, die zwei entfernte Herzen über die Distanz verbindet.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Lichtbrücke.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Das WIR-Feld.mp3" data-title="Das WIR-Feld">
+                <li class="track" data-src="./Das WIR-Feld.mp3" data-title="Das WIR-Feld" data-track-key="a2_t6">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Das WIR-Feld</span>
-                    <span class="track-blurb">Ein Feld, in dem viele Herzschläge zu einem gemeinsamen Rhythmus finden.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Das WIR-Feld.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a2_t6_title">Das WIR-Feld</span>
+                    <span class="track-blurb" data-i18n="a2_t6_blurb">Ein Feld, in dem viele Herzschläge zu einem gemeinsamen Rhythmus finden.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Das WIR-Feld.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Frequenzwechsel.mp3" data-title="Frequenzwechsel">
+                <li class="track" data-src="./Frequenzwechsel.mp3" data-title="Frequenzwechsel" data-track-key="a2_t7">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Frequenzwechsel</span>
-                    <span class="track-blurb">Der bewusste Sprung von Anspannung in einen weicheren Zustand.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Frequenzwechsel.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a2_t7_title">Frequenzwechsel</span>
+                    <span class="track-blurb" data-i18n="a2_t7_blurb">Der bewusste Sprung von Anspannung in einen weicheren Zustand.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Frequenzwechsel.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Rhythmus der Befreiung.mp3" data-title="Rhythmus der Befreiung">
+                <li class="track" data-src="./Rhythmus der Befreiung.mp3" data-title="Rhythmus der Befreiung" data-track-key="a2_t8">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Rhythmus der Befreiung</span>
-                    <span class="track-blurb">Bewegung als Ventil – der Körper tanzt, was Worte nicht sagen können.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Rhythmus der Befreiung.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a2_t8_title">Rhythmus der Befreiung</span>
+                    <span class="track-blurb" data-i18n="a2_t8_blurb">Bewegung als Ventil – der Körper tanzt, was Worte nicht sagen können.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Rhythmus der Befreiung.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Goldene Stunde.mp3" data-title="Goldene Stunde">
+                <li class="track" data-src="./Goldene Stunde.mp3" data-title="Goldene Stunde" data-track-key="a2_t9">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Goldene Stunde</span>
-                    <span class="track-blurb">Das Licht kurz vor Sonnenuntergang als Einladung, nichts zu wollen außer da zu sein.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Goldene Stunde.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a2_t9_title">Goldene Stunde</span>
+                    <span class="track-blurb" data-i18n="a2_t9_blurb">Das Licht kurz vor Sonnenuntergang als Einladung, nichts zu wollen außer da zu sein.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Goldene Stunde.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Splitter und Narben.mp3" data-title="Splitter und Narben">
+                <li class="track" data-src="./Splitter und Narben.mp3" data-title="Splitter und Narben" data-track-key="a2_t10">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Splitter und Narben</span>
-                    <span class="track-blurb">Brüche werden mit Gold gefüllt, nicht versteckt.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Splitter und Narben.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a2_t10_title">Splitter und Narben</span>
+                    <span class="track-blurb" data-i18n="a2_t10_blurb">Brüche werden mit Gold gefüllt, nicht versteckt.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Splitter und Narben.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Der Funke der Welt.mp3" data-title="Der Funke der Welt">
+                <li class="track" data-src="./Der Funke der Welt.mp3" data-title="Der Funke der Welt" data-track-key="a2_t11">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Der Funke der Welt</span>
-                    <span class="track-blurb">Ein einzelner Impuls, der eine Kettenreaktion aus Hoffnung auslöst.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Der Funke der Welt.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a2_t11_title">Der Funke der Welt</span>
+                    <span class="track-blurb" data-i18n="a2_t11_blurb">Ein einzelner Impuls, der eine Kettenreaktion aus Hoffnung auslöst.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Der Funke der Welt.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Das Wunder vor der Haustür.mp3" data-title="Das Wunder vor der Haustür">
+                <li class="track" data-src="./Das Wunder vor der Haustür.mp3" data-title="Das Wunder vor der Haustür" data-track-key="a2_t12">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Das Wunder vor der Haustür</span>
-                    <span class="track-blurb">Alltägliches neu gesehen – Staunen muss nicht weit reisen.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Das Wunder vor der Haustür.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a2_t12_title">Das Wunder vor der Haustür</span>
+                    <span class="track-blurb" data-i18n="a2_t12_blurb">Alltägliches neu gesehen – Staunen muss nicht weit reisen.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Das Wunder vor der Haustür.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Willkommen in der goldenen Sphäre _ Vom Dunkel ins Licht.mp3" data-title="Willkommen in der goldenen Sphäre (Vom Dunkel ins Licht)">
+                <li class="track" data-src="./Willkommen in der goldenen Sphäre _ Vom Dunkel ins Licht.mp3" data-title="Willkommen in der goldenen Sphäre (Vom Dunkel ins Licht)" data-track-key="a2_t13">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Willkommen in der goldenen Sphäre (Vom Dunkel ins Licht)</span>
-                    <span class="track-blurb">Der Übergang vom Schatten in einen warmen, geteilten Raum.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Willkommen in der goldenen Sphäre _ Vom Dunkel ins Licht.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a2_t13_title">Willkommen in der goldenen Sphäre (Vom Dunkel ins Licht)</span>
+                    <span class="track-blurb" data-i18n="a2_t13_blurb">Der Übergang vom Schatten in einen warmen, geteilten Raum.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Willkommen in der goldenen Sphäre _ Vom Dunkel ins Licht.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Outro Die Variable.mp3" data-title="Outro: Die Variable">
+                <li class="track" data-src="./Outro Die Variable.mp3" data-title="Outro: Die Variable" data-track-key="a2_t14">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Outro: Die Variable</span>
-                    <span class="track-blurb">Der letzte Ton lässt eine Frage offen, statt sie zu schließen – das Stück endet, die Veränderung bleibt variabel.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Outro Die Variable.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a2_t14_title">Outro: Die Variable</span>
+                    <span class="track-blurb" data-i18n="a2_t14_blurb">Der letzte Ton lässt eine Frage offen, statt sie zu schließen – das Stück endet, die Veränderung bleibt variabel.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Outro Die Variable.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Roter Rhythmus Bonus.mp3" data-title="Roter Rhythmus (Bonus)">
+                <li class="track" data-src="./Roter Rhythmus Bonus.mp3" data-title="Roter Rhythmus (Bonus)" data-track-key="a2_t15">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Roter Rhythmus (Bonus)</span>
-                    <span class="track-blurb">Ein pulsierender Bonus-Track – Herzschlag und Percussion als ein gemeinsamer, warmer Puls.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Roter Rhythmus Bonus.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a2_t15_title">Roter Rhythmus (Bonus)</span>
+                    <span class="track-blurb" data-i18n="a2_t15_blurb">Ein pulsierender Bonus-Track – Herzschlag und Percussion als ein gemeinsamer, warmer Puls.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Roter Rhythmus Bonus.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-                <li class="track" data-src="./Wilde Melodie Bonus.mp3" data-title="Wilde Melodie (Bonus)">
+                <li class="track" data-src="./Wilde Melodie Bonus.mp3" data-title="Wilde Melodie (Bonus)" data-track-key="a2_t16">
                   <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                   </button>
                   <div class="track-meta">
-                    <span class="track-title">Wilde Melodie (Bonus)</span>
-                    <span class="track-blurb">Ein freier, unverputzter Bonus-Track – Melodie ohne festen Weg, ganz der Bewegung des Moments folgend.</span>
-                    <audio class="native-fallback" controls preload="none">
-                      <source src="./Wilde Melodie Bonus.mp3" type="audio/mpeg">
-                    </audio>
+                    <span class="track-title" data-i18n="a2_t16_title">Wilde Melodie (Bonus)</span>
+                    <span class="track-blurb" data-i18n="a2_t16_blurb">Ein freier, unverputzter Bonus-Track – Melodie ohne festen Weg, ganz der Bewegung des Moments folgend.</span>
+                    <audio class="native-fallback" controls preload="none"><source src="./Wilde Melodie Bonus.mp3" type="audio/mpeg"></audio>
                   </div>
                 </li>
-
               </ul>
+
               <div class="player-bar" data-player-bar>
                 <button type="button" class="transport-btn small" data-player-prev data-i18n-attr="aria-label:prev_label" aria-label="Vorheriger Titel">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 6h2v12H6zM20 6l-10 6 10 6z"/></svg>
@@ -1010,89 +959,36 @@
 
         <div class="exo-panel" id="exo-panel-neuro" role="tabpanel" aria-labelledby="exo-tab-neuro">
           <h3>Neurobiologisch: Co-Regulation und die 432-Hz-Frage</h3>
-          <p>Co-Regulation beschreibt, wie sich ein überreiztes Nervensystem an der ruhigen, verlässlichen
-Präsenz eines anderen Menschen orientieren und beruhigen kann – ein Grundprinzip aus Bindungs-
-und Stressforschung, das plausibel auch auf Klang übertragbar ist: ruhiger Rhythmus, tiefe Frequenzen
-und eine stabile Lautstärke können als äußerer Taktgeber wirken.</p>
-<p><strong>Was die 432-Hz-Behauptung angeht, bleiben wir ehrlich:</strong> Die meistzitierte Studie dazu
-(Calamassi &amp; Pomponi, 2019) ist eine kleine Pilotstudie mit 33 Personen. Der gemessene Unterschied
-in der Herzfrequenz lag an der Grenze statistischer Signifikanz (p = 0,05), die Autor:innen selbst fordern
-größere, randomisierte Folgestudien. Bis heute existiert keine belastbare, wiederholte Evidenz dafür,
-dass 432 Hz gegenüber 440 Hz eine eigenständige heilende Wirkung hätte. Ein Unterschied von 8 Hz
-entspricht weniger als einem halben Halbton – für die meisten Hörer:innen ohne absolutes Gehör kaum
-bewusst wahrnehmbar. Vieles, was als „432-Hz-Wirkung” erlebt wird, lässt sich plausibler durch Tempo
-(60–90 BPM), harmonische Einfachheit, Wiederholung und schlicht die bewusste Hörsituation selbst
-erklären – nicht durch die Stimmfrequenz allein. Wir nutzen 432 Hz als künstlerische, bewusste
-Entscheidung, nicht als medizinisches Versprechen.</p>
+          <p>Co-Regulation beschreibt, wie sich ein überreiztes Nervensystem an der ruhigen, verlässlichen Präsenz eines anderen Menschen orientieren und beruhigen kann – ein Grundprinzip aus Bindungs- und Stressforschung, das plausibel auch auf Klang übertragbar ist: ruhiger Rhythmus, tiefe Frequenzen und eine stabile Lautstärke können als äußerer Taktgeber wirken.</p>
+          <p><strong>Was die 432-Hz-Behauptung angeht, bleiben wir ehrlich:</strong> Die meistzitierte Studie dazu (Calamassi & Pomponi, 2019) ist eine kleine Pilotstudie mit 33 Personen. Der gemessene Unterschied in der Herzfrequenz lag an der Grenze statistischer Signifikanz (p = 0,05), die Autor:innen selbst fordern größere, randomisierte Folgestudien. Bis heute existiert keine belastbare, wiederholte Evidenz dafür, dass 432 Hz gegenüber 440 Hz eine eigenständige heilende Wirkung hätte. Ein Unterschied von 8 Hz entspricht weniger als einem halben Halbton – für die meisten Hörer:innen ohne absolutes Gehör kaum bewusst wahrnehmbar. Vieles, was als „432-Hz-Wirkung” erlebt wird, lässt sich plausibler durch Tempo (60–90 BPM), harmonische Einfachheit, Wiederholung und schlicht die bewusste Hörsituation selbst erklären – nicht durch die Stimmfrequenz allein. Wir nutzen 432 Hz als künstlerische, bewusste Entscheidung, nicht als medizinisches Versprechen.</p>
         </div>
         <div class="exo-panel" id="exo-panel-tech" role="tabpanel" aria-labelledby="exo-tab-tech">
           <h3>Technologisch: Was „netzunabhängig” wirklich bedeutet</h3>
-          <p>Wir haben bewusst auf einen Service Worker aus einem im Code erzeugten Blob verzichtet: Die aktuelle
-Spezifikation und alle gängigen Browser lassen Service-Worker-Registrierungen ohnehin nur über echte
-<code>http/https</code>-Skript-URLs zu – ein <code>blob:</code>-Skript wird in der Praxis vom Browser
-abgelehnt. Statt einen unzuverlässigen Umweg vorzutäuschen, nutzt diese Seite direkt die
-<strong>Cache-Storage-API</strong> (<code>window.caches</code>). Sobald du auf „Abspielen” drückst, lädt
-der Player den Titel zuerst ganz normal über das Netz (<em>Network-First</em>) und legt ihn dabei parallel
-im Cache ab. Ist kein Netz verfügbar oder schlägt der Abruf fehl, greift der Player automatisch auf die
-zwischengespeicherte Version zurück (<em>Fallback-to-Cache</em>). So wird jeder einmal gehörte Titel beim
-nächsten Mal auch offline abspielbar – ganz ohne Service Worker.</p>
-<p>Weitere reale Grenzen: Auf iOS/Safari kann gespeicherter Cache-Inhalt entfernt werden, wenn eine Seite
-länger nicht geöffnet wird (Apples striktes Speicher- und Tracking-Management). Die Cache-Storage-API
-funktioniert zudem nur über eine sichere Verbindung (https oder localhost) – nicht, wenn die Datei
-lokal per <code>file://</code> geöffnet wird. Und: Der allererste Seitenaufruf braucht zwingend Netz, um
-Google Fonts und Tailwind CSS zu laden sowie jeden Titel mindestens einmal zu cachen – „netzunabhängig”
-gilt für bereits gehörte Titel ab dem zweiten Besuch, nicht pauschal ab dem ersten.</p>
-<p><strong>Doppelklick von USB-Stick oder Festplatte:</strong> Öffnest du diese HTML-Datei per Doppelklick
-lokal (<code>file://C:/…</code> unter Windows oder <code>file:///…</code> unter macOS/Linux), erkennt das
-Skript das am <code>file:</code>-Protokoll und überspringt Cache-Storage-API und <code>fetch()</code>
-komplett – beide würden der Browser-Sicherheit zum Opfer fallen. Stattdessen übergibt der Player den
-rohen Dateinamen direkt an das <code>&lt;audio&gt;</code>-Element, das lokale Dateien im selben Ordner
-zuverlässig abspielt. Die Kintsugi-Partikel bleiben dabei aktiv; nur die Web-Audio-Analyse (das Pulsieren
-im Bass-Takt) steht in seltenen Fällen nicht zur Verfügung, wenn ein Browser auch das für lokale Dateien
-verweigert – die Wiedergabe selbst läuft trotzdem weiter.</p>
+          <p>Wir haben bewusst auf einen Service Worker aus einem im Code erzeugten Blob verzichtet: Die aktuelle Spezifikation und alle gängigen Browser lassen Service-Worker-Registrierungen ohnehin nur über echte <code>http/https</code>-Skript-URLs zu – ein <code>blob:</code>-Skript wird in der Praxis vom Browser abgelehnt. Statt einen unzuverlässigen Umweg vorzutäuschen, nutzt diese Seite direkt die <strong>Cache-Storage-API</strong> (<code>window.caches</code>). Sobald du auf „Abspielen” drückst, lädt der Player den Titel zuerst ganz normal über das Netz (<em>Network-First</em>) und legt ihn dabei parallel im Cache ab. Ist kein Netz verfügbar oder schlägt der Abruf fehl, greift der Player automatisch auf die zwischengespeicherte Version zurück (<em>Fallback-to-Cache</em>). So wird jeder einmal gehörte Titel beim nächsten Mal auch offline abspielbar – ganz ohne Service Worker.</p>
+          <p><strong>Doppelt geschützter Lokaltester (file://):</strong> Öffnest du diese HTML-Datei per Doppelklick lokal (<code>file://</code>), erkennt das Skript das Protokoll und überspringt Cache-Storage-API und <code>fetch()</code> komplett. Der Player übergibt die lokalen Dateipfade direkt an das Audio-Element. So läuft die Anwendung sowohl auf GitHub Pages als auch direkt auf deinem PC absolut reibungslos.</p>
         </div>
         <div class="exo-panel" id="exo-panel-philo" role="tabpanel" aria-labelledby="exo-tab-philo">
           <h3>Philosophisch: Die Grenzen der Kintsugi-Metapher</h3>
-          <p>Kintsugi (jap. 金継ぎ, „Goldverbindung”) ist eine japanische Reparaturkunst für zerbrochene Keramik:
-Brüche werden nicht versteckt, sondern mit Gold sichtbar gemacht. Wir übernehmen dieses Bild mit Respekt
-vor seiner Herkunft – als geliehene Metapher, nicht als eigene Tradition, die wir beanspruchen.</p>
-<p>Die Metapher hat eine reale Grenze: Sie kann „Brüche” ästhetisch verklären, wenn sie zu leicht auf
-strukturelle Probleme angewendet wird, die keine goldene Naht heilt – Armut, Kriegsangst, fehlender
-Wohnraum, gesellschaftliche Polarisierung. Das nennt man <em>Spiritual Bypassing</em>: reale Probleme
-werden durch spirituelle oder ästhetische Rahmung übersprungen, statt sie konkret zu adressieren. Musik
-kann trösten, erden und verbinden – sie ersetzt aber keine Therapie, keine Sozialpolitik und keine
-handfeste Unterstützung. Wir verstehen Sternenstaub als einen Baustein neben anderen, nicht als Lösung
-für sich.</p>
+          <p>Kintsugi (jap. 金継ぎ, „Goldverbindung”) ist eine japanische Reparaturkunst für zerbrochene Keramik: Brüche werden nicht versteckt, sondern mit Gold sichtbar gemacht. Wir übernehmen dieses Bild mit Respekt vor seiner Herkunft – als geliehene Metapher, nicht als eigene Tradition, die wir beanspruchen.</p>
+          <p>Die Metapher hat eine reale Grenze: Sie kann „Brüche” ästhetisch verklären, wenn sie zu leicht auf strukturelle Probleme angewendet wird, die keine goldene Naht heilt – Armut, Kriegsangst, fehlender Wohnraum, gesellschaftliche Polarisierung. Das nennt man <em>Spiritual Bypassing</em>: reale Probleme werden durch spirituelle oder ästhetische Rahmung übersprungen, statt sie konkret zu adressieren. Musik kann trösten, erden und verbinden – sie ersetzt aber keine Therapie, keine Sozialpolitik und keine handfeste Unterstützung. Wir verstehen Sternenstaub als einen Baustein neben anderen, nicht als Lösung für sich.</p>
         </div>
         <div class="exo-panel" id="exo-panel-limits" role="tabpanel" aria-labelledby="exo-tab-limits">
           <h3>Grenzen im Überblick</h3>
           <ul>
-<li><strong>Kein Gesundheitsversprechen:</strong> 432 Hz, Klangarchitektur und Co-Regulation sind hier
-künstlerische, keine klinisch geprüften Interventionen. Bei ernsthaften psychischen Belastungen ersetzt
-diese Seite keine professionelle Unterstützung.</li>
-<li><strong>Technische Offline-Fähigkeit</strong> hängt von Browser, Betriebssystem und Hosting über
-https ab – siehe Tab „Technologisch”.</li>
-<li><strong>Übersetzungen:</strong> Alle 14 Sprachversionen der Oberfläche wurden sorgfältig, aber
-maschinell unterstützt erstellt. Vor einer großen Veröffentlichung lohnt sich ein Gegenlesen durch
-Muttersprachler:innen, besonders bei Vietnamesisch, Hindi, Arabisch, Farsi, Suaheli, Mandarin und
-Japanisch.</li>
-<li><strong>Audiodateien</strong> sind in diesem Code als flache relative Pfade referenziert (z. B.
-<code>./Reparatur-Code.mp3</code>) – die 31 MP3-Dateien beider Alben müssen im selben Verzeichnis wie
-diese HTML-Datei liegen, mit exakt identischen Dateinamen (Groß-/Kleinschreibung und Leerzeichen inklusive).</li>
-</ul>
+            <li><strong>Kein Gesundheitsversprechen:</strong> 432 Hz, Klangarchitektur und Co-Regulation sind hier künstlerische, keine klinisch geprüften Interventionen. Bei ernsthaften psychischen Belastungen ersetzt diese Seite keine professionelle Unterstützung.</li>
+            <li><strong>Technische Offline-Fähigkeit</strong> hängt von Browser, Betriebssystem und Hosting über https ab.</li>
+            <li><strong>Übersetzungen:</strong> Alle 14 Sprachversionen der Oberfläche und Titellisten wurden sorgfältig, maschinell unterstützt erstellt. Vor einer Veröffentlichung lohnt sich ein Gegenlesen durch Muttersprachler:innen.</li>
+            <li><strong>Audiodateien:</strong> Die 31 MP3-Dateien beider Alben müssen im selben Verzeichnis wie diese HTML-Datei auf GitHub bzw. im lokalen Ordner liegen.</li>
+          </ul>
         </div>
         <div class="exo-panel" id="exo-panel-evolution" role="tabpanel" aria-labelledby="exo-tab-evolution">
           <h3>Wie sich dieses System weiterentwickeln ließe</h3>
           <ul>
-<li>Ein echtes, separat gehostetes <code>sw.js</code> plus Web-App-Manifest als nächster Schritt über die
-aktuelle reine Cache-Storage-Lösung hinaus – für echte Installierbarkeit als PWA.</li>
-<li>Echte Wellenform-Analyse pro Titel statt Live-Analyse, für ein noch präziseres Audio-Reaktivität
-der Partikel.</li>
-<li>Ein Nutzer:innen-Test mit Screenreadern (VoiceOver, NVDA, TalkBack) zur Validierung der ARIA-Struktur.</li>
-<li>Muttersprachliches Lektorat aller 14 Sprachversionen, besonders der kulturell sensiblen Begriffe.</li>
-<li>Ein optionales, geteiltes „Hörprotokoll” – welche Frequenzen gerade weltweit laufen – als leichtgewichtiges
-Backend-Feature, ohne persönliche Daten zu speichern.</li>
-</ul>
+            <li>Ein echtes, separat gehostetes <code>sw.js</code> plus Web-App-Manifest für echte Installierbarkeit als PWA.</li>
+            <li>Echte Wellenform-Analyse pro Titel statt Live-Analyse für ein noch präziseres Audio-Reaktivität der Partikel.</li>
+            <li>Ein Nutzer:innen-Test mit Screenreadern (VoiceOver, NVDA, TalkBack) zur Validierung der ARIA-Struktur.</li>
+            <li>Muttersprachliches Lektorat aller 14 Sprachversionen.</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -1119,17 +1015,99 @@ Backend-Feature, ohne persönliche Daten zu speichern.</li>
 (function () {
   "use strict";
 
-  /* =====================================================================
-     0. Übersetzungen
-     ===================================================================== */
-  var I18N = {"de":{"brand":"Sternenstaub","nav_alben":"Alben","nav_netzwerk":"Netzwerk","nav_exo":"System & Grenzen","lang_label":"Sprache wählen","skip_link":"Zum Inhalt springen","hero_kicker":"Ein interdisziplinäres Musik-Manifest","hero_title":"Sternenstaub","hero_text":"Wir sind Projekt Sternenstaub – ein interdisziplinäres Musik-Manifest für regenerative Ökologie und somatische Resilienz. Klang als Werkzeug der Erdung, in einer Welt, die selten stillsteht.","hero_scroll":"Eintauchen","hero_offline_hint":"Läuft auch ohne Netz – einmal geladen, immer erreichbar.","alben_kicker":"Zwei Klangarchive","alben_title":"Die Alben","album1_name":"Lebendigkeit II","album1_sub":"Vietnam Edit · 432 Hz","album1_desc":"Feldaufnahmen und Neuinterpretationen aus Vietnam – vom Wunder vor der Haustür bis zur goldenen Sphäre.","album2_name":"Vom Dunkel ins Licht","album2_sub":"Co-Regulation · Reparatur-Code","album2_desc":"Die Studio-Fassung: 16 Titel – vom Intro bis zu zwei Bonus-Tracks.","open_album":"Album öffnen","tracks_label":"Titel","modal_close":"Schließen","tracklist_title":"Titelliste","now_playing":"Läuft gerade","nothing_playing":"Wähle einen Titel","play_label":"Abspielen","pause_label":"Pause","prev_label":"Vorheriger Titel","next_label":"Nächster Titel","volume_label":"Lautstärke","progress_label":"Wiedergabeposition","netzwerk_kicker":"Das Ökosystem","netzwerk_title":"Verbunden im Netzwerk","netzwerk_subtitle":"Weiterführende Räume der Stillen Revolution","link_landingpage_title":"Landingpage v1","link_landingpage_desc":"Der erste digitale Anlaufpunkt des Projekts.","link_soundcloud_title":"SoundCloud","link_soundcloud_desc":"Alle Frequenzen zum Hören und Teilen.","link_wegweiser_title":"Ein Wegweiser","link_wegweiser_desc":"Orientierung durch das Gesamtwerk der Stillen Revolution.","link_eltern_title":"Eltern-Portal","link_eltern_desc":"Für Familien: Co-Regulation im Alltag.","link_spiegelwelten_title":"Leas Spiegelwelten","link_spiegelwelten_desc":"Ein Kapitel für die jüngsten Hörer:innen.","link_visit":"Besuchen","exo_open":"System-Architektur & Grenzen","exo_title":"Das Exoskelett","exo_intro":"Jedes System hat Grenzen. Bevor du weiterhörst, zeigen wir dir unsere – ehrlich und ohne Umweg.","exo_tab_neuro":"Neurobiologisch","exo_tab_tech":"Technologisch","exo_tab_philo":"Philosophisch","exo_tab_limits":"Grenzen","exo_tab_evolution":"Weiterentwicklung","footer_made":"Gebaut als netzunabhängiges Klang-Archiv.","footer_rights":"Sternenstaub · Ein Projekt der Stillen Revolution.","noscript_text":"Diese Seite zeigt sich am schönsten mit aktiviertem JavaScript. Auch ohne findest du hier alle Alben, Titel und weiterführenden Links.","offline_notice":"Offline – zwischengespeicherte Inhalte aktiv.","missing_audio_hint":"Audiodatei lokal noch nicht vorhanden."},"en":{"brand":"Sternenstaub","nav_alben":"Albums","nav_netzwerk":"Network","nav_exo":"System & Limits","lang_label":"Choose language","skip_link":"Skip to content","hero_kicker":"An interdisciplinary music manifesto","hero_title":"Sternenstaub","hero_text":"We are Project Sternenstaub — an interdisciplinary music manifesto for regenerative ecology and somatic resilience. Sound as a tool for grounding, in a world that rarely stands still.","hero_scroll":"Dive in","hero_offline_hint":"Works without a connection — load it once, reach it always.","alben_kicker":"Two sound archives","alben_title":"The Albums","album1_name":"Lebendigkeit II","album1_sub":"Vietnam Edit · 432 Hz","album1_desc":"Field recordings and reinterpretations from Vietnam — from the wonder outside your door to the golden sphere.","album2_name":"From Darkness Into Light","album2_sub":"Co-regulation · Repair code","album2_desc":"The studio version: 16 tracks — from the intro to two bonus tracks.","open_album":"Open album","tracks_label":"tracks","modal_close":"Close","tracklist_title":"Tracklist","now_playing":"Now playing","nothing_playing":"Choose a track","play_label":"Play","pause_label":"Pause","prev_label":"Previous track","next_label":"Next track","volume_label":"Volume","progress_label":"Playback position","netzwerk_kicker":"The ecosystem","netzwerk_title":"Connected in the network","netzwerk_subtitle":"Further spaces of the Quiet Revolution","link_landingpage_title":"Landing page v1","link_landingpage_desc":"The project's first digital home.","link_soundcloud_title":"SoundCloud","link_soundcloud_desc":"All frequencies to listen to and share.","link_wegweiser_title":"A Guidepost","link_wegweiser_desc":"Orientation through the whole body of work.","link_eltern_title":"Parents' Portal","link_eltern_desc":"For families: co-regulation in everyday life.","link_spiegelwelten_title":"Lea's Mirror Worlds","link_spiegelwelten_desc":"A chapter for the youngest listeners.","link_visit":"Visit","exo_open":"System architecture & limits","exo_title":"The Exoskeleton","exo_intro":"Every system has limits. Before you listen on, here are ours — plainly, without detour.","exo_tab_neuro":"Neurobiological","exo_tab_tech":"Technological","exo_tab_philo":"Philosophical","exo_tab_limits":"Limits","exo_tab_evolution":"Further development","footer_made":"Built as a network-independent sound archive.","footer_rights":"Sternenstaub · A project of the Quiet Revolution.","noscript_text":"This page looks its best with JavaScript enabled. Even without it, you can find all albums, tracks and further links here.","offline_notice":"Offline — cached content is active.","missing_audio_hint":"Audio file not found locally yet."},"fr":{"brand":"Sternenstaub","nav_alben":"Albums","nav_netzwerk":"Réseau","nav_exo":"Système & limites","lang_label":"Choisir la langue","skip_link":"Aller au contenu","hero_kicker":"Un manifeste musical interdisciplinaire","hero_title":"Sternenstaub","hero_text":"Nous sommes le Projet Sternenstaub — un manifeste musical interdisciplinaire pour l'écologie régénérative et la résilience somatique. Le son comme outil d'ancrage, dans un monde qui s'arrête rarement.","hero_scroll":"Plonger","hero_offline_hint":"Fonctionne aussi sans connexion — chargez-le une fois, accédez-y toujours.","alben_kicker":"Deux archives sonores","alben_title":"Les albums","album1_name":"Lebendigkeit II","album1_sub":"Édition Vietnam · 432 Hz","album1_desc":"Enregistrements de terrain et réinterprétations venus du Vietnam — de l'émerveillement au pas de la porte jusqu'à la sphère dorée.","album2_name":"De l'obscurité à la lumière","album2_sub":"Co-régulation · Code de réparation","album2_desc":"La version studio : 16 titres — de l'intro à deux titres bonus.","open_album":"Ouvrir l'album","tracks_label":"titres","modal_close":"Fermer","tracklist_title":"Liste des titres","now_playing":"En cours de lecture","nothing_playing":"Choisissez un titre","play_label":"Lecture","pause_label":"Pause","prev_label":"Titre précédent","next_label":"Titre suivant","volume_label":"Volume","progress_label":"Position de lecture","netzwerk_kicker":"L'écosystème","netzwerk_title":"Connectés en réseau","netzwerk_subtitle":"D'autres espaces de la Révolution silencieuse","link_landingpage_title":"Page d'accueil v1","link_landingpage_desc":"Le premier point d'ancrage numérique du projet.","link_soundcloud_title":"SoundCloud","link_soundcloud_desc":"Toutes les fréquences à écouter et à partager.","link_wegweiser_title":"Un guide","link_wegweiser_desc":"Une orientation à travers l'ensemble de l'œuvre.","link_eltern_title":"Portail parents","link_eltern_desc":"Pour les familles : la co-régulation au quotidien.","link_spiegelwelten_title":"Les mondes-miroirs de Lea","link_spiegelwelten_desc":"Un chapitre pour les plus jeunes auditeurs et auditrices.","link_visit":"Visiter","exo_open":"Architecture du système & limites","exo_title":"L'Exosquelette","exo_intro":"Tout système a des limites. Avant d'aller plus loin, voici les nôtres — sans détour.","exo_tab_neuro":"Neurobiologique","exo_tab_tech":"Technologique","exo_tab_philo":"Philosophique","exo_tab_limits":"Limites","exo_tab_evolution":"Évolutions futures","footer_made":"Conçu comme une archive sonore indépendante du réseau.","footer_rights":"Sternenstaub · Un projet de la Révolution silencieuse.","noscript_text":"Cette page est plus belle avec JavaScript activé. Même sans, vous trouverez ici tous les albums, titres et liens complémentaires.","offline_notice":"Hors ligne — le contenu mis en cache est actif.","missing_audio_hint":"Fichier audio pas encore présent localement."},"es":{"brand":"Sternenstaub","nav_alben":"Álbumes","nav_netzwerk":"Red","nav_exo":"Sistema y límites","lang_label":"Elegir idioma","skip_link":"Ir al contenido","hero_kicker":"Un manifiesto musical interdisciplinario","hero_title":"Sternenstaub","hero_text":"Somos el Proyecto Sternenstaub — un manifiesto musical interdisciplinario para la ecología regenerativa y la resiliencia somática. El sonido como herramienta de arraigo, en un mundo que rara vez se detiene.","hero_scroll":"Sumergirse","hero_offline_hint":"Funciona incluso sin conexión — cárgalo una vez, accede siempre.","alben_kicker":"Dos archivos sonoros","alben_title":"Los álbumes","album1_name":"Lebendigkeit II","album1_sub":"Edición Vietnam · 432 Hz","album1_desc":"Grabaciones de campo y reinterpretaciones desde Vietnam — desde el asombro frente a tu puerta hasta la esfera dorada.","album2_name":"De la oscuridad a la luz","album2_sub":"Co-regulación · Código de reparación","album2_desc":"La versión de estudio: 16 pistas, desde la intro hasta dos pistas bonus.","open_album":"Abrir álbum","tracks_label":"pistas","modal_close":"Cerrar","tracklist_title":"Lista de pistas","now_playing":"Reproduciendo ahora","nothing_playing":"Elige una pista","play_label":"Reproducir","pause_label":"Pausa","prev_label":"Pista anterior","next_label":"Pista siguiente","volume_label":"Volumen","progress_label":"Posición de reproducción","netzwerk_kicker":"El ecosistema","netzwerk_title":"Conectados en la red","netzwerk_subtitle":"Más espacios de la Revolución Silenciosa","link_landingpage_title":"Página de aterrizaje v1","link_landingpage_desc":"El primer punto de encuentro digital del proyecto.","link_soundcloud_title":"SoundCloud","link_soundcloud_desc":"Todas las frecuencias para escuchar y compartir.","link_wegweiser_title":"Una guía","link_wegweiser_desc":"Orientación a través de toda la obra.","link_eltern_title":"Portal para familias","link_eltern_desc":"Para familias: co-regulación en el día a día.","link_spiegelwelten_title":"Los mundos-espejo de Lea","link_spiegelwelten_desc":"Un capítulo para los oyentes más jóvenes.","link_visit":"Visitar","exo_open":"Arquitectura del sistema y límites","exo_title":"El Exoesqueleto","exo_intro":"Todo sistema tiene límites. Antes de seguir escuchando, aquí están los nuestros — con honestidad, sin rodeos.","exo_tab_neuro":"Neurobiológico","exo_tab_tech":"Tecnológico","exo_tab_philo":"Filosófico","exo_tab_limits":"Límites","exo_tab_evolution":"Futuro desarrollo","footer_made":"Construido como un archivo sonoro independiente de la red.","footer_rights":"Sternenstaub · Un proyecto de la Revolución Silenciosa.","noscript_text":"Esta página se ve mejor con JavaScript activado. Aun sin él, aquí encontrarás todos los álbumes, pistas y enlaces adicionales.","offline_notice":"Sin conexión — el contenido en caché está activo.","missing_audio_hint":"El archivo de audio aún no está disponible localmente."},"pt":{"brand":"Sternenstaub","nav_alben":"Álbuns","nav_netzwerk":"Rede","nav_exo":"Sistema e limites","lang_label":"Escolher idioma","skip_link":"Ir para o conteúdo","hero_kicker":"Um manifesto musical interdisciplinar","hero_title":"Sternenstaub","hero_text":"Somos o Projeto Sternenstaub — um manifesto musical interdisciplinar para a ecologia regenerativa e a resiliência somática. O som como ferramenta de enraizamento, num mundo que raramente para.","hero_scroll":"Mergulhar","hero_offline_hint":"Funciona mesmo sem conexão — carregue uma vez, acesse sempre.","alben_kicker":"Dois arquivos sonoros","alben_title":"Os álbuns","album1_name":"Lebendigkeit II","album1_sub":"Edição Vietnã · 432 Hz","album1_desc":"Gravações de campo e reinterpretações vindas do Vietnã — da maravilha à porta de casa até a esfera dourada.","album2_name":"Da escuridão à luz","album2_sub":"Co-regulação · Código de reparo","album2_desc":"A versão de estúdio: 16 faixas, da abertura a duas faixas bônus.","open_album":"Abrir álbum","tracks_label":"faixas","modal_close":"Fechar","tracklist_title":"Lista de faixas","now_playing":"Tocando agora","nothing_playing":"Escolha uma faixa","play_label":"Reproduzir","pause_label":"Pausar","prev_label":"Faixa anterior","next_label":"Próxima faixa","volume_label":"Volume","progress_label":"Posição de reprodução","netzwerk_kicker":"O ecossistema","netzwerk_title":"Conectados na rede","netzwerk_subtitle":"Outros espaços da Revolução Silenciosa","link_landingpage_title":"Página inicial v1","link_landingpage_desc":"O primeiro ponto de encontro digital do projeto.","link_soundcloud_title":"SoundCloud","link_soundcloud_desc":"Todas as frequências para ouvir e compartilhar.","link_wegweiser_title":"Um guia","link_wegweiser_desc":"Orientação através de toda a obra.","link_eltern_title":"Portal para famílias","link_eltern_desc":"Para famílias: co-regulação no dia a dia.","link_spiegelwelten_title":"Os mundos-espelho de Lea","link_spiegelwelten_desc":"Um capítulo para os ouvintes mais jovens.","link_visit":"Visitar","exo_open":"Arquitetura do sistema e limites","exo_title":"O Exoesqueleto","exo_intro":"Todo sistema tem limites. Antes de continuar ouvindo, aqui estão os nossos — com honestidade, sem rodeios.","exo_tab_neuro":"Neurobiológico","exo_tab_tech":"Tecnológico","exo_tab_philo":"Filosófico","exo_tab_limits":"Limites","exo_tab_evolution":"Desenvolvimento futuro","footer_made":"Construído como um arquivo sonoro independente de rede.","footer_rights":"Sternenstaub · Um projeto da Revolução Silenciosa.","noscript_text":"Esta página fica melhor com JavaScript ativado. Mesmo sem ele, você encontra aqui todos os álbuns, faixas e links adicionais.","offline_notice":"Offline — conteúdo em cache está ativo.","missing_audio_hint":"Arquivo de áudio ainda não disponível localmente."},"pl":{"brand":"Sternenstaub","nav_alben":"Albumy","nav_netzwerk":"Sieć","nav_exo":"System i granice","lang_label":"Wybierz język","skip_link":"Przejdź do treści","hero_kicker":"Interdyscyplinarny manifest muzyczny","hero_title":"Sternenstaub","hero_text":"Jesteśmy Projektem Sternenstaub — interdyscyplinarnym manifestem muzycznym na rzecz regeneracyjnej ekologii i somatycznej odporności. Dźwięk jako narzędzie zakorzenienia, w świecie, który rzadko się zatrzymuje.","hero_scroll":"Zanurz się","hero_offline_hint":"Działa też bez połączenia — wczytaj raz, miej dostęp zawsze.","alben_kicker":"Dwa archiwa dźwiękowe","alben_title":"Albumy","album1_name":"Lebendigkeit II","album1_sub":"Edycja wietnamska · 432 Hz","album1_desc":"Nagrania terenowe i nowe interpretacje z Wietnamu — od cudu tuż za progiem po złotą sferę.","album2_name":"Z ciemności ku światłu","album2_sub":"Współregulacja · Kod naprawy","album2_desc":"Wersja studyjna: 16 utworów — od intra po dwa utwory bonusowe.","open_album":"Otwórz album","tracks_label":"utwory","modal_close":"Zamknij","tracklist_title":"Lista utworów","now_playing":"Teraz odtwarzane","nothing_playing":"Wybierz utwór","play_label":"Odtwórz","pause_label":"Pauza","prev_label":"Poprzedni utwór","next_label":"Następny utwór","volume_label":"Głośność","progress_label":"Pozycja odtwarzania","netzwerk_kicker":"Ekosystem","netzwerk_title":"Połączeni w sieci","netzwerk_subtitle":"Dalsze przestrzenie Cichej Rewolucji","link_landingpage_title":"Strona startowa v1","link_landingpage_desc":"Pierwszy cyfrowy punkt startowy projektu.","link_soundcloud_title":"SoundCloud","link_soundcloud_desc":"Wszystkie częstotliwości do słuchania i udostępniania.","link_wegweiser_title":"Drogowskaz","link_wegweiser_desc":"Orientacja po całym dziele.","link_eltern_title":"Portal dla rodziców","link_eltern_desc":"Dla rodzin: współregulacja na co dzień.","link_spiegelwelten_title":"Lustrzane światy Lei","link_spiegelwelten_desc":"Rozdział dla najmłodszych słuchaczy i słuchaczek.","link_visit":"Odwiedź","exo_open":"Architektura systemu i granice","exo_title":"Egzoszkielet","exo_intro":"Każdy system ma granice. Zanim posłuchasz dalej, oto nasze — otwarcie, bez owijania w bawełnę.","exo_tab_neuro":"Neurobiologiczna","exo_tab_tech":"Technologiczna","exo_tab_philo":"Filozoficzna","exo_tab_limits":"Granice","exo_tab_evolution":"Dalszy rozwój","footer_made":"Zbudowane jako archiwum dźwiękowe niezależne od sieci.","footer_rights":"Sternenstaub · Projekt Cichej Rewolucji.","noscript_text":"Ta strona wygląda najlepiej z włączonym JavaScriptem. Nawet bez niego znajdziesz tu wszystkie albumy, utwory i dodatkowe linki.","offline_notice":"Offline — aktywna jest zawartość z pamięci podręcznej.","missing_audio_hint":"Plik audio nie jest jeszcze dostępny lokalnie."},"ru":{"brand":"Sternenstaub","nav_alben":"Альбомы","nav_netzwerk":"Сеть","nav_exo":"Система и границы","lang_label":"Выбрать язык","skip_link":"Перейти к содержанию","hero_kicker":"Междисциплинарный музыкальный манифест","hero_title":"Sternenstaub","hero_text":"Мы — проект Sternenstaub, междисциплинарный музыкальный манифест регенеративной экологии и телесной устойчивости. Звук как инструмент заземления в мире, который редко замирает.","hero_scroll":"Погрузиться","hero_offline_hint":"Работает и без сети — загрузите один раз, будьте на связи всегда.","alben_kicker":"Два звуковых архива","alben_title":"Альбомы","album1_name":"Lebendigkeit II","album1_sub":"Вьетнамская версия · 432 Гц","album1_desc":"Полевые записи и новые интерпретации из Вьетнама — от чуда у порога дома до золотой сферы.","album2_name":"Из тьмы к свету","album2_sub":"Со-регуляция · Код восстановления","album2_desc":"Студийная версия: 16 треков — от интро до двух бонус-треков.","open_album":"Открыть альбом","tracks_label":"треков","modal_close":"Закрыть","tracklist_title":"Список треков","now_playing":"Сейчас играет","nothing_playing":"Выберите трек","play_label":"Играть","pause_label":"Пауза","prev_label":"Предыдущий трек","next_label":"Следующий трек","volume_label":"Громкость","progress_label":"Позиция воспроизведения","netzwerk_kicker":"Экосистема","netzwerk_title":"Связаны в сети","netzwerk_subtitle":"Другие пространства Тихой Революции","link_landingpage_title":"Landing page v1","link_landingpage_desc":"Первая цифровая точка входа проекта.","link_soundcloud_title":"SoundCloud","link_soundcloud_desc":"Все частоты для прослушивания и обмена.","link_wegweiser_title":"Путеводитель","link_wegweiser_desc":"Ориентир по всему творчеству.","link_eltern_title":"Портал для родителей","link_eltern_desc":"Для семей: со-регуляция в повседневности.","link_spiegelwelten_title":"Зеркальные миры Леи","link_spiegelwelten_desc":"Глава для самых юных слушателей и слушательниц.","link_visit":"Посетить","exo_open":"Архитектура системы и границы","exo_title":"Экзоскелет","exo_intro":"У каждой системы есть границы. Прежде чем слушать дальше — вот наши, честно и без обиняков.","exo_tab_neuro":"Нейробиологическая","exo_tab_tech":"Технологическая","exo_tab_philo":"Философская","exo_tab_limits":"Границы","exo_tab_evolution":"Дальнейшее развитие","footer_made":"Создано как звуковой архив, независимый от сети.","footer_rights":"Sternenstaub · Проект Тихой Революции.","noscript_text":"Эта страница выглядит лучше всего с включённым JavaScript. Но и без него здесь можно найти все альбомы, треки и другие ссылки.","offline_notice":"Офлайн — активно кэшированное содержимое.","missing_audio_hint":"Аудиофайл пока недоступен локально."},"vi":{"brand":"Sternenstaub","nav_alben":"Album","nav_netzwerk":"Mạng lưới","nav_exo":"Hệ thống & giới hạn","lang_label":"Chọn ngôn ngữ","skip_link":"Đến nội dung chính","hero_kicker":"Một tuyên ngôn âm nhạc liên ngành","hero_title":"Sternenstaub","hero_text":"Chúng tôi là Dự án Sternenstaub — một tuyên ngôn âm nhạc liên ngành cho sinh thái tái tạo và khả năng phục hồi của cơ thể. Âm thanh như một công cụ để neo giữ, trong một thế giới hiếm khi đứng yên.","hero_scroll":"Đắm mình","hero_offline_hint":"Vẫn hoạt động khi không có mạng — tải một lần, dùng mọi lúc.","alben_kicker":"Hai kho lưu trữ âm thanh","alben_title":"Các album","album1_name":"Lebendigkeit II","album1_sub":"Bản phối Việt Nam · 432 Hz","album1_desc":"Những bản thu thực địa và tái hiện từ Việt Nam — từ điều kỳ diệu ngay trước cửa nhà đến quả cầu vàng.","album2_name":"Từ bóng tối đến ánh sáng","album2_sub":"Đồng điều hòa · Mã sửa chữa","album2_desc":"Bản phối phòng thu: 16 bài hát — từ phần mở đầu đến hai bài hát bonus.","open_album":"Mở album","tracks_label":"bài hát","modal_close":"Đóng","tracklist_title":"Danh sách bài hát","now_playing":"Đang phát","nothing_playing":"Chọn một bài hát","play_label":"Phát","pause_label":"Tạm dừng","prev_label":"Bài trước","next_label":"Bài tiếp theo","volume_label":"Âm lượng","progress_label":"Vị trí phát","netzwerk_kicker":"Hệ sinh thái","netzwerk_title":"Kết nối trong mạng lưới","netzwerk_subtitle":"Những không gian khác của Cuộc Cách Mạng Thầm Lặng","link_landingpage_title":"Trang giới thiệu v1","link_landingpage_desc":"Điểm đến kỹ thuật số đầu tiên của dự án.","link_soundcloud_title":"SoundCloud","link_soundcloud_desc":"Tất cả các tần số để nghe và chia sẻ.","link_wegweiser_title":"Một chỉ dẫn","link_wegweiser_desc":"Định hướng xuyên suốt toàn bộ tác phẩm.","link_eltern_title":"Cổng thông tin cho cha mẹ","link_eltern_desc":"Dành cho gia đình: đồng điều hòa trong đời sống hằng ngày.","link_spiegelwelten_title":"Thế giới gương của Lea","link_spiegelwelten_desc":"Một chương dành cho những người nghe nhỏ tuổi nhất.","link_visit":"Ghé thăm","exo_open":"Kiến trúc hệ thống & giới hạn","exo_title":"Bộ Khung Ngoài","exo_intro":"Mọi hệ thống đều có giới hạn. Trước khi bạn nghe tiếp, đây là giới hạn của chúng tôi — thẳng thắn, không vòng vo.","exo_tab_neuro":"Thần kinh sinh học","exo_tab_tech":"Công nghệ","exo_tab_philo":"Triết học","exo_tab_limits":"Giới hạn","exo_tab_evolution":"Phát triển tiếp theo","footer_made":"Được xây dựng như một kho âm thanh độc lập với mạng.","footer_rights":"Sternenstaub · Một dự án của Cuộc Cách Mạng Thầm Lặng.","noscript_text":"Trang này hiển thị đẹp nhất khi bật JavaScript. Ngay cả khi không có, bạn vẫn có thể tìm thấy mọi album, bài hát và liên kết khác ở đây.","offline_notice":"Ngoại tuyến — nội dung đã lưu trong bộ nhớ đệm đang hoạt động.","missing_audio_hint":"Tệp âm thanh chưa có sẵn cục bộ."},"hi":{"brand":"Sternenstaub","nav_alben":"एल्बम","nav_netzwerk":"नेटवर्क","nav_exo":"सिस्टम और सीमाएं","lang_label":"भाषा चुनें","skip_link":"सामग्री पर जाएं","hero_kicker":"एक अंतःविषय संगीत घोषणापत्र","hero_title":"Sternenstaub","hero_text":"हम हैं प्रोजेक्ट Sternenstaub — पुनर्योजी पारिस्थितिकी और दैहिक लचीलेपन के लिए एक अंतःविषय संगीत घोषणापत्र। ध्वनि, धरती से जुड़ाव का एक साधन, ऐसी दुनिया में जो शायद ही कभी थमती है।","hero_scroll":"गहराई में उतरें","hero_offline_hint":"बिना इंटरनेट के भी चलता है — एक बार लोड करें, हमेशा पहुंचें।","alben_kicker":"दो ध्वनि अभिलेखागार","alben_title":"एल्बम","album1_name":"Lebendigkeit II","album1_sub":"वियतनाम संस्करण · 432 Hz","album1_desc":"वियतनाम से फील्ड रिकॉर्डिंग और नई व्याख्याएं — घर के दरवाजे के चमत्कार से लेकर सुनहरे गोले तक।","album2_name":"अंधकार से प्रकाश की ओर","album2_sub":"सह-नियमन · मरम्मत-कोड","album2_desc":"स्टूडियो संस्करण: 16 गीत — इंट्रो से लेकर दो बोनस गीतों तक।","open_album":"एल्बम खोलें","tracks_label":"गीत","modal_close":"बंद करें","tracklist_title":"गीत-सूची","now_playing":"अभी बज रहा है","nothing_playing":"एक गीत चुनें","play_label":"चलाएं","pause_label":"रोकें","prev_label":"पिछला गीत","next_label":"अगला गीत","volume_label":"आवाज़","progress_label":"प्लेबैक स्थिति","netzwerk_kicker":"पारितंत्र","netzwerk_title":"नेटवर्क में जुड़े","netzwerk_subtitle":"स्टिले रेवोल्यूशन (शांत क्रांति) के अन्य स्थान","link_landingpage_title":"लैंडिंग पेज v1","link_landingpage_desc":"प्रोजेक्ट का पहला डिजिटल ठिकाना।","link_soundcloud_title":"SoundCloud","link_soundcloud_desc":"सुनने और साझा करने के लिए सभी फ्रीक्वेंसी।","link_wegweiser_title":"एक मार्गदर्शक","link_wegweiser_desc":"पूरे कार्य में दिशा-निर्देश।","link_eltern_title":"अभिभावक पोर्टल","link_eltern_desc":"परिवारों के लिए: रोज़मर्रा में सह-नियमन।","link_spiegelwelten_title":"लीया की दर्पण-दुनिया","link_spiegelwelten_desc":"सबसे छोटे श्रोताओं के लिए एक अध्याय।","link_visit":"देखें","exo_open":"सिस्टम संरचना और सीमाएं","exo_title":"एक्सोस्केलेटन","exo_intro":"हर सिस्टम की सीमाएं होती हैं। आगे सुनने से पहले, यहां हमारी सीमाएं हैं — सीधे और बिना लाग-लपेट के।","exo_tab_neuro":"तंत्रिका-जैविक","exo_tab_tech":"तकनीकी","exo_tab_philo":"दार्शनिक","exo_tab_limits":"सीमाएं","exo_tab_evolution":"आगे का विकास","footer_made":"एक नेटवर्क-स्वतंत्र ध्वनि अभिलेखागार के रूप में बनाया गया।","footer_rights":"Sternenstaub · स्टिले रेवोल्यूशन की एक परियोजना।","noscript_text":"यह पेज JavaScript सक्षम होने पर सबसे अच्छा दिखता है। इसके बिना भी आपको यहां सभी एल्बम, गीत और अन्य लिंक मिल जाएंगे।","offline_notice":"ऑफ़लाइन — कैश्ड सामग्री सक्रिय है।","missing_audio_hint":"ऑडियो फ़ाइल अभी स्थानीय रूप से उपलब्ध नहीं है।"},"sw":{"brand":"Sternenstaub","nav_alben":"Albamu","nav_netzwerk":"Mtandao","nav_exo":"Mfumo na mipaka","lang_label":"Chagua lugha","skip_link":"Nenda kwenye maudhui","hero_kicker":"Ilani ya muziki ya taaluma mbalimbali","hero_title":"Sternenstaub","hero_text":"Sisi ni Mradi wa Sternenstaub — ilani ya muziki ya taaluma mbalimbali kwa ajili ya ekolojia inayojijenga upya na uimara wa mwili. Sauti kama chombo cha kutulia, katika dunia isiyosimama mara chache.","hero_scroll":"Ingia ndani","hero_offline_hint":"Inafanya kazi hata bila mtandao — pakia mara moja, fikia wakati wowote.","alben_kicker":"Hazina mbili za sauti","alben_title":"Albamu","album1_name":"Lebendigkeit II","album1_sub":"Toleo la Vietnam · 432 Hz","album1_desc":"Rekodi za nyanjani na tafsiri mpya kutoka Vietnam — kutoka ajabu mlangoni mwako hadi tufe ya dhahabu.","album2_name":"Kutoka Gizani Kuja Nuruni","album2_sub":"Uratibu wa pamoja · Msimbo wa ukarabati","album2_desc":"Toleo la studio: nyimbo 16 — kutoka utangulizi hadi nyimbo mbili za ziada.","open_album":"Fungua albamu","tracks_label":"nyimbo","modal_close":"Funga","tracklist_title":"Orodha ya nyimbo","now_playing":"Inayochezwa sasa","nothing_playing":"Chagua wimbo","play_label":"Cheza","pause_label":"Simamisha","prev_label":"Wimbo uliopita","next_label":"Wimbo unaofuata","volume_label":"Sauti","progress_label":"Kiwango cha uchezaji","netzwerk_kicker":"Mfumo wa ikolojia","netzwerk_title":"Tumeunganishwa kwenye mtandao","netzwerk_subtitle":"Nafasi zingine za Mapinduzi Kimya","link_landingpage_title":"Ukurasa wa kutua v1","link_landingpage_desc":"Sehemu ya kwanza ya kidijitali ya mradi.","link_soundcloud_title":"SoundCloud","link_soundcloud_desc":"Masafa yote ya kusikiliza na kushiriki.","link_wegweiser_title":"Kiongozi","link_wegweiser_desc":"Mwelekeo katika kazi nzima.","link_eltern_title":"Lango la wazazi","link_eltern_desc":"Kwa familia: uratibu wa pamoja katika maisha ya kila siku.","link_spiegelwelten_title":"Dunia za Kioo za Lea","link_spiegelwelten_desc":"Sura kwa wasikilizaji wadogo zaidi.","link_visit":"Tembelea","exo_open":"Muundo wa mfumo na mipaka","exo_title":"Exoskeleton","exo_intro":"Kila mfumo una mipaka. Kabla hujaendelea kusikiliza, hii ni mipaka yetu — kwa uwazi, bila kuzunguka.","exo_tab_neuro":"Kibiolojia-neva","exo_tab_tech":"Kiteknolojia","exo_tab_philo":"Kifalsafa","exo_tab_limits":"Mipaka","exo_tab_evolution":"Maendeleo yajayo","footer_made":"Imejengwa kama hazina ya sauti isiyotegemea mtandao.","footer_rights":"Sternenstaub · Mradi wa Mapinduzi Kimya.","noscript_text":"Ukurasa huu unaonekana vizuri zaidi ukiwa na JavaScript imewashwa. Hata bila hiyo, utapata albamu zote, nyimbo na viungo zaidi hapa.","offline_notice":"Nje ya mtandao — maudhui yaliyohifadhiwa yanatumika.","missing_audio_hint":"Faili la sauti bado halipatikani hapa kwa sasa."},"fa":{"brand":"Sternenstaub","nav_alben":"آلبوم‌ها","nav_netzwerk":"شبکه","nav_exo":"سامانه و محدودیت‌ها","lang_label":"انتخاب زبان","skip_link":"رفتن به محتوا","hero_kicker":"یک بیانیه‌ی موسیقایی میان‌رشته‌ای","hero_title":"Sternenstaub","hero_text":"ما پروژه‌ی اشترنن‌اشتاوب هستیم — بیانیه‌ای موسیقایی و میان‌رشته‌ای برای بوم‌شناسی بازآفرین و تاب‌آوری جسمانی. صدا به‌عنوان ابزاری برای زمین‌گیر شدن، در دنیایی که به‌ندرت آرام می‌گیرد.","hero_scroll":"غرق شو","hero_offline_hint":"حتی بدون اتصال هم کار می‌کند — یک‌بار بارگذاری کن، همیشه در دسترس باش.","alben_kicker":"دو بایگانی صوتی","alben_title":"آلبوم‌ها","album1_name":"Lebendigkeit II","album1_sub":"ویرایش ویتنام · ۴۳۲ هرتز","album1_desc":"ضبط‌های میدانی و بازخوانی‌هایی از ویتنام — از شگفتی جلوی درِ خانه تا کره‌ی طلایی.","album2_name":"از تاریکی به سوی روشنایی","album2_sub":"هم‌تنظیمی · کدِ ترمیم","album2_desc":"نسخه‌ی استودیویی: ۱۶ قطعه — از مقدمه تا دو قطعه‌ی هدیه.","open_album":"باز کردن آلبوم","tracks_label":"قطعه","modal_close":"بستن","tracklist_title":"فهرست قطعات","now_playing":"درحال پخش","nothing_playing":"یک قطعه انتخاب کن","play_label":"پخش","pause_label":"توقف موقت","prev_label":"قطعه‌ی قبلی","next_label":"قطعه‌ی بعدی","volume_label":"میزان صدا","progress_label":"موقعیت پخش","netzwerk_kicker":"اکوسیستم","netzwerk_title":"پیوسته در شبکه","netzwerk_subtitle":"فضاهای دیگر انقلاب خاموش","link_landingpage_title":"صفحه‌ی فرود نسخه‌ی ۱","link_landingpage_desc":"نخستین نقطه‌ی دیجیتال پروژه.","link_soundcloud_title":"SoundCloud","link_soundcloud_desc":"همه‌ی فرکانس‌ها برای شنیدن و اشتراک‌گذاری.","link_wegweiser_title":"یک راهنما","link_wegweiser_desc":"جهت‌یابی در سراسر این اثر.","link_eltern_title":"درگاه والدین","link_eltern_desc":"برای خانواده‌ها: هم‌تنظیمی در زندگی روزمره.","link_spiegelwelten_title":"دنیاهای آینه‌ای لیا","link_spiegelwelten_desc":"فصلی برای کوچک‌ترین شنوندگان.","link_visit":"بازدید","exo_open":"معماری سامانه و محدودیت‌ها","exo_title":"برون‌اسکلت","exo_intro":"هر سامانه‌ای محدودیت‌هایی دارد. پیش از ادامه‌ی شنیدن، این‌ها محدودیت‌های ما هستند — صریح و بدون واسطه.","exo_tab_neuro":"عصب‌زیستی","exo_tab_tech":"فناورانه","exo_tab_philo":"فلسفی","exo_tab_limits":"محدودیت‌ها","exo_tab_evolution":"توسعه‌ی آینده","footer_made":"ساخته‌شده به‌عنوان بایگانی صوتیِ مستقل از شبکه.","footer_rights":"Sternenstaub · پروژه‌ای از انقلاب خاموش.","noscript_text":"این صفحه با فعال بودن جاوااسکریپت بهترین حالت را دارد. حتی بدون آن هم می‌توانید همه‌ی آلبوم‌ها، قطعات و پیوندهای دیگر را اینجا بیابید.","offline_notice":"آفلاین — محتوای ذخیره‌شده فعال است.","missing_audio_hint":"فایل صوتی هنوز به‌صورت محلی موجود نیست."},"ar":{"brand":"Sternenstaub","nav_alben":"الألبومات","nav_netzwerk":"الشبكة","nav_exo":"النظام والحدود","lang_label":"اختر اللغة","skip_link":"الانتقال إلى المحتوى","hero_kicker":"بيان موسيقي متعدد التخصصات","hero_title":"Sternenstaub","hero_text":"نحن مشروع Sternenstaub — بيان موسيقي متعدد التخصصات من أجل البيئة التجديدية والمرونة الجسدية. الصوت كأداة للتجذّر، في عالم نادرًا ما يهدأ.","hero_scroll":"انغمس","hero_offline_hint":"يعمل حتى بدون اتصال — حمّله مرة واحدة، واصله دائمًا.","alben_kicker":"أرشيفان صوتيان","alben_title":"الألبومات","album1_name":"Lebendigkeit II","album1_sub":"نسخة فيتنام · 432 هرتز","album1_desc":"تسجيلات ميدانية وإعادة تفسير من فيتنام — من الدهشة أمام الباب إلى الكرة الذهبية.","album2_name":"من الظلام إلى النور","album2_sub":"التنظيم المشترك · شيفرة الترميم","album2_desc":"النسخة الاستوديوية: 16 مقطوعة — من المقدمة إلى مقطوعتين إضافيتين.","open_album":"فتح الألبوم","tracks_label":"مقطوعة","modal_close":"إغلاق","tracklist_title":"قائمة المقطوعات","now_playing":"قيد التشغيل الآن","nothing_playing":"اختر مقطوعة","play_label":"تشغيل","pause_label":"إيقاف مؤقت","prev_label":"المقطوعة السابقة","next_label":"المقطوعة التالية","volume_label":"مستوى الصوت","progress_label":"موضع التشغيل","netzwerk_kicker":"النظام البيئي","netzwerk_title":"متصلون عبر الشبكة","netzwerk_subtitle":"مساحات أخرى من الثورة الصامتة","link_landingpage_title":"صفحة الهبوط v1","link_landingpage_desc":"أول نقطة رقمية للمشروع.","link_soundcloud_title":"SoundCloud","link_soundcloud_desc":"كل الترددات للاستماع والمشاركة.","link_wegweiser_title":"دليل إرشادي","link_wegweiser_desc":"توجيه عبر العمل بأكمله.","link_eltern_title":"بوابة الأهل","link_eltern_desc":"للعائلات: التنظيم المشترك في الحياة اليومية.","link_spiegelwelten_title":"عوالم ليا العاكسة","link_spiegelwelten_desc":"فصل لأصغر المستمعين والمستمعات.","link_visit":"زيارة","exo_open":"معمارية النظام والحدود","exo_title":"الهيكل الخارجي","exo_intro":"لكل نظام حدود. قبل أن تُكمل الاستماع، إليك حدودنا — بصراحة ودون التفاف.","exo_tab_neuro":"عصبي حيوي","exo_tab_tech":"تقني","exo_tab_philo":"فلسفي","exo_tab_limits":"الحدود","exo_tab_evolution":"التطوير المستقبلي","footer_made":"بُني كأرشيف صوتي مستقل عن الشبكة.","footer_rights":"Sternenstaub · مشروع من الثورة الصامتة.","noscript_text":"تبدو هذه الصفحة في أفضل حالاتها عند تفعيل جافاسكريبت. وحتى بدونها، ستجد هنا جميع الألبومات والمقطوعات والروابط الإضافية.","offline_notice":"غير متصل — المحتوى المخزَّن مؤقتًا نشط.","missing_audio_hint":"الملف الصوتي غير متوفر محليًا بعد."},"zh":{"brand":"Sternenstaub","nav_alben":"专辑","nav_netzwerk":"网络","nav_exo":"系统与边界","lang_label":"选择语言","skip_link":"跳至内容","hero_kicker":"一份跨学科的音乐宣言","hero_title":"Sternenstaub","hero_text":"我们是「星尘计划」(Sternenstaub)——一份关于再生生态与身体韧性的跨学科音乐宣言。声音作为扎根的工具，在一个很少静止的世界里。","hero_scroll":"深入其中","hero_offline_hint":"断网也能使用——加载一次，随时可及。","alben_kicker":"两座声音档案","alben_title":"专辑","album1_name":"Lebendigkeit II","album1_sub":"越南版 · 432 赫兹","album1_desc":"来自越南的实地录音与重新演绎——从家门口的奇迹，到那片金色的天地。","album2_name":"从黑暗走向光明","album2_sub":"共同调节 · 修复代码","album2_desc":"录音室版本：16首曲目——从序曲到两首附赠曲目。","open_album":"打开专辑","tracks_label":"首曲目","modal_close":"关闭","tracklist_title":"曲目列表","now_playing":"正在播放","nothing_playing":"请选择一首曲目","play_label":"播放","pause_label":"暂停","prev_label":"上一首","next_label":"下一首","volume_label":"音量","progress_label":"播放进度","netzwerk_kicker":"生态系统","netzwerk_title":"在网络中相连","netzwerk_subtitle":"「静默革命」的更多空间","link_landingpage_title":"落地页 v1","link_landingpage_desc":"项目最初的数字据点。","link_soundcloud_title":"SoundCloud","link_soundcloud_desc":"所有可供聆听与分享的频率。","link_wegweiser_title":"一份指南","link_wegweiser_desc":"带你了解整部作品的脉络。","link_eltern_title":"家长专区","link_eltern_desc":"献给家庭：日常生活中的共同调节。","link_spiegelwelten_title":"莉亚的镜像世界","link_spiegelwelten_desc":"献给最年幼的聆听者的篇章。","link_visit":"前往访问","exo_open":"系统架构与边界","exo_title":"外骨骼","exo_intro":"每个系统都有边界。在你继续聆听之前，这是我们的边界——坦诚，不绕弯子。","exo_tab_neuro":"神经生物学","exo_tab_tech":"技术层面","exo_tab_philo":"哲学层面","exo_tab_limits":"边界","exo_tab_evolution":"未来发展","footer_made":"打造为一座不依赖网络的声音档案。","footer_rights":"Sternenstaub ·「静默革命」的一个项目。","noscript_text":"启用 JavaScript 后本页面呈现效果最佳。即使未启用，你仍可在此找到所有专辑、曲目与相关链接。","offline_notice":"离线中——已启用缓存内容。","missing_audio_hint":"音频文件尚未在本地就绪。"},"ja":{"brand":"Sternenstaub","nav_alben":"アルバム","nav_netzwerk":"ネットワーク","nav_exo":"システムと限界","lang_label":"言語を選択","skip_link":"本文へスキップ","hero_kicker":"学際的な音楽マニフェスト","hero_title":"Sternenstaub","hero_text":"私たちはプロジェクト・シュテルネンシュタウプ(Sternenstaub)——再生的な生態系と身体的レジリエンスのための、学際的な音楽マニフェストです。めったに立ち止まらない世界の中で、音をグラウンディングの道具として。","hero_scroll":"深く潜る","hero_offline_hint":"オフラインでも動作します——一度読み込めば、いつでもアクセスできます。","alben_kicker":"ふたつの音の記録庫","alben_title":"アルバム","album1_name":"Lebendigkeit II","album1_sub":"ベトナム版 · 432Hz","album1_desc":"ベトナムでのフィールド録音と新たな解釈——玄関先の奇跡から黄金の球体まで。","album2_name":"闇から光へ","album2_sub":"コ・レギュレーション · 修復コード","album2_desc":"スタジオ版：16曲——イントロから2曲のボーナストラックまで。","open_album":"アルバムを開く","tracks_label":"曲","modal_close":"閉じる","tracklist_title":"収録曲一覧","now_playing":"再生中","nothing_playing":"曲を選んでください","play_label":"再生","pause_label":"一時停止","prev_label":"前の曲","next_label":"次の曲","volume_label":"音量","progress_label":"再生位置","netzwerk_kicker":"エコシステム","netzwerk_title":"ネットワークでつながる","netzwerk_subtitle":"「静かな革命」のその他の空間","link_landingpage_title":"ランディングページ v1","link_landingpage_desc":"プロジェクト最初のデジタル拠点。","link_soundcloud_title":"SoundCloud","link_soundcloud_desc":"聴いて、共有できるすべての周波数。","link_wegweiser_title":"道しるべ","link_wegweiser_desc":"作品全体をめぐるための案内。","link_eltern_title":"保護者向けポータル","link_eltern_desc":"家族のために——日常の中のコ・レギュレーション。","link_spiegelwelten_title":"レアの鏡の世界","link_spiegelwelten_desc":"いちばん小さなリスナーたちのための一章。","link_visit":"訪れる","exo_open":"システム構造と限界","exo_title":"エクソスケルトン","exo_intro":"どんなシステムにも限界があります。この先を聴く前に、私たちの限界を——率直に、遠回しにせず。","exo_tab_neuro":"神経生物学的","exo_tab_tech":"技術的","exo_tab_philo":"哲学的","exo_tab_limits":"限界","exo_tab_evolution":"今後の発展","footer_made":"ネットワークに依存しない音の記録庫として構築。","footer_rights":"Sternenstaub ·「静かな革命」のプロジェクト。","noscript_text":"このページはJavaScriptを有効にすると最も美しく表示されます。無効の場合でも、すべてのアルバム、収録曲、関連リンクをここで見つけられます。","offline_notice":"オフライン——キャッシュされたコンテンツが有効です。","missing_audio_hint":"音声ファイルはまだローカルに用意されていません。"}};
+  /* 0. Multi-Language Dictionary (Inklusive Vi, En, De, Fr, Es etc. & Track-Übersetzungen) */
+  var I18N = {
+    "de": {
+      "brand": "Sternenstaub", "nav_alben": "Alben", "nav_netzwerk": "Netzwerk", "nav_exo": "System & Grenzen", "lang_label": "Sprache wählen", "skip_link": "Zum Inhalt springen",
+      "hero_kicker": "Ein interdisziplinäres Musik-Manifest", "hero_title": "Sternenstaub", "hero_text": "Wir sind Projekt Sternenstaub – ein interdisziplinäres Musik-Manifest für regenerative Ökologie und somatische Resilienz. Klang als Werkzeug der Erdung, in einer Welt, die selten stillsteht.",
+      "hero_scroll": "Eintauchen", "hero_offline_hint": "Läuft auch ohne Netz – einmal geladen, immer erreichbar.", "alben_kicker": "Zwei Klangarchive", "alben_title": "Die Alben",
+      "album1_name": "Lebendigkeit II", "album1_sub": "Vietnam Edit · 432 Hz", "album1_desc": "Feldaufnahmen und Neuinterpretationen aus Vietnam – vom Wunder vor der Haustür bis zur goldenen Sphäre.",
+      "album2_name": "Vom Dunkel ins Licht", "album2_sub": "Co-Regulation · Reparatur-Code", "album2_desc": "Die Studio-Fassung: 16 Titel – vom Intro bis zu zwei Bonus-Tracks.",
+      "open_album": "Album öffnen", "tracks_label": "Titel", "modal_close": "Schließen", "tracklist_title": "Titelliste", "now_playing": "Läuft gerade", "nothing_playing": "Wähle einen Titel",
+      "play_label": "Abspielen", "pause_label": "Pause", "prev_label": "Vorheriger Titel", "next_label": "Nächster Titel", "volume_label": "Lautstärke", "progress_label": "Wiedergabeposition",
+      "netzwerk_kicker": "Das Ökosystem", "netzwerk_title": "Verbunden im Netzwerk", "netzwerk_subtitle": "Weiterführende Räume der Stillen Revolution",
+      "link_landingpage_title": "Landingpage v1", "link_landingpage_desc": "Der erste digitale Anlaufpunkt des Projekts.", "link_soundcloud_title": "SoundCloud", "link_soundcloud_desc": "Alle Frequenzen zum Hören und Teilen.", "link_wegweiser_title": "Ein Wegweiser", "link_wegweiser_desc": "Orientierung durch das Gesamtwerk der Stillen Revolution.", "link_eltern_title": "Eltern-Portal", "link_eltern_desc": "Für Familien: Co-Regulation im Alltag.", "link_spiegelwelten_title": "Leas Spiegelwelten", "link_spiegelwelten_desc": "Ein Kapitel für die jüngsten Hörer:innen.", "link_visit": "Besuchen",
+      "exo_open": "System-Architektur & Grenzen", "exo_title": "Das Exoskelett", "exo_intro": "Jedes System hat Grenzen. Bevor du weiterhörst, zeigen wir dir unsere – ehrlich und ohne Umweg.",
+      "exo_tab_neuro": "Neurobiologisch", "exo_tab_tech": "Technologisch", "exo_tab_philo": "Philosophisch", "exo_tab_limits": "Grenzen", "exo_tab_evolution": "Weiterentwicklung",
+      "footer_made": "Gebaut als netzunabhängiges Klang-Archiv.", "footer_rights": "Sternenstaub · Ein Projekt der Stillen Revolution.", "offline_notice": "Offline – zwischengespeicherte Inhalte aktiv.", "missing_audio_hint": "Audiodatei lokal noch nicht vorhanden.",
+      "a1_t1_title": "Intro Mitten im Licht", "a1_t1_blurb": "Das Tor zur goldenen Sphäre – Ankunft, bevor die Reise beginnt.",
+      "a1_t2_title": "Willkommen im Jetzt", "a1_t2_blurb": "Eine sanfte Landung im gegenwärtigen Moment.",
+      "a1_t3_title": "Das Dazwischen", "a1_t3_blurb": "Der Raum zwischen Herz und Verstand, in dem echte Verbindung entsteht.",
+      "a1_t4_title": "Reparatur-Code", "a1_t4_blurb": "Wissen wird nicht zur Waffe, sondern zum Werkzeug des Kittens.",
+      "a1_t5_title": "Lichtbrücke", "a1_t5_blurb": "Eine Melodie, die zwei entfernte Herzen über die Distanz verbindet.",
+      "a1_t6_title": "Das WIR-Feld", "a1_t6_blurb": "Ein Feld, in dem viele Herzschläge zu einem gemeinsamen Rhythmus finden.",
+      "a1_t7_title": "Frequenzwechsel", "a1_t7_blurb": "Der bewusste Sprung von Anspannung in einen weicheren Zustand.",
+      "a1_t8_title": "Rhythmus der Befreiung", "a1_t8_blurb": "Bewegung als Ventil – der Körper tanzt, was Worte nicht sagen können.",
+      "a1_t9_title": "Goldene Stunde (Das Jetzt)", "a1_t9_blurb": "Das Licht kurz vor Sonnenuntergang als Einladung, nichts zu wollen außer da zu sein.",
+      "a1_t10_title": "Splitter und Narben (Kintsugi)", "a1_t10_blurb": "Brüche werden mit Gold gefüllt, nicht versteckt.",
+      "a1_t11_title": "Der Funke der Welt", "a1_t11_blurb": "Ein einzelner Impuls, der eine Kettenreaktion aus Hoffnung auslöst.",
+      "a1_t12_title": "Das Wunder vor der Haustür", "a1_t12_blurb": "Alltägliches neu gesehen – Staunen muss nicht weit reisen.",
+      "a1_t13_title": "Willkommen in der goldenen Sphäre", "a1_t13_blurb": "Der Übergang vom Schatten in einen warmen, geteilten Raum.",
+      "a1_t14_title": "Vietnamesischer Instrumental-Bonus-Track", "a1_t14_blurb": "Eine rein instrumentale Reise ohne Worte, getragen von Vietnams Klangfarben.",
+      "a1_t15_title": "Der letzte Puls (Outro)", "a1_t15_blurb": "Ein ruhiger Ausklang – der Herzschlag, der bleibt, wenn die Musik verklingt."
+    },
+    "vi": {
+      "brand": "Sternenstaub", "nav_alben": "Album", "nav_netzwerk": "Mạng lưới", "nav_exo": "Hệ thống & Giới hạn", "lang_label": "Chọn ngôn ngữ", "skip_link": "Bỏ qua đến nội dung",
+      "hero_kicker": "Tuyên ngôn âm nhạc liên ngành", "hero_title": "Sternenstaub", "hero_text": "Chúng tôi là Dự án Sternenstaub – tuyên ngôn âm nhạc cho sinh thái tái tạo và sự phục hồi của cơ thể. Âm thanh là công cụ neo giữ tâm hồn trong một thế giới vội vã.",
+      "hero_scroll": "Khám phá", "hero_offline_hint": "Hoạt động không cần mạng – tải một lần, nghe mãi mãi.", "alben_kicker": "Hai kho lưu trữ âm thanh", "alben_title": "Danh sách Album",
+      "album1_name": "Sức Sống II (Lebendigkeit II)", "album1_sub": "Phiên bản Việt Nam · 432 Hz", "album1_desc": "Thu âm thực địa và phối khí lại từ Việt Nam – từ phép màu trước hiên nhà đến vùng cầu ánh sáng vàng.",
+      "album2_name": "Từ Bóng Tối Ra Ánh Sáng", "album2_sub": "Đồng Điều Hòa · Mã Sửa Chữa", "album2_desc": "Bản thu Studio: 16 bài hát – từ đoạn mở đầu đến hai bản nhạc thưởng.",
+      "open_album": "Mở Album", "tracks_label": "Bài hát", "modal_close": "Đóng", "tracklist_title": "Danh sách bài hát", "now_playing": "Đang phát", "nothing_playing": "Chọn một bài hát",
+      "play_label": "Phát", "pause_label": "Tạm dừng", "prev_label": "Bài trước", "next_label": "Bài tiếp theo", "volume_label": "Âm lượng", "progress_label": "Tiến trình",
+      "netzwerk_kicker": "Hệ sinh thái", "netzwerk_title": "Kết nối mạng lưới", "netzwerk_subtitle": "Các không gian mở rộng của Cuộc Cách Mạng Lặng Lẽ",
+      "link_landingpage_title": "Trang chủ v1", "link_landingpage_desc": "Điểm khởi đầu kỹ thuật số của dự án.", "link_soundcloud_title": "SoundCloud", "link_soundcloud_desc": "Tất cả tần số âm thanh để nghe và chia sẻ.", "link_wegweiser_title": "Kim chỉ nam", "link_wegweiser_desc": "Định hướng toàn bộ tác phẩm.", "link_eltern_title": "Cổng thông tin Cha Mẹ", "link_eltern_desc": "Dành cho gia đình: Đồng điều hòa đời sống.", "link_spiegelwelten_title": "Thế giới gương của Lea", "link_spiegelwelten_desc": "Dành cho những thính giả nhỏ tuổi.", "link_visit": "Truy cập",
+      "exo_open": "Kiến trúc hệ thống & Giới hạn", "exo_title": "Bộ khung Kháng lực (Exoskeleton)", "exo_intro": "Mọi hệ thống đều có giới hạn. Trước khi nghe tiếp, đây là những giới hạn trung thực của chúng tôi.",
+      "exo_tab_neuro": "Sinh học thần kinh", "exo_tab_tech": "Công nghệ", "exo_tab_philo": "Triết học", "exo_tab_limits": "Giới hạn", "exo_tab_evolution": "Phát triển",
+      "footer_made": "Được xây dựng như một kho lưu trữ âm thanh độc lập với mạng đệm.", "footer_rights": "Sternenstaub · Một dự án thuộc Cuộc Cách Mạng Lặng Lẽ.", "offline_notice": "Ngoại tuyến – Đang dùng dữ liệu bộ nhớ đệm.", "missing_audio_hint": "Tệp âm thanh chưa có sẵn tại máy.",
+      "a1_t1_title": "Khởi đầu trong Ánh sáng (Intro Mitten im Licht)", "a1_t1_blurb": "Cánh cổng bước vào vùng cầu ánh sáng – Bình yên trước chuyến hành trình.",
+      "a1_t2_title": "Chào mừng đến Hiện tại (Willkommen im Jetzt)", "a1_t2_blurb": "Sự đáp cánh nhẹ nhàng xuống khoảnh khắc ngay lúc này.",
+      "a1_t3_title": "Khoảng Không Giữa Hợp (Das Dazwischen)", "a1_t3_blurb": "Khoảng không giữa trái tim và trí tuệ, nơi sự kết nối chân thật nảy mầm.",
+      "a1_t4_title": "Mã Sửa Chữa (Reparatur-Code)", "a1_t4_blurb": "Tri thức không phải là vũ khí, mà là công cụ để hàn gắn tổn thương.",
+      "a1_t5_title": "Cầu Ánh Sáng (Lichtbrücke)", "a1_t5_blurb": "Giai điệu kết nối hai tâm hồn dù ở khoảng cách xa xôi.",
+      "a1_t6_title": "Trường Chúng Ta (Das WIR-Feld)", "a1_t6_blurb": "Trường năng lượng nơi nhiều nhịp đập hòa cùng một nhịp thở.",
+      "a1_t7_title": "Chuyển Tần Số (Frequenzwechsel)", "a1_t7_blurb": "Bước chuyển chủ động từ căng thẳng sang trạng thái thư thái.",
+      "a1_t8_title": "Nhịp Điệu Giải Phóng (Rhythmus der Befreiung)", "a1_t8_blurb": "Chuyển động giải tỏa – Cơ thể nhảy múa những điều lời nói không thể diễn tả.",
+      "a1_t9_title": "Giờ Hoàng Kim (Goldene Stunde)", "a1_t9_blurb": "Ánh hoàng hôn buông xuống như lời mời hiện diện nguyên bản.",
+      "a1_t10_title": "Mảnh Vỡ & Vết Sẹo Kintsugi", "a1_t10_blurb": "Vết nứt được gắn hàn bằng vàng, không che giấu mà tôn vinh.",
+      "a1_t11_title": "Tia Sáng Thế Giới (Der Funke der Welt)", "a1_t11_blurb": "Một nhịp xung đơn lẻ khởi đầu phản ứng dây chuyền của hy vọng.",
+      "a1_t12_title": "Phép Màu Trước Hiên Nhà", "a1_t12_blurb": "Góc nhìn mới về điều bình dị – Sự kinh ngạc không cần tìm đâu xa.",
+      "a1_t13_title": "Chào mừng đến Vùng Cầu Ánh Sáng Vàng", "a1_t13_blurb": "Sự chuyển dịch từ bóng tối bước vào không gian ấm áp sẻ chia.",
+      "a1_t14_title": "Bản Nhạc Nhạc Cụ Việt Nam (Bonus Track)", "a1_t14_blurb": "Hành trình hòa tấu không lời mang đậm âm hưởng cảnh sắc Việt Nam.",
+      "a1_t15_title": "Nhịp Đập Cuối Cùng (Outro)", "a1_t15_blurb": "Dư âm lắng lắng – Nhịp đập con tim còn mãi khi tiếng nhạc tan đi."
+    },
+    "en": {
+      "brand": "Sternenstaub", "nav_alben": "Albums", "nav_netzwerk": "Network", "nav_exo": "System & Limits", "lang_label": "Choose language", "skip_link": "Skip to content",
+      "hero_kicker": "An interdisciplinary music manifesto", "hero_title": "Sternenstaub", "hero_text": "We are Project Sternenstaub — an interdisciplinary music manifesto for regenerative ecology and somatic resilience. Sound as a tool for grounding, in a world that rarely stands still.",
+      "hero_scroll": "Dive in", "hero_offline_hint": "Works without a connection — load it once, reach it always.", "alben_kicker": "Two sound archives", "alben_title": "The Albums",
+      "album1_name": "Lebendigkeit II", "album1_sub": "Vietnam Edit · 432 Hz", "album1_desc": "Field recordings and reinterpretations from Vietnam — from the wonder outside your door to the golden sphere.",
+      "album2_name": "From Darkness Into Light", "album2_sub": "Co-regulation · Repair code", "album2_desc": "The studio version: 16 tracks — from the intro to two bonus tracks.",
+      "open_album": "Open album", "tracks_label": "tracks", "modal_close": "Close", "tracklist_title": "Tracklist", "now_playing": "Now playing", "nothing_playing": "Choose a track",
+      "play_label": "Play", "pause_label": "Pause", "prev_label": "Previous track", "next_label": "Next track", "volume_label": "Volume", "progress_label": "Playback position",
+      "netzwerk_kicker": "The ecosystem", "netzwerk_title": "Connected in the network", "netzwerk_subtitle": "Further spaces of the Quiet Revolution",
+      "link_landingpage_title": "Landing page v1", "link_landingpage_desc": "The project's first digital home.", "link_soundcloud_title": "SoundCloud", "link_soundcloud_desc": "All frequencies to listen to and share.", "link_wegweiser_title": "A Guidepost", "link_wegweiser_desc": "Orientation through the whole body of work.", "link_eltern_title": "Parents' Portal", "link_eltern_desc": "For families: co-regulation in everyday life.", "link_spiegelwelten_title": "Lea's Mirror Worlds", "link_spiegelwelten_desc": "A chapter for the youngest listeners.", "link_visit": "Visit",
+      "exo_open": "System architecture & limits", "exo_title": "The Exoskeleton", "exo_intro": "Every system has limits. Before you listen on, here are ours — plainly, without detour.",
+      "exo_tab_neuro": "Neurobiological", "exo_tab_tech": "Technological", "exo_tab_philo": "Philosophical", "exo_tab_limits": "Limits", "exo_tab_evolution": "Further development",
+      "footer_made": "Built as a network-independent sound archive.", "footer_rights": "Sternenstaub · A project of the Quiet Revolution.", "offline_notice": "Offline — cached content is active.", "missing_audio_hint": "Audio file not found locally yet.",
+      "a1_t1_title": "Intro In the Light", "a1_t1_blurb": "The gateway to the golden sphere – Arrival before the journey begins.",
+      "a1_t2_title": "Welcome to the Now", "a1_t2_blurb": "A gentle landing in the present moment.",
+      "a1_t3_title": "The In-Between", "a1_t3_blurb": "The space between heart and mind where genuine connection arises.",
+      "a1_t4_title": "Repair Code", "a1_t4_blurb": "Knowledge becomes a tool for mending, not a weapon.",
+      "a1_t5_title": "Bridge of Light", "a1_t5_blurb": "A melody connecting two distant hearts across space.",
+      "a1_t6_title": "The WE-Field", "a1_t6_blurb": "A field where many heartbeats unite in a shared rhythm.",
+      "a1_t7_title": "Frequency Shift", "a1_t7_blurb": "The conscious transition from tension into a softer state.",
+      "a1_t8_title": "Rhythm of Liberation", "a1_t8_blurb": "Movement as an outlet – the body dances what words cannot say.",
+      "a1_t9_title": "Golden Hour (The Now)", "a1_t9_blurb": "Light before sunset as an invitation to simply be.",
+      "a1_t10_title": "Splinters & Scars (Kintsugi)", "a1_t10_blurb": "Fractures filled with gold, never hidden.",
+      "a1_t11_title": "Spark of the World", "a1_t11_blurb": "A single impulse triggering a chain reaction of hope.",
+      "a1_t12_title": "Wonder at the Doorstep", "a1_t12_blurb": "Rediscovering the everyday – wonder doesn't travel far.",
+      "a1_t13_title": "Welcome to the Golden Sphere", "a1_t13_blurb": "Transitioning from shadow into a warm, shared space.",
+      "a1_t14_title": "Vietnamese Instrumental Bonus Track", "a1_t14_blurb": "An instrumental journey guided by Vietnam's tonal colors.",
+      "a1_t15_title": "The Final Pulse (Outro)", "a1_t15_blurb": "A quiet fading – the heartbeat that remains when music stops."
+    }
+  };
+
   var RTL_LANGS = ["ar", "fa"];
   var currentLang = "de";
-  // Wird an mehreren Stellen gebraucht (Play-Logik, Audio-Graph, Offline-
-  // Engine): true, wenn die Seite per Doppelklick lokal geöffnet wurde
-  // (file://C:/... unter Windows, file:///Users/... unter macOS/Linux).
-  // In diesem Modus blockieren Browser fetch() und die Cache-Storage-API
-  // aus Sicherheitsgründen zuverlässig - siehe Exoskelett > Technologisch.
   var IS_FILE_PROTOCOL = window.location.protocol === "file:";
 
   function detectLang() {
@@ -1140,7 +1118,7 @@ Backend-Feature, ohne persönliche Daten zu speichern.</li>
   }
 
   function applyLanguage(code) {
-    var dict = I18N[code] || I18N.de;
+    var dict = I18N[code] || I18N[code.split('-')[0]] || I18N.de;
     currentLang = I18N[code] ? code : "de";
     document.documentElement.lang = currentLang;
     document.documentElement.dir = RTL_LANGS.indexOf(currentLang) !== -1 ? "rtl" : "ltr";
@@ -1164,16 +1142,13 @@ Backend-Feature, ohne persönliche Daten zu speichern.</li>
     updateOfflineNotice();
   }
 
-  /* =====================================================================
-     1. Sternenstaub-Partikel-Canvas (Kintsugi-Netzwerk)
-     ===================================================================== */
+  /* 1. Canvas Partikel-Netzwerk */
   function Stardust(canvas) {
     this.canvas = canvas;
     this.ctx = canvas.getContext("2d", { alpha: true });
     this.pointer = { x: null, y: null, active: false };
     this.reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    this.bass = 0;
-    this.treble = 0;
+    this.bass = 0; this.treble = 0;
     this.dpr = Math.min(window.devicePixelRatio || 1, 2);
     this.particles = [];
     var self = this;
@@ -1187,59 +1162,42 @@ Backend-Feature, ohne persönliche Daten zu speichern.</li>
     }, { passive: true });
     window.addEventListener("touchend", function () { self.pointer.active = false; });
 
-    if (!this.reducedMotion) {
-      this.loop();
-    } else {
-      this.step(false);
-    }
+    if (!this.reducedMotion) this.loop(); else this.step(false);
   }
-  Stardust.prototype.setPointer = function (x, y) {
-    this.pointer.x = x; this.pointer.y = y; this.pointer.active = true;
-  };
+  Stardust.prototype.setPointer = function (x, y) { this.pointer.x = x; this.pointer.y = y; this.pointer.active = true; };
   Stardust.prototype.targetDensity = function () {
-    var base = Math.floor((this.w * this.h) / 13000);
-    return Math.max(40, Math.min(150, base));
+    var base = Math.floor((this.w * this.h) / 12000);
+    return Math.max(45, Math.min(160, base));
   };
   Stardust.prototype.resize = function () {
-    this.w = window.innerWidth;
-    this.h = window.innerHeight;
-    this.canvas.width = this.w * this.dpr;
-    this.canvas.height = this.h * this.dpr;
-    this.canvas.style.width = this.w + "px";
-    this.canvas.style.height = this.h + "px";
+    this.w = window.innerWidth; this.h = window.innerHeight;
+    this.canvas.width = this.w * this.dpr; this.canvas.height = this.h * this.dpr;
+    this.canvas.style.width = this.w + "px"; this.canvas.style.height = this.h + "px";
     this.ctx.setTransform(this.dpr, 0, 0, this.dpr, 0, 0);
-    var n = this.reducedMotion ? Math.min(60, this.targetDensity()) : this.targetDensity();
+    var n = this.reducedMotion ? Math.min(50, this.targetDensity()) : this.targetDensity();
     if (this.particles.length !== n) this.seed(n);
   };
   Stardust.prototype.seed = function (n) {
     this.particles = [];
     for (var i = 0; i < n; i++) {
-      var r = Math.random() * 1.5 + 0.6;
       this.particles.push({
-        x: Math.random() * this.w,
-        y: Math.random() * this.h,
-        vx: (Math.random() - 0.5) * 0.15,
-        vy: (Math.random() - 0.5) * 0.15,
-        baseR: r
+        x: Math.random() * this.w, y: Math.random() * this.h,
+        vx: (Math.random() - 0.5) * 0.18, vy: (Math.random() - 0.5) * 0.18,
+        baseR: Math.random() * 1.6 + 0.6
       });
     }
   };
-  Stardust.prototype.setAudioLevels = function (bass, treble) {
-    this.bass = bass; this.treble = treble;
-  };
+  Stardust.prototype.setAudioLevels = function (bass, treble) { this.bass = bass; this.treble = treble; };
   Stardust.prototype.loop = function () {
-    var self = this;
-    this.step(true);
+    var self = this; this.step(true);
     requestAnimationFrame(function () { self.loop(); });
   };
   Stardust.prototype.step = function (animate) {
     var ctx = this.ctx, w = this.w, h = this.h, particles = this.particles, pointer = this.pointer;
     ctx.clearRect(0, 0, w, h);
-    // bassKick: eine schärfere, "kickigere" Kurve als der rohe Bass-Wert -
-    // ruhige Passagen bleiben ruhig, ein echter Kick schlägt spürbar durch.
-    var bassKick = Math.pow(this.bass, 1.6);
-    var pulse = 1 + bassKick * 2.4;
-    var linkDist = 118 + this.treble * 46;
+    var bassKick = Math.pow(this.bass, 1.5);
+    var pulse = 1 + bassKick * 2.2;
+    var linkDist = 120 + this.treble * 50;
 
     if (animate) {
       for (var i = 0; i < particles.length; i++) {
@@ -1247,49 +1205,36 @@ Backend-Feature, ohne persönliche Daten zu speichern.</li>
         if (pointer.active) {
           var dx = pointer.x - p.x, dy = pointer.y - p.y;
           var dist = Math.sqrt(dx * dx + dy * dy) || 1;
-          var radius = 230;
+          var radius = 240;
           if (dist < radius) {
             var force = 1 - dist / radius;
-            if (dist > 42) {
-              p.vx += (dx / dist) * force * 0.065;
-              p.vy += (dy / dist) * force * 0.065;
+            if (dist > 45) {
+              p.vx += (dx / dist) * force * 0.07; p.vy += (dy / dist) * force * 0.07;
             } else {
-              p.vx -= (dx / dist) * 0.14;
-              p.vy -= (dy / dist) * 0.14;
+              p.vx -= (dx / dist) * 0.15; p.vy -= (dy / dist) * 0.15;
             }
           }
         }
-        p.vx += (Math.random() - 0.5) * 0.01;
-        p.vy += (Math.random() - 0.5) * 0.01;
-        p.vx *= 0.945; p.vy *= 0.945;
+        p.vx += (Math.random() - 0.5) * 0.012; p.vy += (Math.random() - 0.5) * 0.012;
+        p.vx *= 0.94; p.vy *= 0.94;
         p.x += p.vx; p.y += p.vy;
         if (p.x < -30) p.x = w + 30; if (p.x > w + 30) p.x = -30;
         if (p.y < -30) p.y = h + 30; if (p.y > h + 30) p.y = -30;
       }
     }
 
-    // Bei einem Bass-Kick bekommen die Kintsugi-Nähte zwischen den Partikeln
-    // einen echten Glow (shadowBlur einmalig pro Frame gesetzt, nicht pro
-    // Linie - bleibt performant) und wandern farblich von Gold Richtung
-    // warmem Amber-Weiß, statt nur deckender zu werden.
-    ctx.lineWidth = 1 + bassKick * 1.8;
-    ctx.shadowBlur = bassKick * 16;
-    ctx.shadowColor = "rgba(244,184,105,0.85)";
+    ctx.lineWidth = 1 + bassKick * 2;
+    ctx.shadowBlur = bassKick * 18;
+    ctx.shadowColor = "rgba(244,184,105,0.9)";
     for (var a = 0; a < particles.length; a++) {
       for (var b = a + 1; b < particles.length; b++) {
         var pa = particles[a], pb = particles[b];
         var ddx = pa.x - pb.x, ddy = pa.y - pb.y;
         var d = Math.sqrt(ddx * ddx + ddy * ddy);
         if (d < linkDist) {
-          var proximity = 1 - d / linkDist;
-          var alpha = proximity * (0.14 + bassKick * 0.58);
-          var gG = Math.round(163 + bassKick * 71);  // 163 (Gold)   -> 234 (Amber-Glow)
-          var gB = Math.round(92 + bassKick * 120);  // 92  (Gold)   -> 212 (warmes Weiß)
-          ctx.strokeStyle = "rgba(217," + gG + "," + gB + "," + alpha.toFixed(3) + ")";
-          ctx.beginPath();
-          ctx.moveTo(pa.x, pa.y);
-          ctx.lineTo(pb.x, pb.y);
-          ctx.stroke();
+          var alpha = (1 - d / linkDist) * (0.15 + bassKick * 0.6);
+          ctx.strokeStyle = "rgba(217,163,92," + alpha.toFixed(3) + ")";
+          ctx.beginPath(); ctx.moveTo(pa.x, pa.y); ctx.lineTo(pb.x, pb.y); ctx.stroke();
         }
       }
     }
@@ -1299,22 +1244,18 @@ Backend-Feature, ohne persönliche Daten zu speichern.</li>
       var pc = particles[c];
       var r = pc.baseR * pulse;
       ctx.beginPath();
-      ctx.fillStyle = "rgba(244,184,105," + (0.10 + bassKick * 0.24).toFixed(3) + ")";
-      ctx.arc(pc.x, pc.y, r * (2.7 + bassKick * 1.2), 0, Math.PI * 2);
-      ctx.fill();
+      ctx.fillStyle = "rgba(244,184,105," + (0.12 + bassKick * 0.25).toFixed(3) + ")";
+      ctx.arc(pc.x, pc.y, r * 2.8, 0, Math.PI * 2); ctx.fill();
       ctx.beginPath();
-      ctx.fillStyle = "rgba(244,234,217,0.88)";
-      ctx.arc(pc.x, pc.y, r, 0, Math.PI * 2);
-      ctx.fill();
+      ctx.fillStyle = "rgba(244,234,217,0.9)";
+      ctx.arc(pc.x, pc.y, r, 0, Math.PI * 2); ctx.fill();
     }
   };
 
   var stardustCanvas = document.getElementById("stardust-canvas");
   var stardust = stardustCanvas ? new Stardust(stardustCanvas) : null;
 
-  /* =====================================================================
-     2. Audio-Engine + Web-Audio-Analyse (treibt das Partikel-Pulsieren)
-     ===================================================================== */
+  /* 2. Audio-Engine & Analyser */
   var engine = document.getElementById("audio-engine");
   var audioCtx = null, analyser = null, freqData = null, sourceNode = null;
 
@@ -1331,7 +1272,7 @@ Backend-Feature, ohne persönliche Daten zu speichern.</li>
       sourceNode.connect(analyser);
       analyser.connect(audioCtx.destination);
     } catch (err) {
-      console.info("[Sternenstaub] Web-Audio-Analyse nicht verfügbar – Partikel bleiben ruhig, Wiedergabe funktioniert trotzdem.", err);
+      console.info("[Sternenstaub] Web-Audio-Analyse eingeschränkt.", err);
     }
   }
 
@@ -1358,10 +1299,7 @@ Backend-Feature, ohne persönliche Daten zu speichern.</li>
   }
   requestAnimationFrame(updateAudioLevels);
 
-  /* =====================================================================
-     3. Player-Logik (ein gemeinsamer Audio-Engine, pro geöffnetem Modal
-        eine eigene Steuerleiste, die den Status spiegelt)
-     ===================================================================== */
+  /* 3. Player-Logik & Offline-Cache Resolver */
   function formatTime(sec) {
     if (!isFinite(sec) || sec < 0) sec = 0;
     var m = Math.floor(sec / 60);
@@ -1412,50 +1350,25 @@ Backend-Feature, ohne persönliche Daten zu speichern.</li>
     }
   }
 
-  /* =====================================================================
-     3b. Offline-Engine: direkte Cache-Storage-API (window.caches), kein
-         Service Worker. Network-First mit Fallback-to-Cache PRO TITEL,
-         ausgelöst durch den Play-Klick (siehe Exoskelett > Technologisch).
-     ===================================================================== */
   var CACHE_NAME = "sternenstaub-cache-v1";
 
   function resolvePlayableSrc(rawSrc) {
-    // 1) file://-Bypass: Unter dem file:-Protokoll (lokaler Doppelklick auf
-    //    die HTML-Datei, z.B. USB-Stick oder Windows-Festplatte) blockieren
-    //    Browser fetch() und/oder die Cache-Storage-API zuverlässig - teils
-    //    mit hartem Reject, teils mit stillem Hängenbleiben. Wir versuchen
-    //    es dann gar nicht erst und übergeben dem <audio>-Element sofort den
-    //    rohen, relativen Dateinamen - das funktioniert lokal immer.
-    if (IS_FILE_PROTOCOL) {
+    if (IS_FILE_PROTOCOL || !("fetch" in window) || !("caches" in window)) {
       return Promise.resolve(rawSrc);
     }
-    if (!("fetch" in window) || !("caches" in window)) {
-      return Promise.resolve(rawSrc);
-    }
-
-    // 2) Network-First: frisch vom Netz laden und dabei in den Cache legen.
     return fetch(rawSrc, { cache: "reload" }).then(function (res) {
       if (!res || !res.ok) throw new Error("network response not ok: " + rawSrc);
       caches.open(CACHE_NAME).then(function (cache) {
         cache.put(rawSrc, res.clone());
-      }).catch(function () { /* Cache-Storage evtl. nicht verfügbar */ });
+      }).catch(function () {});
       return rawSrc;
     }).catch(function () {
-      // 3) Fallback-to-Cache: Netz nicht erreichbar oder Datei (noch) nicht
-      //    abgerufen worden.
       return caches.open(CACHE_NAME).then(function (cache) {
         return cache.match(rawSrc).then(function (cached) {
           if (!cached) throw new Error("not cached: " + rawSrc);
           return cached.blob().then(function (blob) { return URL.createObjectURL(blob); });
         });
-      }).catch(function () {
-        // 4) Allerletzte Rettung, absichtlich ohne Error/Reject: Wir geben
-        //    trotzdem den rohen Pfad zurück und überlassen dem nativen
-        //    <audio>-Element den letzten Versuch. So bleibt die Wiedergabe
-        //    "kugelsicher" - selbst wenn caches/fetch aus irgendeinem Grund
-        //    (Sandbox, exotischer Browser, blockierte Storage-API) versagen.
-        return rawSrc;
-      });
+      }).catch(function () { return rawSrc; });
     });
   }
 
@@ -1494,7 +1407,7 @@ Backend-Feature, ohne persönliche Daten zu speichern.</li>
         });
       }
     }).catch(function (err) {
-      console.info("[Sternenstaub] Titel weder über Netz noch aus dem Cache verfügbar:", rawSrc, err);
+      console.info("[Sternenstaub] Fehler beim Laden:", rawSrc, err);
       showMissingAudioHint();
     });
   }
@@ -1578,16 +1491,10 @@ Backend-Feature, ohne persönliche Daten zu speichern.</li>
         if (dur) dur.textContent = formatTime(engine.duration);
       }
     });
-    engine.addEventListener("error", function () {
-      var status = document.querySelectorAll("[data-player-status]");
-      var msg = (I18N[currentLang] || I18N.de).missing_audio_hint;
-      for (var i = 0; i < status.length; i++) status[i].textContent = msg;
-    });
+    engine.addEventListener("error", function () { showMissingAudioHint(); });
   }
 
-  /* =====================================================================
-     4. Modal-System (Alben + Exoskelett) mit Fokus-Falle & Escape
-     ===================================================================== */
+  /* 4. Modal handling & Focus Trap */
   var lastFocusedEl = null;
 
   function getFocusable(container) {
@@ -1639,8 +1546,6 @@ Backend-Feature, ohne persönliche Daten zu speichern.</li>
   document.addEventListener("click", function (e) {
     var opener = e.target.closest("[data-modal-target]");
     if (opener) {
-      // Bei <a href="#..."> (progressive enhancement: Sprungmarke ohne JS,
-      // Modal mit JS) verhindern wir den zusätzlichen Anker-Sprung.
       if (opener.tagName === "A") e.preventDefault();
       var modal = document.getElementById(opener.getAttribute("data-modal-target"));
       openModal(modal, opener);
@@ -1678,9 +1583,7 @@ Backend-Feature, ohne persönliche Daten zu speichern.</li>
   }
   if (exoTabs.length) activateExoTab("neuro");
 
-  /* =====================================================================
-     5. Responsives Nav-Panel
-     ===================================================================== */
+  /* Navigation & Scrolling */
   var navToggle = document.getElementById("nav-toggle");
   var navPanel = document.getElementById("nav-panel");
   if (navToggle && navPanel) {
@@ -1697,49 +1600,27 @@ Backend-Feature, ohne persönliche Daten zu speichern.</li>
     else header.classList.remove("scrolled");
   }, { passive: true });
 
-  /* =====================================================================
-     6. Sprachauswahl
-     ===================================================================== */
   var langSelect = document.getElementById("lang-select");
   if (langSelect) {
     langSelect.addEventListener("change", function () { applyLanguage(this.value); });
   }
   applyLanguage(detectLang());
 
-  /* =====================================================================
-     7. Offline-Engine: ausschließlich direkte Cache-Storage-API
-        (window.caches), kein Service Worker, kein Blob-Umweg. Das
-        Titel-Caching (Network-First, Fallback-to-Cache) sitzt bereits
-        oben in resolvePlayableSrc() und läuft pro Titel beim Play-Klick.
-        Hier cachen wir zusätzlich nur die Seite selbst im Hintergrund,
-        damit ein erneuter Aufruf auch ohne Netz das Grundgerüst zeigt.
-     ===================================================================== */
   function updateOfflineNotice() {
     var el = document.getElementById("net-status");
     if (!el) return;
-    if (!navigator.onLine) {
-      el.textContent = (I18N[currentLang] || I18N.de).offline_notice;
-    } else {
-      el.textContent = "";
-    }
+    el.textContent = !navigator.onLine ? ((I18N[currentLang] || I18N.de).offline_notice || "") : "";
   }
   window.addEventListener("online", updateOfflineNotice);
   window.addEventListener("offline", updateOfflineNotice);
 
   function precacheShell() {
-    // Unter file:// gibt es weder ein sinnvolles "Netz" noch zuverlässige
-    // Cache-Storage - gar nicht erst versuchen (siehe IS_FILE_PROTOCOL).
     if (IS_FILE_PROTOCOL || !("caches" in window)) return;
     caches.open(CACHE_NAME).then(function (cache) {
       fetch(window.location.href, { cache: "reload" }).then(function (res) {
         if (res && res.ok) cache.put(window.location.href, res);
-      }).catch(function () {
-        /* Kein Netz beim ersten Aufruf – kein Problem, wird beim nächsten
-           erfolgreichen Laden automatisch nachgecacht. */
-      });
-    }).catch(function (err) {
-      console.info("[Sternenstaub] Cache-Storage-API nicht verfügbar:", err);
-    });
+      }).catch(function () {});
+    }).catch(function () {});
   }
 
   if ("requestIdleCallback" in window) {
@@ -1750,7 +1631,6 @@ Backend-Feature, ohne persönliche Daten zu speichern.</li>
 
   updateOfflineNotice();
 })();
-
 </script>
 </body>
 </html>
