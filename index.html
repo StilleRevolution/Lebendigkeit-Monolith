@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  
+
   <!-- Primäre SEO- & Browser-Metadaten -->
-  <title>Projekt Sternenstaub — Transformations-Matrix & Audio-Archiv (2026)</title>
-  <meta name="title" content="Projekt Sternenstaub — Transformations-Matrix & Audio-Archiv (2026)" />
-  <meta name="description" content="Vom ökologischen & somatischen Kollaps zur regenerativen Praxis. 2 Klangarchive (31 Tracks), 432 Hz, 360°-Triangulation & netzunabhängige Resilienz." />
+  <title>Projekt Sternenstaub — Lebendigkeit II · Klang-Archiv</title>
+  <meta name="title" content="Projekt Sternenstaub — Lebendigkeit II · Klang-Archiv" />
+  <meta name="description" content="Lebendigkeit II: ein Album für Co-Regulation, somatische Resilienz und regenerative Praxis. 16 Titel, 432 Hz, Kintsugi-Ästhetik und ein netzunabhängiges Klang-Archiv." />
   <meta name="author" content="Projekt Sternenstaub" />
   <meta name="theme-color" content="#060714" />
   <meta name="color-scheme" content="dark" />
@@ -19,35 +19,35 @@
   <!-- OPEN GRAPH / FACEBOOK / WHATSAPP / TELEGRAM / LINKEDIN -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://stillerevolution.github.io/Projekt-Sternenstaub-Landingpage-v1/" />
-  <meta property="og:title" content="Projekt Sternenstaub — Transformations-Matrix & Audio-Archiv" />
-  <meta property="og:description" content="Interdisziplinäres Musik- & Handlungs-Manifest für regenerative Ökologie, Co-Regulation & somatische Resilienz." />
+  <meta property="og:title" content="Projekt Sternenstaub — Lebendigkeit II" />
+  <meta property="og:description" content="Ein Album für Co-Regulation, somatische Resilienz und regenerative Praxis. 16 Titel, 432 Hz, offline abspielbar." />
   <meta property="og:site_name" content="Projekt Sternenstaub" />
   <meta property="og:locale" content="de_DE" />
-  <meta property="og:image" content="./intro%20Mitten%20im%20Licht%20432%20Hz%20Vietnam%20edit%20(1).jpeg" />
+  <meta property="og:image" content="./Intro%20Mitten%20im%20Licht.jpeg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Projekt Sternenstaub Cover Art" />
+  <meta property="og:image:alt" content="Lebendigkeit II — Album-Cover" />
 
   <!-- TWITTER / X CARDS -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content="https://stillerevolution.github.io/Projekt-Sternenstaub-Landingpage-v1/" />
-  <meta name="twitter:title" content="Projekt Sternenstaub — Transformations-Matrix" />
-  <meta name="twitter:description" content="Vom ökologischen & somatischen Kollaps zur regenerativen Praxis." />
-  <meta name="twitter:image" content="./intro%20Mitten%20im%20Licht%20432%20Hz%20Vietnam%20edit%20(1).jpeg" />
+  <meta name="twitter:title" content="Projekt Sternenstaub — Lebendigkeit II" />
+  <meta name="twitter:description" content="Ein Album für Co-Regulation und somatische Resilienz. 16 Titel, 432 Hz." />
+  <meta name="twitter:image" content="./Intro%20Mitten%20im%20Licht.jpeg" />
 
   <!-- SCHEMA.ORG STRUKTURIERTE DATEN -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "MusicReleaseSet",
-    "name": "Projekt Sternenstaub",
-    "headline": "Transformations-Matrix & 432Hz Audio-Archiv",
-    "description": "Interdisziplinäres Musik- & Handlungs-Manifest für regenerative Ökologie, Co-Regulation & somatische Resilienz.",
-    "author": {
-      "@type": "Organization",
+    "@type": "MusicAlbum",
+    "name": "Lebendigkeit II",
+    "byArtist": {
+      "@type": "MusicGroup",
       "name": "Projekt Sternenstaub"
     },
-    "inLanguage": ["de", "en", "vi", "fr", "es", "pt", "pl", "ru", "hi", "sw", "fa", "ar", "zh", "ja"]
+    "numTracks": 16,
+    "description": "Ein Album für Co-Regulation, somatische Resilienz und regenerative Praxis, gestimmt auf 432 Hz.",
+    "inLanguage": "de"
   }
   </script>
 
@@ -71,8 +71,8 @@
             amber: '#f4b869'
           },
           fontFamily: {
-            display: ['Fraunces', 'Noto Serif', 'serif'],
-            body: ['Atkinson Hyperlegible', 'Noto Sans', 'system-ui', 'sans-serif']
+            display: ['Fraunces', 'serif'],
+            body: ['Atkinson Hyperlegible', 'system-ui', 'sans-serif']
           }
         }
       }
@@ -88,19 +88,24 @@
       --parchment: #f4ead9;
       --amber-glow: #f4b869;
       --line: rgba(244, 234, 217, 0.14);
-      --glass-bg: rgba(16, 21, 43, 0.55);
-      --glass-border: rgba(244, 234, 217, 0.14);
+      --glass-bg: linear-gradient(160deg, rgba(23, 29, 60, 0.58), rgba(9, 12, 26, 0.42));
+      --glass-border: rgba(244, 234, 217, 0.1);
+      --glass-shadow: inset 0 1px 0 rgba(244, 234, 217, 0.07), 0 24px 60px -24px rgba(0, 0, 0, 0.65);
       --focus: #f4b869;
       --radius: 20px;
-      --font-display: 'Fraunces', 'Noto Serif', serif;
-      --font-body: 'Atkinson Hyperlegible', 'Noto Sans', system-ui, sans-serif;
+      --ease-out: cubic-bezier(.16, .8, .24, 1);
+      --font-display: 'Fraunces', serif;
+      --font-body: 'Atkinson Hyperlegible', system-ui, sans-serif;
     }
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
     @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
     body {
       margin: 0;
-      background: var(--void);
+      background:
+        radial-gradient(ellipse 80% 45% at 50% -8%, rgba(23, 29, 60, 0.6), transparent 60%),
+        radial-gradient(ellipse 55% 40% at 88% 62%, rgba(217, 163, 92, 0.07), transparent 62%),
+        var(--void);
       color: var(--parchment);
       font-family: var(--font-body);
       line-height: 1.6;
@@ -129,40 +134,30 @@
     .glass {
       background: var(--glass-bg);
       border: 1px solid var(--glass-border);
-      backdrop-filter: blur(18px);
-      -webkit-backdrop-filter: blur(18px);
+      backdrop-filter: blur(24px) saturate(150%);
+      -webkit-backdrop-filter: blur(24px) saturate(150%);
+      box-shadow: var(--glass-shadow);
     }
 
     .site-header {
       position: fixed; top: 0; left: 0; right: 0; z-index: 50;
       background: linear-gradient(to bottom, rgba(6,7,20,0.88), rgba(6,7,20,0));
       padding: 1rem clamp(1rem, 4vw, 2.5rem);
+      transition: background .3s ease, backdrop-filter .3s ease;
     }
     .site-header.scrolled { background: rgba(6,7,20,0.85); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
 
     .nav-link {
       font-size: .92rem; letter-spacing: .02em; color: var(--parchment);
       opacity: .82; padding: .4rem .2rem; position: relative;
+      transition: opacity .2s ease, text-shadow .3s ease;
     }
-    .nav-link:hover { opacity: 1; }
+    .nav-link:hover { opacity: 1; text-shadow: 0 0 18px rgba(217,163,92,.55); }
     .nav-link::after {
       content: ""; position: absolute; left: 0; right: 100%; bottom: -2px; height: 1px;
       background: var(--gold); transition: right .25s ease;
     }
     .nav-link:hover::after { right: 0; }
-
-    select.lang-select {
-      background: rgba(16, 21, 43, 0.85); color: var(--parchment);
-      border: 1px solid var(--glass-border); border-radius: 999px;
-      padding: .4rem 2rem .4rem .9rem; font-size: .85rem;
-      appearance: none;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23f4ead9' d='M4 6l4 4 4-4'/%3E%3C/svg%3E");
-      background-repeat: no-repeat; background-position: right .6rem center; background-size: 12px;
-    }
-    html[dir="rtl"] select.lang-select {
-      padding: .4rem .9rem .4rem 2rem;
-      background-position: left .6rem center;
-    }
 
     @media (max-width: 860px) {
       .nav-panel {
@@ -181,7 +176,7 @@
       font-size: .78rem; letter-spacing: .14em; text-transform: uppercase;
       color: var(--gold); font-weight: 700;
     }
-    .kicker::before { content: ""; width: 22px; height: 1px; background: var(--gold); display: inline-block; }
+    .kicker::before { content: ""; width: 22px; height: 1px; background: var(--gold); display: inline-block; box-shadow: 0 0 8px var(--gold-soft); }
 
     .hero-title {
       font-size: clamp(3.2rem, 11vw, 7.5rem); line-height: .92; font-weight: 600;
@@ -190,80 +185,137 @@
       letter-spacing: -.01em;
     }
 
+    /* Hero-Entrance (läuft einmalig beim Laden, kein Scroll-Trigger nötig) */
+    .js .hero-anim > * { opacity: 0; animation: heroReveal .9s var(--ease-out) forwards; }
+    .js .hero-anim > *:nth-child(1) { animation-delay: .08s; }
+    .js .hero-anim > *:nth-child(2) { animation-delay: .2s; }
+    .js .hero-anim > *:nth-child(3) { animation-delay: .36s; }
+    .js .hero-anim > *:nth-child(4) { animation-delay: .5s; }
+    @keyframes heroReveal {
+      from { opacity: 0; transform: translateY(22px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
     .btn {
       display: inline-flex; align-items: center; gap: .6rem;
       padding: .85rem 1.6rem; border-radius: 999px; font-weight: 700; font-size: .95rem;
       border: 1px solid var(--glass-border); cursor: pointer;
-      transition: transform .2s ease, background .2s ease, border-color .2s ease;
+      transition: transform .2s ease, background .2s ease, border-color .2s ease, box-shadow .25s ease;
     }
     .btn-primary { background: var(--gold); color: var(--void); border-color: var(--gold); }
-    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 30px -10px var(--gold-soft); }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 14px 38px -12px var(--gold-soft), 0 0 0 1px rgba(217,163,92,.28); }
     .btn-ghost { background: rgba(244,234,217,.05); color: var(--parchment); }
-    .btn-ghost:hover { background: rgba(244,234,217,.12); border-color: var(--gold); }
+    .btn-ghost:hover { background: rgba(244,234,217,.12); border-color: var(--gold); box-shadow: 0 0 20px -6px var(--gold-soft); }
 
     section { position: relative; z-index: 1; }
     .section-pad { padding: clamp(4rem, 8vw, 7rem) clamp(1.25rem, 5vw, 3rem); }
-    .section-head { max-width: 46rem; margin-bottom: clamp(2.5rem, 5vw, 4rem); }
+    .section-head {
+      max-width: 46rem; margin-bottom: clamp(2.5rem, 5vw, 4rem);
+      transition: opacity .9s var(--ease-out), transform .9s var(--ease-out);
+    }
     .section-title { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 600; line-height: 1.08; }
 
-    .album-grid { display: grid; gap: 1.75rem; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
-    .album-card {
-      border-radius: var(--radius); overflow: hidden; position: relative;
-      display: flex; flex-direction: column;
-      transition: transform .35s cubic-bezier(.2,.8,.2,1), border-color .35s ease;
-    }
-    .album-card:hover { transform: translateY(-6px); border-color: var(--gold-soft); }
-    .album-cover { aspect-ratio: 1/1; width: 100%; object-fit: cover; display: block; background: #10152b; }
-    .album-card-body { padding: 1.6rem 1.6rem 1.9rem; }
+    .exo-intro { transition: opacity .9s var(--ease-out), transform .9s var(--ease-out); }
+
+    /* Album-Showcase (Einzelalbum) */
     .album-card-sub { color: var(--gold); font-size: .82rem; letter-spacing: .05em; text-transform: uppercase; font-weight: 700; }
-    .album-card-title { font-size: 1.7rem; margin: .25rem 0 .6rem; }
-    .album-card-desc { opacity: .82; font-size: .95rem; }
+    .album-showcase {
+      border-radius: var(--radius); overflow: hidden;
+      display: flex; flex-direction: column;
+      transition: opacity 1s var(--ease-out), transform 1s var(--ease-out), border-color .4s ease, box-shadow .4s ease;
+    }
+    .album-showcase:hover { border-color: var(--gold-soft); box-shadow: 0 34px 74px -30px rgba(217,163,92,.32); }
+    @media (min-width: 860px) {
+      .album-showcase { flex-direction: row; }
+    }
+    .album-showcase-cover {
+      width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; background: var(--nebula);
+    }
+    @media (min-width: 860px) {
+      .album-showcase-cover { width: 44%; aspect-ratio: auto; }
+    }
+    .album-showcase-body {
+      padding: clamp(1.75rem, 4vw, 3rem);
+      display: flex; flex-direction: column; justify-content: center; flex: 1;
+    }
+    .album-showcase-title { font-size: clamp(2rem, 4.5vw, 2.75rem); font-weight: 600; margin: .5rem 0 1.1rem; }
+    .album-showcase-desc { opacity: .85; font-size: 1.05rem; max-width: 34rem; }
+
+    /* Scroll-Reveal (nur mit aktivem JS; ohne JS bleibt alles sofort sichtbar) */
+    .js .section-head,
+    .js .exo-intro { opacity: 0; transform: translateY(26px); }
+    .js .album-showcase { opacity: 0; transform: translateY(30px); }
+    .js .link-card { opacity: 0; transform: translateY(24px); }
+
+    .js .section-head.is-visible,
+    .js .exo-intro.is-visible,
+    .js .album-showcase.is-visible,
+    .js .link-card.is-visible { opacity: 1; transform: translateY(0); }
+
+    .js .exo-intro:focus-within,
+    .js .album-showcase:focus-within,
+    .js .link-card:focus-within { opacity: 1; transform: translateY(0); }
+
+    @media (prefers-reduced-motion: reduce) {
+      .js .section-head, .js .exo-intro, .js .album-showcase, .js .link-card {
+        opacity: 1; transform: none; transition: none;
+      }
+      .js .hero-anim > * { animation: none; opacity: 1; transform: none; }
+    }
 
     .modal {
-      position: static; display: block; margin-top: 1rem; border-radius: var(--radius);
+      position: static; display: block; margin-top: 1.5rem; border-radius: var(--radius);
     }
     .no-js .modal { padding: 1.5rem; }
     .no-js .modal-close, .no-js .modal-backdrop-btn { display: none; }
     .js .modal {
-      position: fixed; inset: 0; display: none; z-index: 100;
-      align-items: center; justify-content: center; padding: 1.25rem;
-      background: rgba(4,5,14,0.78); backdrop-filter: blur(8px);
+      position: fixed; inset: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: center; padding: 1.25rem;
+      background: rgba(4,5,14,0.78); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+      opacity: 0; visibility: hidden; pointer-events: none;
+      transition: opacity .35s ease, visibility 0s linear .35s;
     }
-    .js .modal.is-open { display: flex; }
+    .js .modal.is-open {
+      opacity: 1; visibility: visible; pointer-events: auto;
+      transition: opacity .35s ease;
+    }
     .modal-panel {
       width: 100%; max-width: 640px; max-height: 88vh; overflow-y: auto;
       border-radius: var(--radius); padding: clamp(1.5rem, 4vw, 2.5rem); position: relative;
     }
     .js .modal-panel {
-      opacity: 0; transform: translateY(18px) scale(.98);
-      transition: opacity .28s ease, transform .28s ease;
+      opacity: 0; transform: translateY(24px) scale(.97);
+      transition: opacity .45s var(--ease-out), transform .5s var(--ease-out);
     }
     .js .modal.is-open .modal-panel { opacity: 1; transform: translateY(0) scale(1); }
     @media (prefers-reduced-motion: reduce) {
       .js .modal-panel { transition: none; transform: none; }
+      .js .modal { transition: none; }
     }
     .modal-close {
       position: absolute; top: 1rem; right: 1rem; width: 38px; height: 38px; border-radius: 999px;
       display: flex; align-items: center; justify-content: center;
       background: rgba(244,234,217,.08); border: 1px solid var(--glass-border);
+      transition: background .2s ease, box-shadow .25s ease;
     }
-    html[dir="rtl"] .modal-close { right: auto; left: 1rem; }
-    .modal-close:hover { background: rgba(244,234,217,.18); }
+    .modal-close:hover { background: rgba(244,234,217,.18); box-shadow: 0 0 16px -4px var(--gold-soft); }
 
     .track {
       display: flex; align-items: flex-start; gap: .9rem;
-      padding: .85rem .25rem; border-bottom: 1px solid var(--line);
+      padding: .85rem .6rem; border-bottom: 1px solid var(--line);
+      border-radius: 10px; transition: background-color .25s ease;
     }
+    .track:hover { background-color: rgba(244,234,217,.045); }
     .no-js .track { align-items: flex-start; flex-wrap: wrap; }
     .track:last-child { border-bottom: none; }
     .track-play-btn {
       flex: none; width: 38px; height: 38px; border-radius: 999px;
       display: flex; align-items: center; justify-content: center;
       background: rgba(244,234,217,.06); border: 1px solid var(--glass-border);
-      transition: background .2s ease, border-color .2s ease;
+      transition: background .2s ease, border-color .2s ease, box-shadow .25s ease, transform .2s ease;
     }
-    .track-play-btn:hover { background: var(--gold); border-color: var(--gold); color: var(--void); }
-    .track.is-playing .track-play-btn { background: var(--gold); border-color: var(--gold); color: var(--void); }
+    .track-play-btn:hover { background: var(--gold); border-color: var(--gold); color: var(--void); box-shadow: 0 0 22px -4px var(--gold-soft); transform: scale(1.06); }
+    .track.is-playing .track-play-btn { background: var(--gold); border-color: var(--gold); color: var(--void); box-shadow: 0 0 22px -4px var(--gold-soft); }
     .track-meta { flex: 1; min-width: 0; }
     .track-title { display: block; font-weight: 700; font-size: .98rem; }
     .track.is-playing .track-title { color: var(--gold); }
@@ -280,8 +332,11 @@
       width: 42px; height: 42px; border-radius: 999px; flex: none;
       display: flex; align-items: center; justify-content: center;
       background: var(--gold); color: var(--void); border: none; cursor: pointer;
+      transition: transform .2s ease, box-shadow .25s ease;
     }
+    .transport-btn:hover { box-shadow: 0 0 24px -2px var(--gold-soft); transform: translateY(-1px); }
     .transport-btn.small { width: 34px; height: 34px; background: rgba(244,234,217,.08); color: var(--parchment); border: 1px solid var(--glass-border); }
+    .transport-btn.small:hover { box-shadow: 0 0 16px -4px var(--gold-soft); }
     .now-playing-label { font-size: .78rem; opacity: .65; }
     .now-playing-title { font-weight: 700; font-size: .92rem; }
     input[type="range"] {
@@ -303,9 +358,13 @@
     .link-grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
     .link-card {
       border-radius: 16px; padding: 1.4rem; display: flex; flex-direction: column; gap: .75rem;
-      transition: transform .25s ease, border-color .25s ease;
+      transition: opacity .8s var(--ease-out), transform .4s var(--ease-out), border-color .3s ease, box-shadow .3s ease;
     }
-    .link-card:hover { transform: translateY(-4px); border-color: var(--gold-soft); }
+    .link-card:hover { transform: translateY(-5px); border-color: var(--gold-soft); box-shadow: 0 22px 48px -24px rgba(217,163,92,.32); }
+    .link-grid .link-card:nth-child(2) { transition-delay: 90ms, 90ms, 0ms, 0ms; }
+    .link-grid .link-card:nth-child(3) { transition-delay: 180ms, 180ms, 0ms, 0ms; }
+    .link-grid .link-card:nth-child(4) { transition-delay: 270ms, 270ms, 0ms, 0ms; }
+    .link-grid .link-card:nth-child(5) { transition-delay: 360ms, 360ms, 0ms, 0ms; }
     .link-card-title { font-weight: 700; font-size: 1.05rem; }
     .link-card-desc { font-size: .85rem; opacity: .75; flex: 1; }
     .link-card .btn { align-self: flex-start; padding: .55rem 1.1rem; font-size: .82rem; }
@@ -314,6 +373,7 @@
     .exo-tab {
       padding: .5rem 1rem; border-radius: 999px; font-size: .82rem; font-weight: 700;
       background: rgba(244,234,217,.05); border: 1px solid var(--glass-border); cursor: pointer;
+      transition: background .2s ease, color .2s ease, border-color .2s ease;
     }
     .exo-tab[aria-selected="true"] { background: var(--gold); color: var(--void); border-color: var(--gold); }
     .no-js .exo-tabs { display: none; }
@@ -322,7 +382,6 @@
     .exo-panel h3:first-child { margin-top: 0; }
     .exo-panel p { margin: .6rem 0; opacity: .88; }
     .exo-panel ul { margin: .6rem 0; padding-left: 1.2rem; opacity: .88; }
-    html[dir="rtl"] .exo-panel ul { padding-left: 0; padding-right: 1.2rem; }
     .exo-panel li { margin: .4rem 0; }
     .exo-panel code { background: rgba(244,234,217,.1); padding: .1rem .4rem; border-radius: 5px; font-size: .85em; }
     .js .exo-panel[hidden] { display: none; }
@@ -333,8 +392,6 @@
       overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
     }
 
-    html[dir="rtl"] .kicker::before { order: 2; }
-    html[dir="rtl"] .track { direction: rtl; }
     .no-js .open-album-btn { display: none; }
     .no-js #exo-open-btn { display: none; }
 
@@ -351,6 +408,7 @@
     .tracking-wide { letter-spacing: .025em; }
     .max-w-2xl { max-width: 42rem; }
     .max-w-4xl { max-width: 56rem; }
+    .max-w-5xl { max-width: 64rem; }
     .max-w-7xl { max-width: 80rem; }
     .gap-2 { gap: .5rem; }
     .gap-4 { gap: 1rem; }
@@ -378,41 +436,24 @@
   </style>
 </head>
 <body>
-<a class="skip-link" href="#main-content" data-i18n="skip_link">Zum Inhalt springen</a>
+<a class="skip-link" href="#main-content">Zum Inhalt springen</a>
 <div id="net-status" class="visually-hidden" role="status" aria-live="polite"></div>
 
 <canvas id="stardust-canvas" aria-hidden="true"></canvas>
 
 <header class="site-header" id="site-header">
   <div class="max-w-7xl mx-auto flex items-center justify-between gap-4 relative">
-    <a href="#main-content" class="font-display text-lg tracking-wide" data-i18n="brand">Sternenstaub</a>
+    <a href="#main-content" class="font-display text-lg tracking-wide">Sternenstaub</a>
 
-    <button type="button" class="nav-toggle btn btn-ghost" id="nav-toggle" aria-expanded="false" aria-controls="nav-panel">
+    <button type="button" class="nav-toggle btn btn-ghost" id="nav-toggle" aria-expanded="false" aria-controls="nav-panel" aria-label="Menü öffnen">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-      <span data-i18n="lang_label">Sprache wählen</span>
+      <span>Menü</span>
     </button>
 
     <nav id="nav-panel" class="nav-panel glass flex items-center gap-6" aria-label="Hauptnavigation">
-      <a class="nav-link" href="#alben" data-i18n="nav_alben">Alben</a>
-      <a class="nav-link" href="#netzwerk" data-i18n="nav_netzwerk">Netzwerk</a>
-      <a class="nav-link" href="#exo-section" id="exo-open-btn-nav" data-modal-target="exo-modal" data-i18n="nav_exo">System &amp; Grenzen</a>
-      <label class="visually-hidden" for="lang-select" data-i18n="lang_label">Sprache wählen</label>
-      <select id="lang-select" class="lang-select">
-        <option value="de">Deutsch</option>
-        <option value="en">English</option>
-        <option value="vi">Tiếng Việt</option>
-        <option value="fr">Français</option>
-        <option value="es">Español</option>
-        <option value="pt">Português</option>
-        <option value="pl">Polski</option>
-        <option value="ru">Русский</option>
-        <option value="hi">हिन्दी</option>
-        <option value="sw">Kiswahili</option>
-        <option value="fa">فارسی</option>
-        <option value="ar">العربية</option>
-        <option value="zh">中文</option>
-        <option value="ja">日本語</option>
-      </select>
+      <a class="nav-link" href="#album">Album</a>
+      <a class="nav-link" href="#netzwerk">Netzwerk</a>
+      <a class="nav-link" href="#exo-section" id="exo-open-btn-nav" data-modal-target="exo-modal">System &amp; Grenzen</a>
     </nav>
   </div>
 </header>
@@ -420,459 +461,249 @@
 <main id="main-content">
 
   <section class="hero section-pad">
-    <div class="max-w-4xl mx-auto">
-      <p class="kicker" data-i18n="hero_kicker">Ein interdisziplinäres Musik-Manifest</p>
-      <h1 class="hero-title mt-5" data-i18n="hero_title">Sternenstaub</h1>
-      <p class="mt-7 max-w-2xl text-lg md:text-xl" style="opacity:.9" data-i18n="hero_text">
-        Wir sind Projekt Sternenstaub – ein interdisziplinäres Musik-Manifest für regenerative Ökologie und
-        somatische Resilienz. Klang als Werkzeug der Erdung, in einer Welt, die selten stillsteht.
+    <div class="max-w-4xl mx-auto hero-anim">
+      <p class="kicker">Ein Musik-Manifest für Co-Regulation</p>
+      <h1 class="hero-title mt-5">Sternenstaub</h1>
+      <p class="mt-7 max-w-2xl text-lg md:text-xl" style="opacity:.9">
+        Wir sind Projekt Sternenstaub – ein Musik-Manifest für Co-Regulation und somatische Resilienz.
+        Klang als Werkzeug der Erdung, in einer Welt, die selten stillsteht.
       </p>
       <div class="mt-9 flex flex-wrap items-center gap-4">
-        <a href="#alben" class="btn btn-primary">
-          <span data-i18n="hero_scroll">Eintauchen</span>
+        <a href="#album" class="btn btn-primary">
+          <span>Eintauchen</span>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4v16m0 0l-6-6m6 6l6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
         <p class="text-sm flex items-center gap-2" style="opacity:.6">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z" stroke="currentColor" stroke-width="1.6"/><path d="M8 12l3 3 5-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <span data-i18n="hero_offline_hint">Läuft auch ohne Netz – einmal geladen, immer erreichbar.</span>
+          <span>Läuft auch ohne Netz – einmal geladen, immer erreichbar.</span>
         </p>
       </div>
     </div>
   </section>
 
-  <section id="alben" class="section-pad">
-    <div class="max-w-7xl mx-auto">
+  <section id="album" class="section-pad">
+    <div class="max-w-5xl mx-auto">
       <div class="section-head">
-        <p class="kicker" data-i18n="alben_kicker">Zwei Klangarchive</p>
-        <h2 class="section-title mt-4" data-i18n="alben_title">Die Alben</h2>
+        <p class="kicker">Ein Klangarchiv</p>
+        <h2 class="section-title mt-4">Lebendigkeit II</h2>
       </div>
 
-      <div class="album-grid">
-
-        <!-- Album 1 -->
-        <article class="album-card glass">
-          <img class="album-cover" src="./intro Mitten im Licht 432 Hz Vietnam edit (1).jpeg" alt="Lebendigkeit II Cover" loading="lazy">
-          <div class="album-card-body">
-            <p class="album-card-sub"><span data-i18n="album1_sub">Vietnam Edit · 432 Hz</span></p>
-            <h3 class="album-card-title font-display" data-i18n="album1_name">Lebendigkeit II</h3>
-            <p class="album-card-desc" data-i18n="album1_desc">Feldaufnahmen und Neuinterpretationen aus Vietnam – vom Wunder vor der Haustür bis zur goldenen Sphäre.</p>
-            <button type="button" class="btn btn-primary open-album-btn mt-5" data-modal-target="modal-album-1">
-              <span data-i18n="open_album">Album öffnen</span>
+      <div class="album-single">
+        <div class="album-showcase glass">
+          <img class="album-showcase-cover" src="./Intro Mitten im Licht.jpeg" alt="Lebendigkeit II — Album-Cover" loading="lazy">
+          <div class="album-showcase-body">
+            <p class="album-card-sub">Co-Regulation · 432 Hz</p>
+            <h3 class="album-showcase-title font-display">Lebendigkeit II</h3>
+            <p class="album-showcase-desc">Sechzehn Titel über das Zusammenspiel von Nervensystem und Klang – von der sanften Ankunft im Jetzt bis zur Kintsugi-Ästhetik gekitteter Brüche. Ein Studio-Album für ruhige Kopfhörer-Momente und gemeinsames Innehalten.</p>
+            <button type="button" class="btn btn-primary open-album-btn mt-7" data-modal-target="modal-album">
+              <span>Album öffnen</span>
               <span aria-hidden="true">·</span>
-              <span>15 <span data-i18n="tracks_label">Titel</span></span>
+              <span>16 Titel</span>
             </button>
           </div>
+        </div>
 
-          <div class="modal" id="modal-album-1" role="dialog" aria-modal="true" aria-labelledby="modal-album-1-title" aria-hidden="true">
-            <button type="button" class="modal-backdrop-btn" style="position:absolute;inset:0;width:100%;height:100%;background:transparent;border:0;cursor:default;" tabindex="-1" aria-hidden="true" data-modal-close></button>
-            <div class="modal-panel glass">
-              <button type="button" class="modal-close" data-modal-close data-i18n-attr="aria-label:modal_close" aria-label="Schließen">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <div class="modal" id="modal-album" role="dialog" aria-modal="true" aria-labelledby="modal-album-title" aria-hidden="true">
+          <button type="button" class="modal-backdrop-btn" style="position:absolute;inset:0;width:100%;height:100%;background:transparent;border:0;cursor:default;" tabindex="-1" aria-hidden="true" data-modal-close></button>
+          <div class="modal-panel glass">
+            <button type="button" class="modal-close" data-modal-close aria-label="Schließen">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </button>
+            <p class="album-card-sub">Co-Regulation · 432 Hz</p>
+            <h3 id="modal-album-title" class="font-display text-2xl mt-1">Lebendigkeit II</h3>
+            <h4 class="mt-6 mb-2 text-sm uppercase tracking-wide" style="opacity:.65">Titelliste</h4>
+            <ul class="track-list">
+              <li class="track" data-src="./Intro Mitten im Licht.mp3" data-title="Intro Mitten im Licht">
+                <button type="button" class="track-play-btn" aria-label="Abspielen">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+                <div class="track-meta">
+                  <span class="track-title">Intro Mitten im Licht</span>
+                  <span class="track-blurb">Das Tor zur goldenen Sphäre – Ankunft, bevor die Reise beginnt.</span>
+                  <audio class="native-fallback" controls preload="none"><source src="./Intro Mitten im Licht.mp3" type="audio/mpeg"></audio>
+                </div>
+              </li>
+              <li class="track" data-src="./Willkommen im Jetzt.mp3" data-title="Willkommen im Jetzt">
+                <button type="button" class="track-play-btn" aria-label="Abspielen">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+                <div class="track-meta">
+                  <span class="track-title">Willkommen im Jetzt</span>
+                  <span class="track-blurb">Eine sanfte Landung im gegenwärtigen Moment.</span>
+                  <audio class="native-fallback" controls preload="none"><source src="./Willkommen im Jetzt.mp3" type="audio/mpeg"></audio>
+                </div>
+              </li>
+              <li class="track" data-src="./Das Dazwischen.mp3" data-title="Das Dazwischen">
+                <button type="button" class="track-play-btn" aria-label="Abspielen">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+                <div class="track-meta">
+                  <span class="track-title">Das Dazwischen</span>
+                  <span class="track-blurb">Der Raum zwischen Herz und Verstand, in dem echte Verbindung entsteht.</span>
+                  <audio class="native-fallback" controls preload="none"><source src="./Das Dazwischen.mp3" type="audio/mpeg"></audio>
+                </div>
+              </li>
+              <li class="track" data-src="./Reparatur-Code.mp3" data-title="Reparatur-Code">
+                <button type="button" class="track-play-btn" aria-label="Abspielen">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+                <div class="track-meta">
+                  <span class="track-title">Reparatur-Code</span>
+                  <span class="track-blurb">Wissen wird nicht zur Waffe, sondern zum Werkzeug des Kittens.</span>
+                  <audio class="native-fallback" controls preload="none"><source src="./Reparatur-Code.mp3" type="audio/mpeg"></audio>
+                </div>
+              </li>
+              <li class="track" data-src="./Lichtbrücke.mp3" data-title="Lichtbrücke">
+                <button type="button" class="track-play-btn" aria-label="Abspielen">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+                <div class="track-meta">
+                  <span class="track-title">Lichtbrücke</span>
+                  <span class="track-blurb">Eine Melodie, die zwei entfernte Herzen über die Distanz verbindet.</span>
+                  <audio class="native-fallback" controls preload="none"><source src="./Lichtbrücke.mp3" type="audio/mpeg"></audio>
+                </div>
+              </li>
+              <li class="track" data-src="./Das WIR-Feld.mp3" data-title="Das WIR-Feld">
+                <button type="button" class="track-play-btn" aria-label="Abspielen">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+                <div class="track-meta">
+                  <span class="track-title">Das WIR-Feld</span>
+                  <span class="track-blurb">Ein Feld, in dem viele Herzschläge zu einem gemeinsamen Rhythmus finden.</span>
+                  <audio class="native-fallback" controls preload="none"><source src="./Das WIR-Feld.mp3" type="audio/mpeg"></audio>
+                </div>
+              </li>
+              <li class="track" data-src="./Frequenzwechsel.mp3" data-title="Frequenzwechsel">
+                <button type="button" class="track-play-btn" aria-label="Abspielen">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+                <div class="track-meta">
+                  <span class="track-title">Frequenzwechsel</span>
+                  <span class="track-blurb">Der bewusste Sprung von Anspannung in einen weicheren Zustand.</span>
+                  <audio class="native-fallback" controls preload="none"><source src="./Frequenzwechsel.mp3" type="audio/mpeg"></audio>
+                </div>
+              </li>
+              <li class="track" data-src="./Rhythmus der Befreiung.mp3" data-title="Rhythmus der Befreiung">
+                <button type="button" class="track-play-btn" aria-label="Abspielen">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+                <div class="track-meta">
+                  <span class="track-title">Rhythmus der Befreiung</span>
+                  <span class="track-blurb">Bewegung als Ventil – der Körper tanzt, was Worte nicht sagen können.</span>
+                  <audio class="native-fallback" controls preload="none"><source src="./Rhythmus der Befreiung.mp3" type="audio/mpeg"></audio>
+                </div>
+              </li>
+              <li class="track" data-src="./Goldene Stunde.mp3" data-title="Goldene Stunde">
+                <button type="button" class="track-play-btn" aria-label="Abspielen">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+                <div class="track-meta">
+                  <span class="track-title">Goldene Stunde</span>
+                  <span class="track-blurb">Das Licht kurz vor Sonnenuntergang als Einladung, nichts zu wollen außer da zu sein.</span>
+                  <audio class="native-fallback" controls preload="none"><source src="./Goldene Stunde.mp3" type="audio/mpeg"></audio>
+                </div>
+              </li>
+              <li class="track" data-src="./Splitter und Narben.mp3" data-title="Splitter und Narben">
+                <button type="button" class="track-play-btn" aria-label="Abspielen">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+                <div class="track-meta">
+                  <span class="track-title">Splitter und Narben</span>
+                  <span class="track-blurb">Brüche werden mit Gold gefüllt, nicht versteckt.</span>
+                  <audio class="native-fallback" controls preload="none"><source src="./Splitter und Narben.mp3" type="audio/mpeg"></audio>
+                </div>
+              </li>
+              <li class="track" data-src="./Der Funke der Welt.mp3" data-title="Der Funke der Welt">
+                <button type="button" class="track-play-btn" aria-label="Abspielen">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+                <div class="track-meta">
+                  <span class="track-title">Der Funke der Welt</span>
+                  <span class="track-blurb">Ein einzelner Impuls, der eine Kettenreaktion aus Hoffnung auslöst.</span>
+                  <audio class="native-fallback" controls preload="none"><source src="./Der Funke der Welt.mp3" type="audio/mpeg"></audio>
+                </div>
+              </li>
+              <li class="track" data-src="./Das Wunder vor der Haustür.mp3" data-title="Das Wunder vor der Haustür">
+                <button type="button" class="track-play-btn" aria-label="Abspielen">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+                <div class="track-meta">
+                  <span class="track-title">Das Wunder vor der Haustür</span>
+                  <span class="track-blurb">Alltägliches neu gesehen – Staunen muss nicht weit reisen.</span>
+                  <audio class="native-fallback" controls preload="none"><source src="./Das Wunder vor der Haustür.mp3" type="audio/mpeg"></audio>
+                </div>
+              </li>
+              <li class="track" data-src="./Willkommen in der goldenen Sphäre _ Vom Dunkel ins Licht.mp3" data-title="Willkommen in der goldenen Sphäre (Vom Dunkel ins Licht)">
+                <button type="button" class="track-play-btn" aria-label="Abspielen">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+                <div class="track-meta">
+                  <span class="track-title">Willkommen in der goldenen Sphäre (Vom Dunkel ins Licht)</span>
+                  <span class="track-blurb">Der Übergang vom Schatten in einen warmen, geteilten Raum.</span>
+                  <audio class="native-fallback" controls preload="none"><source src="./Willkommen in der goldenen Sphäre _ Vom Dunkel ins Licht.mp3" type="audio/mpeg"></audio>
+                </div>
+              </li>
+              <li class="track" data-src="./Outro Die Variable.mp3" data-title="Outro: Die Variable">
+                <button type="button" class="track-play-btn" aria-label="Abspielen">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+                <div class="track-meta">
+                  <span class="track-title">Outro: Die Variable</span>
+                  <span class="track-blurb">Der letzte Ton lässt eine Frage offen, statt sie zu schließen – das Stück endet, die Veränderung bleibt variabel.</span>
+                  <audio class="native-fallback" controls preload="none"><source src="./Outro Die Variable.mp3" type="audio/mpeg"></audio>
+                </div>
+              </li>
+              <li class="track" data-src="./Roter Rhythmus Bonus.mp3" data-title="Roter Rhythmus (Bonus)">
+                <button type="button" class="track-play-btn" aria-label="Abspielen">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+                <div class="track-meta">
+                  <span class="track-title">Roter Rhythmus (Bonus)</span>
+                  <span class="track-blurb">Ein pulsierender Bonus-Track – Herzschlag und Percussion als ein gemeinsamer, warmer Puls.</span>
+                  <audio class="native-fallback" controls preload="none"><source src="./Roter Rhythmus Bonus.mp3" type="audio/mpeg"></audio>
+                </div>
+              </li>
+              <li class="track" data-src="./Wilde Melodie Bonus.mp3" data-title="Wilde Melodie (Bonus)">
+                <button type="button" class="track-play-btn" aria-label="Abspielen">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+                <div class="track-meta">
+                  <span class="track-title">Wilde Melodie (Bonus)</span>
+                  <span class="track-blurb">Ein freier, unverputzter Bonus-Track – Melodie ohne festen Weg, ganz der Bewegung des Moments folgend.</span>
+                  <audio class="native-fallback" controls preload="none"><source src="./Wilde Melodie Bonus.mp3" type="audio/mpeg"></audio>
+                </div>
+              </li>
+            </ul>
+
+            <div class="player-bar" data-player-bar>
+              <button type="button" class="transport-btn small" data-player-prev aria-label="Vorheriger Titel">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 6h2v12H6zM20 6l-10 6 10 6z"/></svg>
               </button>
-              <p class="album-card-sub"><span data-i18n="album1_sub">Vietnam Edit · 432 Hz</span></p>
-              <h3 id="modal-album-1-title" class="font-display text-2xl mt-1" data-i18n="album1_name">Lebendigkeit II</h3>
-              <h4 class="mt-6 mb-2 text-sm uppercase tracking-wide" style="opacity:.65" data-i18n="tracklist_title">Titelliste</h4>
-              <ul class="track-list" data-album="album1">
-                <li class="track" data-src="./intro Mitten im Licht 432 Hz Vietnam edit.mp3" data-title="Intro Mitten im Licht" data-track-key="a1_t1">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a1_t1_title">Intro Mitten im Licht</span>
-                    <span class="track-blurb" data-i18n="a1_t1_blurb">Das Tor zur goldenen Sphäre – Ankunft, bevor die Reise beginnt.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./intro Mitten im Licht 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Willkommen im Jetzt 432 Hz Vietnam edit.mp3" data-title="Willkommen im Jetzt" data-track-key="a1_t2">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a1_t2_title">Willkommen im Jetzt</span>
-                    <span class="track-blurb" data-i18n="a1_t2_blurb">Eine sanfte Landung im gegenwärtigen Moment.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Willkommen im Jetzt 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./das Dazwischen 432 Hz Vietnam edit.mp3" data-title="Das Dazwischen" data-track-key="a1_t3">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a1_t3_title">Das Dazwischen</span>
-                    <span class="track-blurb" data-i18n="a1_t3_blurb">Der Raum zwischen Herz und Verstand, in dem echte Verbindung entsteht.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./das Dazwischen 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Reparatur-Code 432 Hz Vietnam edit.mp3" data-title="Reparatur-Code" data-track-key="a1_t4">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a1_t4_title">Reparatur-Code</span>
-                    <span class="track-blurb" data-i18n="a1_t4_blurb">Wissen wird nicht zur Waffe, sondern zum Werkzeug des Kittens.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Reparatur-Code 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Lichtbrücke 432 Hz Vietnam.mp3" data-title="Lichtbrücke" data-track-key="a1_t5">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a1_t5_title">Lichtbrücke</span>
-                    <span class="track-blurb" data-i18n="a1_t5_blurb">Eine Melodie, die zwei entfernte Herzen über die Distanz verbindet.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Lichtbrücke 432 Hz Vietnam.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./das Wir-Feld 432 Hz Vietnam edit.mp3" data-title="Das WIR-Feld" data-track-key="a1_t6">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a1_t6_title">Das WIR-Feld</span>
-                    <span class="track-blurb" data-i18n="a1_t6_blurb">Ein Feld, in dem viele Herzschläge zu einem gemeinsamen Rhythmus finden.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./das Wir-Feld 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Frequenzwechsel 432 Hz Vietnam edit.mp3" data-title="Frequenzwechsel" data-track-key="a1_t7">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a1_t7_title">Frequenzwechsel</span>
-                    <span class="track-blurb" data-i18n="a1_t7_blurb">Der bewusste Sprung von Anspannung in einen weicheren Zustand.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Frequenzwechsel 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Rhythmus der Befreiung 432 Hz Vietnam edit.mp3" data-title="Rhythmus der Befreiung" data-track-key="a1_t8">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a1_t8_title">Rhythmus der Befreiung</span>
-                    <span class="track-blurb" data-i18n="a1_t8_blurb">Bewegung als Ventil – der Körper tanzt, was Worte nicht sagen können.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Rhythmus der Befreiung 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Goldene Stunde (Das Jetzt) 432 Hz Vietnam edit.mp3" data-title="Goldene Stunde (Das Jetzt)" data-track-key="a1_t9">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a1_t9_title">Goldene Stunde (Das Jetzt)</span>
-                    <span class="track-blurb" data-i18n="a1_t9_blurb">Das Licht kurz vor Sonnenuntergang als Einladung, nichts zu wollen außer da zu sein.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Goldene Stunde (Das Jetzt) 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Splitter und Narben (Kintsugi) 432 Hz Vietnam edit.mp3" data-title="Splitter und Narben (Kintsugi)" data-track-key="a1_t10">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a1_t10_title">Splitter und Narben (Kintsugi)</span>
-                    <span class="track-blurb" data-i18n="a1_t10_blurb">Brüche werden mit Gold gefüllt, nicht versteckt.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Splitter und Narben (Kintsugi) 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Der Funke der Welt 432 Hz Vietnam edit.mp3" data-title="Der Funke der Welt" data-track-key="a1_t11">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a1_t11_title">Der Funke der Welt</span>
-                    <span class="track-blurb" data-i18n="a1_t11_blurb">Ein einzelner Impuls, der eine Kettenreaktion aus Hoffnung auslöst.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Der Funke der Welt 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Das Wunder vor der Haustür 432 Hz Vietnam edit.mp3" data-title="Das Wunder vor der Haustür" data-track-key="a1_t12">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a1_t12_title">Das Wunder vor der Haustür</span>
-                    <span class="track-blurb" data-i18n="a1_t12_blurb">Alltägliches neu gesehen – Staunen muss nicht weit reisen.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Das Wunder vor der Haustür 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Willkommen in der goldenen Sphäre _ Vom Dunkel ins Licht 432 Hz Vietnam edit.mp3" data-title="Willkommen in der goldenen Sphäre (Vom Dunkel ins Licht)" data-track-key="a1_t13">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a1_t13_title">Willkommen in der goldenen Sphäre (Vom Dunkel ins Licht)</span>
-                    <span class="track-blurb" data-i18n="a1_t13_blurb">Der Übergang vom Schatten in einen warmen, geteilten Raum.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Willkommen in der goldenen Sphäre _ Vom Dunkel ins Licht 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./vietnamesischen Instrumental-Bonus-Track.mp3" data-title="Vietnamesischer Instrumental-Bonus-Track" data-track-key="a1_t14">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a1_t14_title">Vietnamesischer Instrumental-Bonus-Track</span>
-                    <span class="track-blurb" data-i18n="a1_t14_blurb">Eine rein instrumentale Reise ohne Worte, getragen von Vietnams Klangfarben.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./vietnamesischen Instrumental-Bonus-Track.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Der letzte Puls (Outro) 432 Hz Vietnam edit.mp3" data-title="Der letzte Puls (Outro)" data-track-key="a1_t15">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a1_t15_title">Der letzte Puls (Outro)</span>
-                    <span class="track-blurb" data-i18n="a1_t15_blurb">Ein ruhiger Ausklang – der Herzschlag, der bleibt, wenn die Musik verklingt.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Der letzte Puls (Outro) 432 Hz Vietnam edit.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-              </ul>
-
-              <div class="player-bar" data-player-bar>
-                <button type="button" class="transport-btn small" data-player-prev data-i18n-attr="aria-label:prev_label" aria-label="Vorheriger Titel">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 6h2v12H6zM20 6l-10 6 10 6z"/></svg>
-                </button>
-                <button type="button" class="transport-btn" data-player-toggle data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                  <svg class="icon-play" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  <svg class="icon-pause" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="display:none"><path d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg>
-                </button>
-                <button type="button" class="transport-btn small" data-player-next data-i18n-attr="aria-label:next_label" aria-label="Nächster Titel">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 6h2v12h-2zM4 6l10 6-10 6z"/></svg>
-                </button>
-                <div style="flex:1;min-width:140px;">
-                  <p class="now-playing-label" data-player-status data-i18n="nothing_playing">Wähle einen Titel</p>
-                  <p class="now-playing-title" data-player-title></p>
-                </div>
-                <div class="volume-row">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 9v6h4l5 5V4L8 9H4z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
-                  <label class="visually-hidden" for="volume-1" data-i18n="volume_label">Lautstärke</label>
-                  <input type="range" id="volume-1" min="0" max="1" step="0.01" value="0.85" data-player-volume>
-                </div>
-                <div class="progress-row">
-                  <span data-player-current>0:00</span>
-                  <label class="visually-hidden" for="progress-1" data-i18n="progress_label">Wiedergabeposition</label>
-                  <input type="range" id="progress-1" min="0" max="100" step="0.1" value="0" data-player-progress>
-                  <span data-player-duration>0:00</span>
-                </div>
+              <button type="button" class="transport-btn" data-player-toggle aria-label="Abspielen">
+                <svg class="icon-play" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                <svg class="icon-pause" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="display:none"><path d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg>
+              </button>
+              <button type="button" class="transport-btn small" data-player-next aria-label="Nächster Titel">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 6h2v12h-2zM4 6l10 6-10 6z"/></svg>
+              </button>
+              <div style="flex:1;min-width:140px;">
+                <p class="now-playing-label" data-player-status>Wähle einen Titel</p>
+                <p class="now-playing-title" data-player-title></p>
+              </div>
+              <div class="volume-row">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 9v6h4l5 5V4L8 9H4z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+                <label class="visually-hidden" for="volume">Lautstärke</label>
+                <input type="range" id="volume" min="0" max="1" step="0.01" value="0.85" data-player-volume>
+              </div>
+              <div class="progress-row">
+                <span data-player-current>0:00</span>
+                <label class="visually-hidden" for="progress">Wiedergabeposition</label>
+                <input type="range" id="progress" min="0" max="100" step="0.1" value="0" data-player-progress>
+                <span data-player-duration>0:00</span>
               </div>
             </div>
           </div>
-        </article>
-
-        <!-- Album 2 -->
-        <article class="album-card glass">
-          <img class="album-cover" src="./Intro Mitten im Licht.jpeg" alt="Vom Dunkel ins Licht Cover" loading="lazy">
-          <div class="album-card-body">
-            <p class="album-card-sub"><span data-i18n="album2_sub">Co-Regulation · Reparatur-Code</span></p>
-            <h3 class="album-card-title font-display" data-i18n="album2_name">Vom Dunkel ins Licht</h3>
-            <p class="album-card-desc" data-i18n="album2_desc">Die Studio-Fassung: 16 Titel – vom Intro bis zu zwei Bonus-Tracks.</p>
-            <button type="button" class="btn btn-primary open-album-btn mt-5" data-modal-target="modal-album-2">
-              <span data-i18n="open_album">Album öffnen</span>
-              <span aria-hidden="true">·</span>
-              <span>16 <span data-i18n="tracks_label">Titel</span></span>
-            </button>
-          </div>
-
-          <div class="modal" id="modal-album-2" role="dialog" aria-modal="true" aria-labelledby="modal-album-2-title" aria-hidden="true">
-            <button type="button" class="modal-backdrop-btn" style="position:absolute;inset:0;width:100%;height:100%;background:transparent;border:0;cursor:default;" tabindex="-1" aria-hidden="true" data-modal-close></button>
-            <div class="modal-panel glass">
-              <button type="button" class="modal-close" data-modal-close data-i18n-attr="aria-label:modal_close" aria-label="Schließen">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-              </button>
-              <p class="album-card-sub"><span data-i18n="album2_sub">Co-Regulation · Reparatur-Code</span></p>
-              <h3 id="modal-album-2-title" class="font-display text-2xl mt-1" data-i18n="album2_name">Vom Dunkel ins Licht</h3>
-              <h4 class="mt-6 mb-2 text-sm uppercase tracking-wide" style="opacity:.65" data-i18n="tracklist_title">Titelliste</h4>
-              <ul class="track-list" data-album="album2">
-                <li class="track" data-src="./Intro Mitten im Licht.mp3" data-title="Intro Mitten im Licht" data-track-key="a2_t1">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a2_t1_title">Intro Mitten im Licht</span>
-                    <span class="track-blurb" data-i18n="a2_t1_blurb">Das Tor zur goldenen Sphäre – Ankunft, bevor die Reise beginnt.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Intro Mitten im Licht.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Willkommen im Jetzt.mp3" data-title="Willkommen im Jetzt" data-track-key="a2_t2">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a2_t2_title">Willkommen im Jetzt</span>
-                    <span class="track-blurb" data-i18n="a2_t2_blurb">Eine sanfte Landung im gegenwärtigen Moment.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Willkommen im Jetzt.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Das Dazwischen.mp3" data-title="Das Dazwischen" data-track-key="a2_t3">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a2_t3_title">Das Dazwischen</span>
-                    <span class="track-blurb" data-i18n="a2_t3_blurb">Der Raum zwischen Herz und Verstand, in dem echte Verbindung entsteht.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Das Dazwischen.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Reparatur-Code.mp3" data-title="Reparatur-Code" data-track-key="a2_t4">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a2_t4_title">Reparatur-Code</span>
-                    <span class="track-blurb" data-i18n="a2_t4_blurb">Wissen wird nicht zur Waffe, sondern zum Werkzeug des Kittens.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Reparatur-Code.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Lichtbrücke.mp3" data-title="Lichtbrücke" data-track-key="a2_t5">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a2_t5_title">Lichtbrücke</span>
-                    <span class="track-blurb" data-i18n="a2_t5_blurb">Eine Melodie, die zwei entfernte Herzen über die Distanz verbindet.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Lichtbrücke.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Das WIR-Feld.mp3" data-title="Das WIR-Feld" data-track-key="a2_t6">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a2_t6_title">Das WIR-Feld</span>
-                    <span class="track-blurb" data-i18n="a2_t6_blurb">Ein Feld, in dem viele Herzschläge zu einem gemeinsamen Rhythmus finden.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Das WIR-Feld.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Frequenzwechsel.mp3" data-title="Frequenzwechsel" data-track-key="a2_t7">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a2_t7_title">Frequenzwechsel</span>
-                    <span class="track-blurb" data-i18n="a2_t7_blurb">Der bewusste Sprung von Anspannung in einen weicheren Zustand.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Frequenzwechsel.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Rhythmus der Befreiung.mp3" data-title="Rhythmus der Befreiung" data-track-key="a2_t8">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a2_t8_title">Rhythmus der Befreiung</span>
-                    <span class="track-blurb" data-i18n="a2_t8_blurb">Bewegung als Ventil – der Körper tanzt, was Worte nicht sagen können.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Rhythmus der Befreiung.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Goldene Stunde.mp3" data-title="Goldene Stunde" data-track-key="a2_t9">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a2_t9_title">Goldene Stunde</span>
-                    <span class="track-blurb" data-i18n="a2_t9_blurb">Das Licht kurz vor Sonnenuntergang als Einladung, nichts zu wollen außer da zu sein.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Goldene Stunde.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Splitter und Narben.mp3" data-title="Splitter und Narben" data-track-key="a2_t10">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a2_t10_title">Splitter und Narben</span>
-                    <span class="track-blurb" data-i18n="a2_t10_blurb">Brüche werden mit Gold gefüllt, nicht versteckt.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Splitter und Narben.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Der Funke der Welt.mp3" data-title="Der Funke der Welt" data-track-key="a2_t11">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a2_t11_title">Der Funke der Welt</span>
-                    <span class="track-blurb" data-i18n="a2_t11_blurb">Ein einzelner Impuls, der eine Kettenreaktion aus Hoffnung auslöst.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Der Funke der Welt.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Das Wunder vor der Haustür.mp3" data-title="Das Wunder vor der Haustür" data-track-key="a2_t12">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a2_t12_title">Das Wunder vor der Haustür</span>
-                    <span class="track-blurb" data-i18n="a2_t12_blurb">Alltägliches neu gesehen – Staunen muss nicht weit reisen.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Das Wunder vor der Haustür.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Willkommen in der goldenen Sphäre _ Vom Dunkel ins Licht.mp3" data-title="Willkommen in der goldenen Sphäre (Vom Dunkel ins Licht)" data-track-key="a2_t13">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a2_t13_title">Willkommen in der goldenen Sphäre (Vom Dunkel ins Licht)</span>
-                    <span class="track-blurb" data-i18n="a2_t13_blurb">Der Übergang vom Schatten in einen warmen, geteilten Raum.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Willkommen in der goldenen Sphäre _ Vom Dunkel ins Licht.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Outro Die Variable.mp3" data-title="Outro: Die Variable" data-track-key="a2_t14">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a2_t14_title">Outro: Die Variable</span>
-                    <span class="track-blurb" data-i18n="a2_t14_blurb">Der letzte Ton lässt eine Frage offen, statt sie zu schließen – das Stück endet, die Veränderung bleibt variabel.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Outro Die Variable.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Roter Rhythmus Bonus.mp3" data-title="Roter Rhythmus (Bonus)" data-track-key="a2_t15">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a2_t15_title">Roter Rhythmus (Bonus)</span>
-                    <span class="track-blurb" data-i18n="a2_t15_blurb">Ein pulsierender Bonus-Track – Herzschlag und Percussion als ein gemeinsamer, warmer Puls.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Roter Rhythmus Bonus.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-                <li class="track" data-src="./Wilde Melodie Bonus.mp3" data-title="Wilde Melodie (Bonus)" data-track-key="a2_t16">
-                  <button type="button" class="track-play-btn" data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  </button>
-                  <div class="track-meta">
-                    <span class="track-title" data-i18n="a2_t16_title">Wilde Melodie (Bonus)</span>
-                    <span class="track-blurb" data-i18n="a2_t16_blurb">Ein freier, unverputzter Bonus-Track – Melodie ohne festen Weg, ganz der Bewegung des Moments folgend.</span>
-                    <audio class="native-fallback" controls preload="none"><source src="./Wilde Melodie Bonus.mp3" type="audio/mpeg"></audio>
-                  </div>
-                </li>
-              </ul>
-
-              <div class="player-bar" data-player-bar>
-                <button type="button" class="transport-btn small" data-player-prev data-i18n-attr="aria-label:prev_label" aria-label="Vorheriger Titel">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 6h2v12H6zM20 6l-10 6 10 6z"/></svg>
-                </button>
-                <button type="button" class="transport-btn" data-player-toggle data-i18n-attr="aria-label:play_label" aria-label="Abspielen">
-                  <svg class="icon-play" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                  <svg class="icon-pause" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="display:none"><path d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg>
-                </button>
-                <button type="button" class="transport-btn small" data-player-next data-i18n-attr="aria-label:next_label" aria-label="Nächster Titel">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 6h2v12h-2zM4 6l10 6-10 6z"/></svg>
-                </button>
-                <div style="flex:1;min-width:140px;">
-                  <p class="now-playing-label" data-player-status data-i18n="nothing_playing">Wähle einen Titel</p>
-                  <p class="now-playing-title" data-player-title></p>
-                </div>
-                <div class="volume-row">
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 9v6h4l5 5V4L8 9H4z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
-                  <label class="visually-hidden" for="volume-2" data-i18n="volume_label">Lautstärke</label>
-                  <input type="range" id="volume-2" min="0" max="1" step="0.01" value="0.85" data-player-volume>
-                </div>
-                <div class="progress-row">
-                  <span data-player-current>0:00</span>
-                  <label class="visually-hidden" for="progress-2" data-i18n="progress_label">Wiedergabeposition</label>
-                  <input type="range" id="progress-2" min="0" max="100" step="0.1" value="0" data-player-progress>
-                  <span data-player-duration>0:00</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-
+        </div>
       </div>
     </div>
   </section>
@@ -880,49 +711,49 @@
   <section id="netzwerk" class="section-pad">
     <div class="max-w-7xl mx-auto">
       <div class="section-head">
-        <p class="kicker" data-i18n="netzwerk_kicker">Das Ökosystem</p>
-        <h2 class="section-title mt-4" data-i18n="netzwerk_title">Verbunden im Netzwerk</h2>
-        <p class="mt-4" style="opacity:.75" data-i18n="netzwerk_subtitle">Weiterführende Räume der Stillen Revolution</p>
+        <p class="kicker">Das Ökosystem</p>
+        <h2 class="section-title mt-4">Verbunden im Netzwerk</h2>
+        <p class="mt-4" style="opacity:.75">Weiterführende Räume der Stillen Revolution</p>
       </div>
 
       <div class="link-grid">
         <div class="link-card glass">
-          <p class="link-card-title" data-i18n="link_landingpage_title">Landingpage v1</p>
-          <p class="link-card-desc" data-i18n="link_landingpage_desc">Der erste digitale Anlaufpunkt des Projekts.</p>
+          <p class="link-card-title">Landingpage v1</p>
+          <p class="link-card-desc">Der erste digitale Anlaufpunkt des Projekts.</p>
           <a class="btn btn-ghost" href="https://stillerevolution.github.io/Projekt-Sternenstaub-Landingpage-v1/" target="_blank" rel="noopener noreferrer">
-            <span data-i18n="link_visit">Besuchen</span>
+            <span>Besuchen</span>
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
         </div>
         <div class="link-card glass">
-          <p class="link-card-title" data-i18n="link_soundcloud_title">SoundCloud</p>
-          <p class="link-card-desc" data-i18n="link_soundcloud_desc">Alle Frequenzen zum Hören und Teilen.</p>
+          <p class="link-card-title">SoundCloud</p>
+          <p class="link-card-desc">Alle Frequenzen zum Hören und Teilen.</p>
           <a class="btn btn-ghost" href="https://soundcloud.com/projekt_sternenstaub" target="_blank" rel="noopener noreferrer">
-            <span data-i18n="link_visit">Besuchen</span>
+            <span>Besuchen</span>
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
         </div>
         <div class="link-card glass">
-          <p class="link-card-title" data-i18n="link_wegweiser_title">Ein Wegweiser</p>
-          <p class="link-card-desc" data-i18n="link_wegweiser_desc">Orientierung durch das Gesamtwerk der Stillen Revolution.</p>
+          <p class="link-card-title">Ein Wegweiser</p>
+          <p class="link-card-desc">Orientierung durch das Gesamtwerk der Stillen Revolution.</p>
           <a class="btn btn-ghost" href="https://stillerevolution.github.io/Die-Stille-Revolution---Ein-Wegweiser/" target="_blank" rel="noopener noreferrer">
-            <span data-i18n="link_visit">Besuchen</span>
+            <span>Besuchen</span>
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
         </div>
         <div class="link-card glass">
-          <p class="link-card-title" data-i18n="link_eltern_title">Eltern-Portal</p>
-          <p class="link-card-desc" data-i18n="link_eltern_desc">Für Familien: Co-Regulation im Alltag.</p>
+          <p class="link-card-title">Eltern-Portal</p>
+          <p class="link-card-desc">Für Familien: Co-Regulation im Alltag.</p>
           <a class="btn btn-ghost" href="https://stillerevolution.github.io/sternenstaub-Eltern/" target="_blank" rel="noopener noreferrer">
-            <span data-i18n="link_visit">Besuchen</span>
+            <span>Besuchen</span>
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
         </div>
         <div class="link-card glass">
-          <p class="link-card-title" data-i18n="link_spiegelwelten_title">Leas Spiegelwelten</p>
-          <p class="link-card-desc" data-i18n="link_spiegelwelten_desc">Ein Kapitel für die jüngsten Hörer:innen.</p>
+          <p class="link-card-title">Leas Spiegelwelten</p>
+          <p class="link-card-desc">Ein Kapitel für die jüngsten Hörer:innen.</p>
           <a class="btn btn-ghost" href="https://stillerevolution.github.io/Projekt-Sternenstaub_Leas_Spiegelwelten/" target="_blank" rel="noopener noreferrer">
-            <span data-i18n="link_visit">Besuchen</span>
+            <span>Besuchen</span>
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
         </div>
@@ -931,36 +762,36 @@
   </section>
 
   <section id="exo-section" class="section-pad">
-    <div class="max-w-4xl mx-auto text-center">
-      <p class="kicker justify-center" data-i18n="exo_open">System-Architektur &amp; Grenzen</p>
-      <h2 class="section-title mt-4" data-i18n="exo_title">Das Exoskelett</h2>
-      <p class="mt-4" style="opacity:.75" data-i18n="exo_intro">Jedes System hat Grenzen. Bevor du weiterhörst, zeigen wir dir unsere – ehrlich und ohne Umweg.</p>
+    <div class="max-w-4xl mx-auto text-center exo-intro">
+      <p class="kicker justify-center">System-Architektur &amp; Grenzen</p>
+      <h2 class="section-title mt-4">Das Exoskelett</h2>
+      <p class="mt-4" style="opacity:.75">Jedes System hat Grenzen. Bevor du weiterhörst, zeigen wir dir unsere – ehrlich und ohne Umweg.</p>
       <button type="button" class="btn btn-primary mt-7" id="exo-open-btn" data-modal-target="exo-modal">
-        <span data-i18n="exo_open">System-Architektur &amp; Grenzen</span>
+        <span>System-Architektur &amp; Grenzen</span>
       </button>
     </div>
 
     <div class="modal max-w-4xl mx-auto mt-10" id="exo-modal" role="dialog" aria-modal="true" aria-labelledby="exo-modal-title" aria-hidden="true">
       <button type="button" class="modal-backdrop-btn" style="position:absolute;inset:0;width:100%;height:100%;background:transparent;border:0;cursor:default;" tabindex="-1" aria-hidden="true" data-modal-close></button>
       <div class="modal-panel glass" style="max-width:760px;margin:0 auto;">
-        <button type="button" class="modal-close" data-modal-close data-i18n-attr="aria-label:modal_close" aria-label="Schließen">
+        <button type="button" class="modal-close" data-modal-close aria-label="Schließen">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
         </button>
-        <h3 id="exo-modal-title" class="font-display text-2xl" data-i18n="exo_title">Das Exoskelett</h3>
-        <p class="mt-2 text-sm" style="opacity:.7" data-i18n="exo_intro">Jedes System hat Grenzen. Bevor du weiterhörst, zeigen wir dir unsere – ehrlich und ohne Umweg.</p>
+        <h3 id="exo-modal-title" class="font-display text-2xl">Das Exoskelett</h3>
+        <p class="mt-2 text-sm" style="opacity:.7">Jedes System hat Grenzen. Bevor du weiterhörst, zeigen wir dir unsere – ehrlich und ohne Umweg.</p>
 
         <div class="exo-tabs" role="tablist" aria-label="Exoskelett-Perspektiven">
-          <button type="button" class="exo-tab" role="tab" id="exo-tab-neuro" aria-controls="exo-panel-neuro" aria-selected="true" data-exo-tab="neuro" data-i18n="exo_tab_neuro">Neurobiologisch</button>
-          <button type="button" class="exo-tab" role="tab" id="exo-tab-tech" aria-controls="exo-panel-tech" aria-selected="false" data-exo-tab="tech" data-i18n="exo_tab_tech">Technologisch</button>
-          <button type="button" class="exo-tab" role="tab" id="exo-tab-philo" aria-controls="exo-panel-philo" aria-selected="false" data-exo-tab="philo" data-i18n="exo_tab_philo">Philosophisch</button>
-          <button type="button" class="exo-tab" role="tab" id="exo-tab-limits" aria-controls="exo-panel-limits" aria-selected="false" data-exo-tab="limits" data-i18n="exo_tab_limits">Grenzen</button>
-          <button type="button" class="exo-tab" role="tab" id="exo-tab-evolution" aria-controls="exo-panel-evolution" aria-selected="false" data-exo-tab="evolution" data-i18n="exo_tab_evolution">Weiterentwicklung</button>
+          <button type="button" class="exo-tab" role="tab" id="exo-tab-neuro" aria-controls="exo-panel-neuro" aria-selected="true" data-exo-tab="neuro">Neurobiologisch</button>
+          <button type="button" class="exo-tab" role="tab" id="exo-tab-tech" aria-controls="exo-panel-tech" aria-selected="false" data-exo-tab="tech">Technologisch</button>
+          <button type="button" class="exo-tab" role="tab" id="exo-tab-philo" aria-controls="exo-panel-philo" aria-selected="false" data-exo-tab="philo">Philosophisch</button>
+          <button type="button" class="exo-tab" role="tab" id="exo-tab-limits" aria-controls="exo-panel-limits" aria-selected="false" data-exo-tab="limits">Grenzen</button>
+          <button type="button" class="exo-tab" role="tab" id="exo-tab-evolution" aria-controls="exo-panel-evolution" aria-selected="false" data-exo-tab="evolution">Weiterentwicklung</button>
         </div>
 
         <div class="exo-panel" id="exo-panel-neuro" role="tabpanel" aria-labelledby="exo-tab-neuro">
           <h3>Neurobiologisch: Co-Regulation und die 432-Hz-Frage</h3>
           <p>Co-Regulation beschreibt, wie sich ein überreiztes Nervensystem an der ruhigen, verlässlichen Präsenz eines anderen Menschen orientieren und beruhigen kann – ein Grundprinzip aus Bindungs- und Stressforschung, das plausibel auch auf Klang übertragbar ist: ruhiger Rhythmus, tiefe Frequenzen und eine stabile Lautstärke können als äußerer Taktgeber wirken.</p>
-          <p><strong>Was die 432-Hz-Behauptung angeht, bleiben wir ehrlich:</strong> Die meistzitierte Studie dazu (Calamassi & Pomponi, 2019) ist eine kleine Pilotstudie mit 33 Personen. Der gemessene Unterschied in der Herzfrequenz lag an der Grenze statistischer Signifikanz (p = 0,05), die Autor:innen selbst fordern größere, randomisierte Folgestudien. Bis heute existiert keine belastbare, wiederholte Evidenz dafür, dass 432 Hz gegenüber 440 Hz eine eigenständige heilende Wirkung hätte. Ein Unterschied von 8 Hz entspricht weniger als einem halben Halbton – für die meisten Hörer:innen ohne absolutes Gehör kaum bewusst wahrnehmbar. Vieles, was als „432-Hz-Wirkung” erlebt wird, lässt sich plausibler durch Tempo (60–90 BPM), harmonische Einfachheit, Wiederholung und schlicht die bewusste Hörsituation selbst erklären – nicht durch die Stimmfrequenz allein. Wir nutzen 432 Hz als künstlerische, bewusste Entscheidung, nicht als medizinisches Versprechen.</p>
+          <p><strong>Was die 432-Hz-Behauptung angeht, bleiben wir ehrlich:</strong> Die meistzitierte Studie dazu (Calamassi &amp; Pomponi, 2019) ist eine kleine Pilotstudie mit 33 Personen. Der gemessene Unterschied in der Herzfrequenz lag an der Grenze statistischer Signifikanz (p = 0,05), die Autor:innen selbst fordern größere, randomisierte Folgestudien. Bis heute existiert keine belastbare, wiederholte Evidenz dafür, dass 432 Hz gegenüber 440 Hz eine eigenständige heilende Wirkung hätte. Ein Unterschied von 8 Hz entspricht weniger als einem halben Halbton – für die meisten Hörer:innen ohne absolutes Gehör kaum bewusst wahrnehmbar. Vieles, was als „432-Hz-Wirkung” erlebt wird, lässt sich plausibler durch Tempo (60–90 BPM), harmonische Einfachheit, Wiederholung und schlicht die bewusste Hörsituation selbst erklären – nicht durch die Stimmfrequenz allein. Wir nutzen 432 Hz als künstlerische, bewusste Entscheidung, nicht als medizinisches Versprechen.</p>
         </div>
         <div class="exo-panel" id="exo-panel-tech" role="tabpanel" aria-labelledby="exo-tab-tech">
           <h3>Technologisch: Was „netzunabhängig” wirklich bedeutet</h3>
@@ -977,17 +808,17 @@
           <ul>
             <li><strong>Kein Gesundheitsversprechen:</strong> 432 Hz, Klangarchitektur und Co-Regulation sind hier künstlerische, keine klinisch geprüften Interventionen. Bei ernsthaften psychischen Belastungen ersetzt diese Seite keine professionelle Unterstützung.</li>
             <li><strong>Technische Offline-Fähigkeit</strong> hängt von Browser, Betriebssystem und Hosting über https ab.</li>
-            <li><strong>Übersetzungen:</strong> Alle 14 Sprachversionen der Oberfläche und Titellisten wurden sorgfältig, maschinell unterstützt erstellt. Vor einer Veröffentlichung lohnt sich ein Gegenlesen durch Muttersprachler:innen.</li>
-            <li><strong>Audiodateien:</strong> Die 31 MP3-Dateien beider Alben müssen im selben Verzeichnis wie diese HTML-Datei auf GitHub bzw. im lokalen Ordner liegen.</li>
+            <li><strong>Sprache:</strong> Diese Ausgabe ist bewusst einsprachig (Deutsch) gehalten, damit Ton und Nuance der Texte nicht durch eine Übersetzung verloren gehen.</li>
+            <li><strong>Audiodateien:</strong> Die 16 MP3-Dateien des Albums müssen im selben Verzeichnis wie diese HTML-Datei auf GitHub bzw. im lokalen Ordner liegen.</li>
           </ul>
         </div>
         <div class="exo-panel" id="exo-panel-evolution" role="tabpanel" aria-labelledby="exo-tab-evolution">
           <h3>Wie sich dieses System weiterentwickeln ließe</h3>
           <ul>
             <li>Ein echtes, separat gehostetes <code>sw.js</code> plus Web-App-Manifest für echte Installierbarkeit als PWA.</li>
-            <li>Echte Wellenform-Analyse pro Titel statt Live-Analyse für ein noch präziseres Audio-Reaktivität der Partikel.</li>
+            <li>Echte Wellenform-Analyse pro Titel statt Live-Analyse für eine noch präzisere Audio-Reaktivität der Partikel.</li>
             <li>Ein Nutzer:innen-Test mit Screenreadern (VoiceOver, NVDA, TalkBack) zur Validierung der ARIA-Struktur.</li>
-            <li>Muttersprachliches Lektorat aller 14 Sprachversionen.</li>
+            <li>Eine mehrsprachige Fassung – sollte sie sinnvoll erscheinen – mit sorgfältigem menschlichem statt rein maschinellem Lektorat.</li>
           </ul>
         </div>
       </div>
@@ -998,14 +829,14 @@
 
 <footer class="section-pad">
   <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm" style="opacity:.65">
-    <p data-i18n="footer_rights">Sternenstaub · Ein Projekt der Stillen Revolution.</p>
-    <p data-i18n="footer_made">Gebaut als netzunabhängiges Klang-Archiv.</p>
+    <p>Sternenstaub · Ein Projekt der Stillen Revolution.</p>
+    <p>Gebaut als netzunabhängiges Klang-Archiv.</p>
   </div>
 </footer>
 
 <noscript>
   <div style="position:fixed;bottom:0;left:0;right:0;background:#10152b;color:#f4ead9;padding:.85rem 1.25rem;font-family:sans-serif;font-size:.85rem;border-top:1px solid rgba(244,234,217,.2);z-index:999;">
-    Sternenstaub · Diese Seite zeigt sich am schönsten mit aktiviertem JavaScript. Auch ohne findest du hier alle Alben, Titel und weiterführenden Links.
+    Sternenstaub · Diese Seite zeigt sich am schönsten mit aktiviertem JavaScript. Auch ohne findest du hier das Album, alle Titel und weiterführende Links.
   </div>
 </noscript>
 
@@ -1015,140 +846,25 @@
 (function () {
   "use strict";
 
-  /* 0. Multi-Language Dictionary (Inklusive Vi, En, De, Fr, Es etc. & Track-Übersetzungen) */
-  var I18N = {
-    "de": {
-      "brand": "Sternenstaub", "nav_alben": "Alben", "nav_netzwerk": "Netzwerk", "nav_exo": "System & Grenzen", "lang_label": "Sprache wählen", "skip_link": "Zum Inhalt springen",
-      "hero_kicker": "Ein interdisziplinäres Musik-Manifest", "hero_title": "Sternenstaub", "hero_text": "Wir sind Projekt Sternenstaub – ein interdisziplinäres Musik-Manifest für regenerative Ökologie und somatische Resilienz. Klang als Werkzeug der Erdung, in einer Welt, die selten stillsteht.",
-      "hero_scroll": "Eintauchen", "hero_offline_hint": "Läuft auch ohne Netz – einmal geladen, immer erreichbar.", "alben_kicker": "Zwei Klangarchive", "alben_title": "Die Alben",
-      "album1_name": "Lebendigkeit II", "album1_sub": "Vietnam Edit · 432 Hz", "album1_desc": "Feldaufnahmen und Neuinterpretationen aus Vietnam – vom Wunder vor der Haustür bis zur goldenen Sphäre.",
-      "album2_name": "Vom Dunkel ins Licht", "album2_sub": "Co-Regulation · Reparatur-Code", "album2_desc": "Die Studio-Fassung: 16 Titel – vom Intro bis zu zwei Bonus-Tracks.",
-      "open_album": "Album öffnen", "tracks_label": "Titel", "modal_close": "Schließen", "tracklist_title": "Titelliste", "now_playing": "Läuft gerade", "nothing_playing": "Wähle einen Titel",
-      "play_label": "Abspielen", "pause_label": "Pause", "prev_label": "Vorheriger Titel", "next_label": "Nächster Titel", "volume_label": "Lautstärke", "progress_label": "Wiedergabeposition",
-      "netzwerk_kicker": "Das Ökosystem", "netzwerk_title": "Verbunden im Netzwerk", "netzwerk_subtitle": "Weiterführende Räume der Stillen Revolution",
-      "link_landingpage_title": "Landingpage v1", "link_landingpage_desc": "Der erste digitale Anlaufpunkt des Projekts.", "link_soundcloud_title": "SoundCloud", "link_soundcloud_desc": "Alle Frequenzen zum Hören und Teilen.", "link_wegweiser_title": "Ein Wegweiser", "link_wegweiser_desc": "Orientierung durch das Gesamtwerk der Stillen Revolution.", "link_eltern_title": "Eltern-Portal", "link_eltern_desc": "Für Familien: Co-Regulation im Alltag.", "link_spiegelwelten_title": "Leas Spiegelwelten", "link_spiegelwelten_desc": "Ein Kapitel für die jüngsten Hörer:innen.", "link_visit": "Besuchen",
-      "exo_open": "System-Architektur & Grenzen", "exo_title": "Das Exoskelett", "exo_intro": "Jedes System hat Grenzen. Bevor du weiterhörst, zeigen wir dir unsere – ehrlich und ohne Umweg.",
-      "exo_tab_neuro": "Neurobiologisch", "exo_tab_tech": "Technologisch", "exo_tab_philo": "Philosophisch", "exo_tab_limits": "Grenzen", "exo_tab_evolution": "Weiterentwicklung",
-      "footer_made": "Gebaut als netzunabhängiges Klang-Archiv.", "footer_rights": "Sternenstaub · Ein Projekt der Stillen Revolution.", "offline_notice": "Offline – zwischengespeicherte Inhalte aktiv.", "missing_audio_hint": "Audiodatei lokal noch nicht vorhanden.",
-      "a1_t1_title": "Intro Mitten im Licht", "a1_t1_blurb": "Das Tor zur goldenen Sphäre – Ankunft, bevor die Reise beginnt.",
-      "a1_t2_title": "Willkommen im Jetzt", "a1_t2_blurb": "Eine sanfte Landung im gegenwärtigen Moment.",
-      "a1_t3_title": "Das Dazwischen", "a1_t3_blurb": "Der Raum zwischen Herz und Verstand, in dem echte Verbindung entsteht.",
-      "a1_t4_title": "Reparatur-Code", "a1_t4_blurb": "Wissen wird nicht zur Waffe, sondern zum Werkzeug des Kittens.",
-      "a1_t5_title": "Lichtbrücke", "a1_t5_blurb": "Eine Melodie, die zwei entfernte Herzen über die Distanz verbindet.",
-      "a1_t6_title": "Das WIR-Feld", "a1_t6_blurb": "Ein Feld, in dem viele Herzschläge zu einem gemeinsamen Rhythmus finden.",
-      "a1_t7_title": "Frequenzwechsel", "a1_t7_blurb": "Der bewusste Sprung von Anspannung in einen weicheren Zustand.",
-      "a1_t8_title": "Rhythmus der Befreiung", "a1_t8_blurb": "Bewegung als Ventil – der Körper tanzt, was Worte nicht sagen können.",
-      "a1_t9_title": "Goldene Stunde (Das Jetzt)", "a1_t9_blurb": "Das Licht kurz vor Sonnenuntergang als Einladung, nichts zu wollen außer da zu sein.",
-      "a1_t10_title": "Splitter und Narben (Kintsugi)", "a1_t10_blurb": "Brüche werden mit Gold gefüllt, nicht versteckt.",
-      "a1_t11_title": "Der Funke der Welt", "a1_t11_blurb": "Ein einzelner Impuls, der eine Kettenreaktion aus Hoffnung auslöst.",
-      "a1_t12_title": "Das Wunder vor der Haustür", "a1_t12_blurb": "Alltägliches neu gesehen – Staunen muss nicht weit reisen.",
-      "a1_t13_title": "Willkommen in der goldenen Sphäre", "a1_t13_blurb": "Der Übergang vom Schatten in einen warmen, geteilten Raum.",
-      "a1_t14_title": "Vietnamesischer Instrumental-Bonus-Track", "a1_t14_blurb": "Eine rein instrumentale Reise ohne Worte, getragen von Vietnams Klangfarben.",
-      "a1_t15_title": "Der letzte Puls (Outro)", "a1_t15_blurb": "Ein ruhiger Ausklang – der Herzschlag, der bleibt, wenn die Musik verklingt."
-    },
-    "vi": {
-      "brand": "Sternenstaub", "nav_alben": "Album", "nav_netzwerk": "Mạng lưới", "nav_exo": "Hệ thống & Giới hạn", "lang_label": "Chọn ngôn ngữ", "skip_link": "Bỏ qua đến nội dung",
-      "hero_kicker": "Tuyên ngôn âm nhạc liên ngành", "hero_title": "Sternenstaub", "hero_text": "Chúng tôi là Dự án Sternenstaub – tuyên ngôn âm nhạc cho sinh thái tái tạo và sự phục hồi của cơ thể. Âm thanh là công cụ neo giữ tâm hồn trong một thế giới vội vã.",
-      "hero_scroll": "Khám phá", "hero_offline_hint": "Hoạt động không cần mạng – tải một lần, nghe mãi mãi.", "alben_kicker": "Hai kho lưu trữ âm thanh", "alben_title": "Danh sách Album",
-      "album1_name": "Sức Sống II (Lebendigkeit II)", "album1_sub": "Phiên bản Việt Nam · 432 Hz", "album1_desc": "Thu âm thực địa và phối khí lại từ Việt Nam – từ phép màu trước hiên nhà đến vùng cầu ánh sáng vàng.",
-      "album2_name": "Từ Bóng Tối Ra Ánh Sáng", "album2_sub": "Đồng Điều Hòa · Mã Sửa Chữa", "album2_desc": "Bản thu Studio: 16 bài hát – từ đoạn mở đầu đến hai bản nhạc thưởng.",
-      "open_album": "Mở Album", "tracks_label": "Bài hát", "modal_close": "Đóng", "tracklist_title": "Danh sách bài hát", "now_playing": "Đang phát", "nothing_playing": "Chọn một bài hát",
-      "play_label": "Phát", "pause_label": "Tạm dừng", "prev_label": "Bài trước", "next_label": "Bài tiếp theo", "volume_label": "Âm lượng", "progress_label": "Tiến trình",
-      "netzwerk_kicker": "Hệ sinh thái", "netzwerk_title": "Kết nối mạng lưới", "netzwerk_subtitle": "Các không gian mở rộng của Cuộc Cách Mạng Lặng Lẽ",
-      "link_landingpage_title": "Trang chủ v1", "link_landingpage_desc": "Điểm khởi đầu kỹ thuật số của dự án.", "link_soundcloud_title": "SoundCloud", "link_soundcloud_desc": "Tất cả tần số âm thanh để nghe và chia sẻ.", "link_wegweiser_title": "Kim chỉ nam", "link_wegweiser_desc": "Định hướng toàn bộ tác phẩm.", "link_eltern_title": "Cổng thông tin Cha Mẹ", "link_eltern_desc": "Dành cho gia đình: Đồng điều hòa đời sống.", "link_spiegelwelten_title": "Thế giới gương của Lea", "link_spiegelwelten_desc": "Dành cho những thính giả nhỏ tuổi.", "link_visit": "Truy cập",
-      "exo_open": "Kiến trúc hệ thống & Giới hạn", "exo_title": "Bộ khung Kháng lực (Exoskeleton)", "exo_intro": "Mọi hệ thống đều có giới hạn. Trước khi nghe tiếp, đây là những giới hạn trung thực của chúng tôi.",
-      "exo_tab_neuro": "Sinh học thần kinh", "exo_tab_tech": "Công nghệ", "exo_tab_philo": "Triết học", "exo_tab_limits": "Giới hạn", "exo_tab_evolution": "Phát triển",
-      "footer_made": "Được xây dựng như một kho lưu trữ âm thanh độc lập với mạng đệm.", "footer_rights": "Sternenstaub · Một dự án thuộc Cuộc Cách Mạng Lặng Lẽ.", "offline_notice": "Ngoại tuyến – Đang dùng dữ liệu bộ nhớ đệm.", "missing_audio_hint": "Tệp âm thanh chưa có sẵn tại máy.",
-      "a1_t1_title": "Khởi đầu trong Ánh sáng (Intro Mitten im Licht)", "a1_t1_blurb": "Cánh cổng bước vào vùng cầu ánh sáng – Bình yên trước chuyến hành trình.",
-      "a1_t2_title": "Chào mừng đến Hiện tại (Willkommen im Jetzt)", "a1_t2_blurb": "Sự đáp cánh nhẹ nhàng xuống khoảnh khắc ngay lúc này.",
-      "a1_t3_title": "Khoảng Không Giữa Hợp (Das Dazwischen)", "a1_t3_blurb": "Khoảng không giữa trái tim và trí tuệ, nơi sự kết nối chân thật nảy mầm.",
-      "a1_t4_title": "Mã Sửa Chữa (Reparatur-Code)", "a1_t4_blurb": "Tri thức không phải là vũ khí, mà là công cụ để hàn gắn tổn thương.",
-      "a1_t5_title": "Cầu Ánh Sáng (Lichtbrücke)", "a1_t5_blurb": "Giai điệu kết nối hai tâm hồn dù ở khoảng cách xa xôi.",
-      "a1_t6_title": "Trường Chúng Ta (Das WIR-Feld)", "a1_t6_blurb": "Trường năng lượng nơi nhiều nhịp đập hòa cùng một nhịp thở.",
-      "a1_t7_title": "Chuyển Tần Số (Frequenzwechsel)", "a1_t7_blurb": "Bước chuyển chủ động từ căng thẳng sang trạng thái thư thái.",
-      "a1_t8_title": "Nhịp Điệu Giải Phóng (Rhythmus der Befreiung)", "a1_t8_blurb": "Chuyển động giải tỏa – Cơ thể nhảy múa những điều lời nói không thể diễn tả.",
-      "a1_t9_title": "Giờ Hoàng Kim (Goldene Stunde)", "a1_t9_blurb": "Ánh hoàng hôn buông xuống như lời mời hiện diện nguyên bản.",
-      "a1_t10_title": "Mảnh Vỡ & Vết Sẹo Kintsugi", "a1_t10_blurb": "Vết nứt được gắn hàn bằng vàng, không che giấu mà tôn vinh.",
-      "a1_t11_title": "Tia Sáng Thế Giới (Der Funke der Welt)", "a1_t11_blurb": "Một nhịp xung đơn lẻ khởi đầu phản ứng dây chuyền của hy vọng.",
-      "a1_t12_title": "Phép Màu Trước Hiên Nhà", "a1_t12_blurb": "Góc nhìn mới về điều bình dị – Sự kinh ngạc không cần tìm đâu xa.",
-      "a1_t13_title": "Chào mừng đến Vùng Cầu Ánh Sáng Vàng", "a1_t13_blurb": "Sự chuyển dịch từ bóng tối bước vào không gian ấm áp sẻ chia.",
-      "a1_t14_title": "Bản Nhạc Nhạc Cụ Việt Nam (Bonus Track)", "a1_t14_blurb": "Hành trình hòa tấu không lời mang đậm âm hưởng cảnh sắc Việt Nam.",
-      "a1_t15_title": "Nhịp Đập Cuối Cùng (Outro)", "a1_t15_blurb": "Dư âm lắng lắng – Nhịp đập con tim còn mãi khi tiếng nhạc tan đi."
-    },
-    "en": {
-      "brand": "Sternenstaub", "nav_alben": "Albums", "nav_netzwerk": "Network", "nav_exo": "System & Limits", "lang_label": "Choose language", "skip_link": "Skip to content",
-      "hero_kicker": "An interdisciplinary music manifesto", "hero_title": "Sternenstaub", "hero_text": "We are Project Sternenstaub — an interdisciplinary music manifesto for regenerative ecology and somatic resilience. Sound as a tool for grounding, in a world that rarely stands still.",
-      "hero_scroll": "Dive in", "hero_offline_hint": "Works without a connection — load it once, reach it always.", "alben_kicker": "Two sound archives", "alben_title": "The Albums",
-      "album1_name": "Lebendigkeit II", "album1_sub": "Vietnam Edit · 432 Hz", "album1_desc": "Field recordings and reinterpretations from Vietnam — from the wonder outside your door to the golden sphere.",
-      "album2_name": "From Darkness Into Light", "album2_sub": "Co-regulation · Repair code", "album2_desc": "The studio version: 16 tracks — from the intro to two bonus tracks.",
-      "open_album": "Open album", "tracks_label": "tracks", "modal_close": "Close", "tracklist_title": "Tracklist", "now_playing": "Now playing", "nothing_playing": "Choose a track",
-      "play_label": "Play", "pause_label": "Pause", "prev_label": "Previous track", "next_label": "Next track", "volume_label": "Volume", "progress_label": "Playback position",
-      "netzwerk_kicker": "The ecosystem", "netzwerk_title": "Connected in the network", "netzwerk_subtitle": "Further spaces of the Quiet Revolution",
-      "link_landingpage_title": "Landing page v1", "link_landingpage_desc": "The project's first digital home.", "link_soundcloud_title": "SoundCloud", "link_soundcloud_desc": "All frequencies to listen to and share.", "link_wegweiser_title": "A Guidepost", "link_wegweiser_desc": "Orientation through the whole body of work.", "link_eltern_title": "Parents' Portal", "link_eltern_desc": "For families: co-regulation in everyday life.", "link_spiegelwelten_title": "Lea's Mirror Worlds", "link_spiegelwelten_desc": "A chapter for the youngest listeners.", "link_visit": "Visit",
-      "exo_open": "System architecture & limits", "exo_title": "The Exoskeleton", "exo_intro": "Every system has limits. Before you listen on, here are ours — plainly, without detour.",
-      "exo_tab_neuro": "Neurobiological", "exo_tab_tech": "Technological", "exo_tab_philo": "Philosophical", "exo_tab_limits": "Limits", "exo_tab_evolution": "Further development",
-      "footer_made": "Built as a network-independent sound archive.", "footer_rights": "Sternenstaub · A project of the Quiet Revolution.", "offline_notice": "Offline — cached content is active.", "missing_audio_hint": "Audio file not found locally yet.",
-      "a1_t1_title": "Intro In the Light", "a1_t1_blurb": "The gateway to the golden sphere – Arrival before the journey begins.",
-      "a1_t2_title": "Welcome to the Now", "a1_t2_blurb": "A gentle landing in the present moment.",
-      "a1_t3_title": "The In-Between", "a1_t3_blurb": "The space between heart and mind where genuine connection arises.",
-      "a1_t4_title": "Repair Code", "a1_t4_blurb": "Knowledge becomes a tool for mending, not a weapon.",
-      "a1_t5_title": "Bridge of Light", "a1_t5_blurb": "A melody connecting two distant hearts across space.",
-      "a1_t6_title": "The WE-Field", "a1_t6_blurb": "A field where many heartbeats unite in a shared rhythm.",
-      "a1_t7_title": "Frequency Shift", "a1_t7_blurb": "The conscious transition from tension into a softer state.",
-      "a1_t8_title": "Rhythm of Liberation", "a1_t8_blurb": "Movement as an outlet – the body dances what words cannot say.",
-      "a1_t9_title": "Golden Hour (The Now)", "a1_t9_blurb": "Light before sunset as an invitation to simply be.",
-      "a1_t10_title": "Splinters & Scars (Kintsugi)", "a1_t10_blurb": "Fractures filled with gold, never hidden.",
-      "a1_t11_title": "Spark of the World", "a1_t11_blurb": "A single impulse triggering a chain reaction of hope.",
-      "a1_t12_title": "Wonder at the Doorstep", "a1_t12_blurb": "Rediscovering the everyday – wonder doesn't travel far.",
-      "a1_t13_title": "Welcome to the Golden Sphere", "a1_t13_blurb": "Transitioning from shadow into a warm, shared space.",
-      "a1_t14_title": "Vietnamese Instrumental Bonus Track", "a1_t14_blurb": "An instrumental journey guided by Vietnam's tonal colors.",
-      "a1_t15_title": "The Final Pulse (Outro)", "a1_t15_blurb": "A quiet fading – the heartbeat that remains when music stops."
-    }
-  };
-
-  var RTL_LANGS = ["ar", "fa"];
-  var currentLang = "de";
   var IS_FILE_PROTOCOL = window.location.protocol === "file:";
+  var PREFERS_REDUCED_MOTION = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  function detectLang() {
-    var supported = Object.keys(I18N);
-    var nav = (navigator.language || navigator.userLanguage || "de").toLowerCase();
-    var primary = nav.split("-")[0];
-    return supported.indexOf(primary) !== -1 ? primary : "de";
-  }
-
-  function applyLanguage(code) {
-    var dict = I18N[code] || I18N[code.split('-')[0]] || I18N.de;
-    currentLang = I18N[code] ? code : "de";
-    document.documentElement.lang = currentLang;
-    document.documentElement.dir = RTL_LANGS.indexOf(currentLang) !== -1 ? "rtl" : "ltr";
-
-    var nodes = document.querySelectorAll("[data-i18n]");
-    for (var i = 0; i < nodes.length; i++) {
-      var key = nodes[i].getAttribute("data-i18n");
-      if (dict[key] !== undefined) nodes[i].textContent = dict[key];
-    }
-    var attrNodes = document.querySelectorAll("[data-i18n-attr]");
-    for (var j = 0; j < attrNodes.length; j++) {
-      var pairs = attrNodes[j].getAttribute("data-i18n-attr").split(";");
-      for (var k = 0; k < pairs.length; k++) {
-        var parts = pairs[k].split(":");
-        var attr = parts[0], key2 = parts[1];
-        if (key2 && dict[key2] !== undefined) attrNodes[j].setAttribute(attr, dict[key2]);
-      }
-    }
-    var sel = document.getElementById("lang-select");
-    if (sel) sel.value = currentLang;
-    updateOfflineNotice();
-  }
+  var TXT = {
+    now_playing: "Läuft gerade",
+    nothing_playing: "Wähle einen Titel",
+    play_label: "Abspielen",
+    pause_label: "Pause",
+    missing_audio_hint: "Audiodatei lokal noch nicht vorhanden.",
+    offline_notice: "Offline – zwischengespeicherte Inhalte aktiv."
+  };
 
   /* 1. Canvas Partikel-Netzwerk */
   function Stardust(canvas) {
     this.canvas = canvas;
     this.ctx = canvas.getContext("2d", { alpha: true });
     this.pointer = { x: null, y: null, active: false };
-    this.reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    this.bass = 0; this.treble = 0;
+    this.reducedMotion = PREFERS_REDUCED_MOTION;
+    this.bass = 0; this.treble = 0; this.t = 0;
     this.dpr = Math.min(window.devicePixelRatio || 1, 2);
     this.particles = [];
     var self = this;
@@ -1183,7 +899,8 @@
       this.particles.push({
         x: Math.random() * this.w, y: Math.random() * this.h,
         vx: (Math.random() - 0.5) * 0.18, vy: (Math.random() - 0.5) * 0.18,
-        baseR: Math.random() * 1.6 + 0.6
+        baseR: Math.random() * 1.6 + 0.6,
+        phase: Math.random() * Math.PI * 2
       });
     }
   };
@@ -1200,6 +917,7 @@
     var linkDist = 120 + this.treble * 50;
 
     if (animate) {
+      this.t += 0.016;
       for (var i = 0; i < particles.length; i++) {
         var p = particles[i];
         if (pointer.active) {
@@ -1243,11 +961,12 @@
     for (var c = 0; c < particles.length; c++) {
       var pc = particles[c];
       var r = pc.baseR * pulse;
+      var twinkle = this.reducedMotion ? 1 : (0.78 + 0.22 * Math.sin(this.t * 1.3 + pc.phase));
       ctx.beginPath();
       ctx.fillStyle = "rgba(244,184,105," + (0.12 + bassKick * 0.25).toFixed(3) + ")";
       ctx.arc(pc.x, pc.y, r * 2.8, 0, Math.PI * 2); ctx.fill();
       ctx.beginPath();
-      ctx.fillStyle = "rgba(244,234,217,0.9)";
+      ctx.fillStyle = "rgba(244,234,217," + (0.9 * twinkle).toFixed(3) + ")";
       ctx.arc(pc.x, pc.y, r, 0, Math.PI * 2); ctx.fill();
     }
   };
@@ -1311,8 +1030,8 @@
   var currentIndex = -1;
   var activePlayerBars = document.querySelectorAll("[data-player-bar]");
 
-  function getTracksOf(albumKey) {
-    var list = document.querySelectorAll('.track-list[data-album="' + albumKey + '"] .track');
+  function getTracks() {
+    var list = document.querySelectorAll(".track-list .track");
     return Array.prototype.slice.call(list);
   }
 
@@ -1337,7 +1056,7 @@
       var statusEl = bar.querySelector("[data-player-status]");
       var toggleBtn = bar.querySelector("[data-player-toggle]");
       if (titleEl) titleEl.textContent = title || "";
-      if (statusEl) statusEl.textContent = title ? (I18N[currentLang] || I18N.de).now_playing : (I18N[currentLang] || I18N.de).nothing_playing;
+      if (statusEl) statusEl.textContent = title ? TXT.now_playing : TXT.nothing_playing;
       if (toggleBtn) {
         var playIcon = toggleBtn.querySelector(".icon-play");
         var pauseIcon = toggleBtn.querySelector(".icon-pause");
@@ -1345,7 +1064,7 @@
           playIcon.style.display = isPlaying ? "none" : "";
           pauseIcon.style.display = isPlaying ? "" : "none";
         }
-        toggleBtn.setAttribute("aria-label", (I18N[currentLang] || I18N.de)[isPlaying ? "pause_label" : "play_label"]);
+        toggleBtn.setAttribute("aria-label", isPlaying ? TXT.pause_label : TXT.play_label);
       }
     }
   }
@@ -1374,13 +1093,12 @@
 
   function showMissingAudioHint() {
     var status = document.querySelectorAll("[data-player-status]");
-    var msg = (I18N[currentLang] || I18N.de).missing_audio_hint;
-    for (var i = 0; i < status.length; i++) status[i].textContent = msg;
+    for (var i = 0; i < status.length; i++) status[i].textContent = TXT.missing_audio_hint;
   }
 
-  function loadAndPlay(trackEl, albumKey) {
+  function loadAndPlay(trackEl) {
     if (!trackEl || !engine) return;
-    currentTrackList = getTracksOf(albumKey);
+    currentTrackList = getTracks();
     currentIndex = currentTrackList.indexOf(trackEl);
     var rawSrc = trackEl.getAttribute("data-src");
 
@@ -1415,19 +1133,17 @@
   function stepTrack(delta) {
     if (!currentTrackList.length || currentIndex < 0) return;
     var next = (currentIndex + delta + currentTrackList.length) % currentTrackList.length;
-    var albumKey = currentTrackList[next].closest(".track-list").getAttribute("data-album");
-    loadAndPlay(currentTrackList[next], albumKey);
+    loadAndPlay(currentTrackList[next]);
   }
 
   document.addEventListener("click", function (e) {
     var playBtn = e.target.closest(".track-play-btn");
     if (playBtn) {
       var trackEl = playBtn.closest(".track");
-      var albumKey = trackEl.closest(".track-list").getAttribute("data-album");
       if (trackEl.classList.contains("is-playing") && engine && !engine.paused) {
         engine.pause();
       } else {
-        loadAndPlay(trackEl, albumKey);
+        loadAndPlay(trackEl);
       }
       return;
     }
@@ -1435,11 +1151,8 @@
     if (toggleBtn) {
       if (!engine) return;
       if (currentIndex < 0) {
-        var firstAlbum = toggleBtn.closest(".modal-panel").querySelector(".track-list");
-        if (firstAlbum) {
-          var firstTrack = firstAlbum.querySelector(".track");
-          if (firstTrack) loadAndPlay(firstTrack, firstAlbum.getAttribute("data-album"));
-        }
+        var firstTrack = document.querySelector(".track-list .track");
+        if (firstTrack) loadAndPlay(firstTrack);
         return;
       }
       if (engine.paused) {
@@ -1460,8 +1173,6 @@
   document.addEventListener("input", function (e) {
     if (e.target.matches("[data-player-volume]") && engine) {
       engine.volume = parseFloat(e.target.value);
-      var bars = document.querySelectorAll("[data-player-volume]");
-      for (var i = 0; i < bars.length; i++) bars[i].value = e.target.value;
     }
     if (e.target.matches("[data-player-progress]") && engine && isFinite(engine.duration)) {
       var pct = parseFloat(e.target.value) / 100;
@@ -1583,6 +1294,26 @@
   }
   if (exoTabs.length) activateExoTab("neuro");
 
+  /* 5. Scroll-Reveal (Intersection Observer) */
+  function initScrollReveal() {
+    var targets = document.querySelectorAll(".section-head, .exo-intro, .album-showcase, .link-card");
+    if (!targets.length) return;
+    if (!("IntersectionObserver" in window)) {
+      for (var i = 0; i < targets.length; i++) targets[i].classList.add("is-visible");
+      return;
+    }
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: "0px 0px -6% 0px" });
+    for (var j = 0; j < targets.length; j++) observer.observe(targets[j]);
+  }
+  initScrollReveal();
+
   /* Navigation & Scrolling */
   var navToggle = document.getElementById("nav-toggle");
   var navPanel = document.getElementById("nav-panel");
@@ -1600,19 +1331,14 @@
     else header.classList.remove("scrolled");
   }, { passive: true });
 
-  var langSelect = document.getElementById("lang-select");
-  if (langSelect) {
-    langSelect.addEventListener("change", function () { applyLanguage(this.value); });
-  }
-  applyLanguage(detectLang());
-
   function updateOfflineNotice() {
     var el = document.getElementById("net-status");
     if (!el) return;
-    el.textContent = !navigator.onLine ? ((I18N[currentLang] || I18N.de).offline_notice || "") : "";
+    el.textContent = !navigator.onLine ? TXT.offline_notice : "";
   }
   window.addEventListener("online", updateOfflineNotice);
   window.addEventListener("offline", updateOfflineNotice);
+  updateOfflineNotice();
 
   function precacheShell() {
     if (IS_FILE_PROTOCOL || !("caches" in window)) return;
@@ -1628,8 +1354,6 @@
   } else {
     setTimeout(precacheShell, 800);
   }
-
-  updateOfflineNotice();
 })();
 </script>
 </body>
